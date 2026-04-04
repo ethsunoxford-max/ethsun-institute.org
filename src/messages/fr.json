@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "programmes": "Programmes",
+    "events": "Événements",
+    "elearning": "E-Learning",
+    "international": "International",
+    "about": "À propos",
+    "contact": "Contact",
+    "blog": "Blog",
+    "register": "S'inscrire",
+    "enterprises": "Entreprises"
+  },
+  "hero": {
+    "eyebrow": "ETHSUN INSTITUTE",
+    "title": "Propulsez Votre Carrière au Plus Haut Niveau",
+    "subtitle": "Plus de 60 certificats professionnels dans 12 domaines stratégiques. Des formations en présentiel, en ligne et hybrides conçues pour les cadres, dirigeants et entrepreneurs.",
+    "cta1": "Explorer Nos Programmes",
+    "cta2": "Parler à un Conseiller"
+  },
+  "stats": {
+    "programmes": "Programmes Certifiants",
+    "domains": "Domaines d'Expertise",
+    "alumni": "Professionnels Certifiés",
+    "campuses": "2 Campus : Abidjan & Oxford"
+  },
+  "featured": {
+    "eyebrow": "NOS PROGRAMMES",
+    "title": "Des Programmes qui Transforment les Carrières",
+    "subtitle": "Une sélection de nos formations les plus demandées par les professionnels.",
+    "viewAll": "Voir Tous les Programmes",
+    "viewProgramme": "Voir le Programme"
+  },
+  "events": {
+    "eyebrow": "ÉVÉNEMENTS",
+    "title": "Événements à Venir",
+    "register": "S'inscrire"
+  },
+  "testimonials": {
+    "eyebrow": "TÉMOIGNAGES",
+    "title": "Nos Alumni Parlent"
+  },
+  "partners": {
+    "eyebrow": "ILS NOUS FONT CONFIANCE"
+  },
+  "cta": {
+    "title": "Prêt à Transformer Votre Carrière ?",
+    "subtitle": "Rejoignez les 500+ professionnels qui ont choisi ETHSUN pour accélérer leur parcours. Nos conseillers sont à votre disposition.",
+    "cta1": "Choisir Mon Programme",
+    "cta2": "Parler à un Conseiller"
+  },
+  "footer": {
+    "description": "ETHSUN INSTITUTE est un centre de formation professionnelle agréé opérant sous ETHSUN EXECUTIVE EDUCATION OXFORD",
+    "programmes": "Programmes",
+    "certPro": "Certificats Professionnels",
+    "execCert": "Certificats Exécutifs",
+    "elearning": "E-Learning",
+    "custom": "Formation Sur Mesure",
+    "seminars": "Séminaires & Ateliers",
+    "contactTitle": "Contact",
+    "followUs": "Suivez-Nous",
+    "franchise": "ETHSUN INSTITUTE est un centre de formation professionnelle agréé opérant sous ETHSUN EXECUTIVE EDUCATION OXFORD",
+    "motto": "Per Doctrinam Excelsior",
+    "rights": "Tous droits réservés.",
+    "legal": "Mentions Légales",
+    "privacy": "Politique de Confidentialité"
+  },
+  "catalogue": {
+    "eyebrow": "CATALOGUE",
+    "title": "Nos Programmes de Formation",
+    "subtitle": "Trouvez le programme qui correspond à vos ambitions professionnelles. Plus de 60 certificats dans 12 domaines, disponibles en présentiel, en ligne ou en hybride.",
+    "search": "Rechercher un programme, domaine, mot-clé...",
+    "all": "Tous",
+    "found": "programmes trouvés",
+    "duration": "Durée",
+    "format": "Format",
+    "price": "Tarif",
+    "noResults": "Aucun programme trouvé.",
+    "customCta": "Vous ne trouvez pas ce que vous cherchez ? Nous concevons également des formations sur mesure pour les entreprises et les institutions.",
+    "customBtn": "Demander une Formation Sur Mesure"
+  },
+  "programme": {
+    "breadcrumbHome": "Accueil",
+    "breadcrumbProgrammes": "Programmes",
+    "enrollmentOpen": "Inscriptions Ouvertes",
+    "enrollmentSoon": "Bientôt Disponible",
+    "enrollmentClosed": "Inscriptions Fermées",
+    "objectives": "Objectifs de la Formation",
+    "detailedProgramme": "Programme Détaillé",
+    "targetAudience": "Public Cible & Prérequis",
+    "targetTitle": "Public Cible",
+    "prerequisites": "Prérequis",
+    "methods": "Méthodes Pédagogiques",
+    "similar": "Programmes Similaires",
+    "duration": "Durée",
+    "format": "Format",
+    "nextSession": "Prochaine Session",
+    "price": "Tarif",
+    "register": "S'inscrire",
+    "brochure": "Télécharger la Brochure",
+    "whatsapp": "Besoin de conseils ? Contactez-nous sur WhatsApp"
+  },
+  "eventPage": {
+    "edition": "1ÈRE ÉDITION",
+    "title": "Université Africaine du Tourisme",
+    "date": "12 mai 2026",
+    "venue": "Hôtel Sofitel Ivoire, Abidjan, Côte d'Ivoire",
+    "organizer": "Organisé par : ETHSUN Institute",
+    "intro": "La 1ère Université Africaine du Tourisme est un événement fondateur qui rassemble les acteurs clés du tourisme africain : institutions publiques, opérateurs privés, investisseurs et experts internationaux. Cette journée intensive vise à poser les bases d'un tourisme africain durable, compétitif et inclusif.",
+    "statsParticipants": "participants attendus",
+    "statsSpeakers": "experts intervenants",
+    "statsDuration": "journée intensive",
+    "rectorTitle": "Recteur d'Honneur",
+    "rectorName": "M. Siandou FOFANA",
+    "rectorRole": "Ministre du Tourisme et des Loisirs, Côte d'Ivoire",
+    "rectorBio": "Architecte de la stratégie « Sublime Côte d'Ivoire », M. Fofana est une figure emblématique du développement touristique en Afrique de l'Ouest. Son parrainage confère à cet événement une dimension institutionnelle majeure.",
+    "schedule": "Programme de l'Événement",
+    "partnersTitle": "Partenaires Institutionnels",
+    "registerCta": "S'inscrire à la 1ère Université Africaine du Tourisme",
+    "contactTitle": "Contact",
+    "price": "500 €",
+    "registerImmo": "S'inscrire à la 6ème Université de l'Immobilier"
+  },
+  "about": {
+    "eyebrow": "QUI SOMMES-NOUS",
+    "title": "L'Université des Entreprises à Haute Performance",
+    "subtitle": "Renforcer les capacités des cadres, dirigeants et managers pour un impact durable en Afrique et au-delà.",
+    "missionTitle": "Notre Mission",
+    "missionText1": "ETHSUN Institute accompagne les professionnels, cadres et dirigeants dans leur montée en compétences à travers des programmes de certification reconnus à l'international. Nous croyons que la formation est le levier le plus puissant pour transformer les organisations et les économies africaines.",
+    "missionText2": "Nos programmes sont conçus par des experts praticiens, ancrés dans les réalités africaines et enrichis des meilleures pratiques internationales.",
+    "visionTitle": "Notre Vision",
+    "visionText": "Devenir une institution académique de référence à portée internationale, opérant depuis nos Learning Centers à travers le monde. Nous aspirons à créer un écosystème éducatif qui connecte l'Afrique aux standards mondiaux d'excellence professionnelle.",
+    "founderTitle": "Le Fondateur",
+    "founderName": "Jean-Calvin ETHIEN",
+    "founderRole": "Directeur Général",
+    "founderBio": "Animé par la conviction profonde que le capital humain est le premier levier d'une transformation durable, Jean-Calvin ETHIEN, PDG de l'ETHSUN Institute, s'engage activement dans le développement des compétences en Afrique et à l'international. À travers une approche structurée, exigeante et orientée impact, il s'attache à concevoir des programmes de formation capables de renforcer les capacités individuelles, d'accompagner la performance des organisations et de préparer une nouvelle génération de leaders aptes à relever les défis économiques, institutionnels et technologiques contemporains.",
+    "founderAmbition": "Son ambition : faire d'ETHSUN un groupe international de formation de référence — un pont entre l'excellence académique d'Oxford et le dynamisme entrepreneurial africain.",
+    "campusesTitle": "Nos Learning Centers",
+    "valuesTitle": "Nos Valeurs",
+    "ecosystemTitle": "Notre Écosystème"
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "Parlons de Votre Projet de Formation",
+    "subtitle": "Nos conseillers sont disponibles pour vous orienter vers le programme le mieux adapté à vos objectifs professionnels.",
+    "name": "Nom Complet",
+    "email": "Email",
+    "phone": "Téléphone (WhatsApp)",
+    "subject": "Objet",
+    "subjectOptions": {
+      "info": "Renseignements sur un Programme",
+      "custom": "Formation Sur Mesure",
+      "partnership": "Partenariat",
+      "enrollment": "Inscription",
+      "other": "Autre"
+    },
+    "programmeInterest": "Programme Souhaité",
+    "message": "Message",
+    "send": "Envoyer le Message",
+    "whatsapp": "Discuter sur WhatsApp",
+    "appointment": "Prendre Rendez-vous",
+    "campusAbidjan": "Campus Abidjan — Cocody 2 Plateaux Vallon"
+  },
+  "blog": {
+    "eyebrow": "BLOG",
+    "title": "Expertise, Analyses et Actualités",
+    "subtitle": "Découvrez les analyses de nos experts, les actualités de l'ETHSUN et les tendances qui façonnent la formation professionnelle en Afrique.",
+    "readMore": "Lire la Suite",
+    "categories": {
+      "all": "Tous",
+      "expertise": "Analyses Experts",
+      "news": "Actualités ETHSUN",
+      "alumni": "Témoignages Alumni",
+      "ia": "IA & Innovation"
+    }
+  },
+  "elearning": {
+    "eyebrow": "E-LEARNING",
+    "title": "Apprenez de Partout",
+    "subtitle": "Accédez à des programmes certifiants en ligne à votre rythme via Neuroklax, notre plateforme de formation digitale.",
+    "whyTitle": "Pourquoi ETHSUN Digital Learning ?",
+    "howTitle": "Comment Ça Marche",
+    "ctaPlatform": "Accéder à la Plateforme E-Learning",
+    "ctaProgrammes": "Voir les Programmes en Ligne"
+  },
+  "common": {
+    "learnMore": "En Savoir Plus",
+    "fcfa": "FCFA"
+  },
+  "legal": {
+    "title": "Mentions Légales",
+    "privacyTitle": "Politique de Confidentialité"
+  }
+}
