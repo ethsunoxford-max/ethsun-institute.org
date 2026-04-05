@@ -21,7 +21,7 @@
   },
   "stats": {
     "programmes": "Certified Programmes",
-    "domains": "Fields of Expertise",
+    "domains": "Strategic Fields",
     "alumni": "Certified Professionals",
     "campuses": "4 International Training Hubs"
   },
@@ -69,7 +69,7 @@
   "catalogue": {
     "eyebrow": "CATALOGUE",
     "title": "Our Training Programmes",
-    "subtitle": "Find the programme that matches your professional ambitions. Over 60 certificates in 12 fields, available in-person, online or hybrid.",
+    "subtitle": "Find the programme that matches your professional ambitions. Over 60 certificates in 9 strategic fields, available in-person, online or hybrid.",
     "search": "Search for a programme, field, keyword...",
     "all": "All",
     "found": "programmes found",
