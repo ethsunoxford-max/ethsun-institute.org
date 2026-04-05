@@ -153,7 +153,7 @@ export default function SingapourPage() {
             className="inline-flex items-center gap-2 bg-white/15 border border-white/30 rounded-full px-4 py-1.5 mb-6"
           >
             <MapPin className="w-3.5 h-3.5 text-white" />
-            <span className="text-xs font-bold tracking-widest text-white">LEARNING CENTER SINGAPOUR</span>
+            <span className="text-xs font-bold tracking-widest text-white">TRAINING DELIVERY HUB SINGAPOUR</span>
           </motion.div>
 
           <motion.h1
@@ -172,7 +172,7 @@ export default function SingapourPage() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-lg text-white/80 leading-relaxed mb-10 max-w-2xl"
           >
-            Au cœur du hub financier et réglementaire de l'Asie, notre Learning Center de Singapour propose des programmes de référence internationale sur l'éthique professionnelle, la bonne gouvernance et la conformité anticorruption.
+            Au cœur du hub financier et réglementaire de l'Asie, notre Training Delivery Hub de Singapour propose des programmes de référence internationale sur l'éthique professionnelle, la bonne gouvernance et la conformité anticorruption.
           </motion.p>
 
           <motion.div
@@ -409,12 +409,12 @@ export default function SingapourPage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <p className="text-xs font-bold tracking-widest text-amber-300 mb-4">CONTACT LEARNING CENTER</p>
+            <p className="text-xs font-bold tracking-widest text-amber-300 mb-4">CONTACT — TRAINING DELIVERY HUB SINGAPOUR</p>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-white mb-4">
               Inscription & Renseignements
             </h2>
             <p className="text-white/75 max-w-xl mx-auto">
-              Notre équipe est disponible pour répondre à toutes vos questions sur les programmes et les modalités d'inscription au Learning Center de Singapour.
+              Notre équipe est disponible pour répondre à toutes vos questions sur les programmes et les modalités d'inscription au Training Delivery Hub de Singapour.
             </p>
           </motion.div>
 
@@ -422,7 +422,7 @@ export default function SingapourPage() {
             {[
               { icon: MapPin, label: 'Adresse', value: 'Singapour — Asie du Sud-Est\n(Localisation précise communiquée lors de l\'inscription)' },
               { icon: Phone, label: 'Téléphone / WhatsApp', value: '+447424201585' },
-              { icon: Mail, label: 'Email', value: 'info@ethsun-institute.com' },
+              { icon: Mail, label: 'Email', value: 'singapour@ethsun-oxford.uk' },
             ].map((c) => {
               const Icon = c.icon;
               return (
