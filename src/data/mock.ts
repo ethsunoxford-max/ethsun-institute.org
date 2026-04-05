@@ -313,13 +313,13 @@ export const companyInfo = {
       address: 'Cocody 2 Plateaux Vallon, Rue J, Abidjan',
       country: 'Côte d\'Ivoire',
       phone: '(+225) 05 45 61 30 35 / 07 07 50 05 01',
-      email: 'info@ethsun-institute.com',
+      email: 'formation@ethsun-institute.org',
     },
     {
       name: 'Oxford – Science Park',
-      address: 'Oxford Science Park, OX4, Oxfordshire',
+      address: 'Wood Centre for Innovation, Quarry Road, Headington, Oxford OX3 8SB',
       country: 'United Kingdom',
-      phone: '',
+      phone: '+44 7424 201585',
       email: 'oxford@ethsun-institute.org',
     },
   ],
@@ -474,9 +474,10 @@ export const b2bSteps = [
 ];
 
 export const internationalPresence = [
-  { country: 'Abidjan', countryFull: 'Côte d\'Ivoire', desc: 'Learning Center principal — Certificats professionnels, séminaires et événements phares', flag: '🇨🇮', link: '/programmes' },
-  { country: 'Oxford', countryFull: 'Royaume-Uni', desc: 'Learning Center Oxford — Programmes exécutifs et certifications internationales', flag: '🇬🇧', link: 'https://www.ethsun-oxford.uk' },
-  { country: 'Maurice', countryFull: 'Île Maurice', desc: 'Learning Center Maurice — Tourisme, loisirs, hôtellerie et aménagement touristique des territoires', flag: '🇲🇺', link: '/international/maurice' },
-  { country: 'Singapour', countryFull: 'Singapour', desc: 'Learning Center Singapour — Éthique, bonne gouvernance, conformité réglementaire et anticorruption', flag: '🇸🇬', link: '/international/singapour' },
+  { country: 'Abidjan', countryFull: 'Côte d\'Ivoire', desc: 'Learning Center Afrique — Certificats professionnels, séminaires et événements phares', flag: '🇨🇮', link: '/programmes' },
+  { country: 'Oxford', countryFull: 'Royaume-Uni', desc: 'Learning Center Oxford — Programmes exécutifs, certifications internationales & boot camp international', flag: '🇬🇧', link: 'https://www.ethsun-oxford.uk' },
+  { country: 'Maurice', countryFull: 'Île Maurice', desc: 'Training Delivery Hub Maurice — Tourisme, loisirs, hôtellerie et aménagement touristique des territoires', flag: '🇲🇺', link: '/international/maurice' },
+  { country: 'Singapour', countryFull: 'Singapour', desc: 'Training Delivery Hub Singapour — Éthique, bonne gouvernance, conformité réglementaire et anticorruption', flag: '🇸🇬', link: '/international/singapour' },
+  { country: 'Genève', countryFull: 'Suisse', desc: 'Training Delivery Hub Genève — Collectivités décentralisées, gouvernance locale et coopération internationale', flag: '🇨🇭', link: '/international/geneve' },
 ];
 
