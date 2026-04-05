@@ -14,13 +14,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           {/* Col 1 — About */}
           <div className="lg:col-span-1">
-            <Image
-              src="/images/seal-oxford.png"
-              alt="ETHSUN Institute"
-              width={64}
-              height={64}
-              className="h-16 w-auto mb-4 opacity-90"
-            />
+            <div className="bg-white rounded-xl p-3 inline-block mb-4">
+              <Image
+                src="/images/seal-oxford.png"
+                alt="ETHSUN Executive Education Oxford"
+                width={64}
+                height={64}
+                className="h-16 w-auto"
+              />
+            </div>
             <p className="text-xs text-ethsun-gold/90 leading-relaxed">
               {t('franchise')}
             </p>
@@ -49,7 +51,7 @@ export default function Footer() {
               <p className="font-medium text-white">Abidjan — Cocody 2 Plateaux Vallon</p>
               <p>{companyInfo.campuses[0].address}</p>
               <p>{companyInfo.campuses[0].phone}</p>
-              <p>{companyInfo.campuses[0].email}</p>
+              <p>formation@ethsun-institute.org</p>
             </div>
           </div>
 
