@@ -37,25 +37,20 @@ export default function AboutPage() {
       link: '/analytics',
       external: false,
     },
-    {
-      name: 'Lloyd Berkeley Holding',
-      desc: "Structure holding internationale basée à Singapour, Lloyd Berkeley Holding supervise le développement stratégique et les partenariats internationaux du groupe ETHSUN à l'échelle mondiale.",
-      link: null,
-      external: false,
-    },
   ];
 
   const learningCenters = [
-    { flag: '🇨🇮', city: 'Abidjan', country: 'Côte d\'Ivoire', desc: 'Learning Center principal — Certificats professionnels, séminaires et événements phares', link: '/programmes', external: false },
-    { flag: '🇬🇧', city: 'Oxford', country: 'Royaume-Uni', desc: 'Learning Center Oxford — Programmes exécutifs et certifications internationales', link: 'https://www.ethsun-oxford.uk', external: true },
-    { flag: '🇲🇺', city: 'Maurice', country: 'Île Maurice', desc: 'Learning Center Maurice — Tourisme, hôtellerie et aménagement des territoires', link: '/international/maurice', external: false },
-    { flag: '🇸🇬', city: 'Singapour', country: 'Singapour', desc: 'Learning Center Singapour — Éthique, gouvernance et conformité anticorruption', link: '/international/singapour', external: false },
+    { flag: '🇨🇮', city: 'Learning Center Afrique', country: 'Côte d\'Ivoire — Abidjan', desc: 'Siège principal — Certificats professionnels, séminaires et événements phares', link: '/programmes', external: false },
+    { flag: '🇬🇧', city: 'Learning Center Oxford', country: 'Royaume-Uni', desc: 'Programmes exécutifs, certifications internationales & boot camp international', link: 'https://www.ethsun-oxford.uk', external: true },
+    { flag: '🇲🇺', city: 'Training Delivery Hub', country: 'Île Maurice', desc: 'Tourisme, hôtellerie et aménagement touristique des territoires', link: '/international/maurice', external: false },
+    { flag: '🇸🇬', city: 'Training Delivery Hub', country: 'Singapour', desc: 'Éthique, gouvernance et conformité anticorruption', link: '/international/singapour', external: false },
+    { flag: '🇨🇭', city: 'Training Delivery Hub', country: 'Genève — Suisse', desc: 'Collectivités décentralisées, gouvernance locale et coopération internationale', link: '/international/geneve', external: false },
   ];
 
   return (
     <>
       {/* Hero */}
-      <section className="relative bg-gradient-to-br from-ethsun-navy-dark via-ethsun-navy to-ethsun-blue pt-28 pb-16 lg:pt-36 lg:pb-20">
+      <section className="relative bg-gradient-to-br from-ethsun-navy-dark via-ethsun-navy to-ethsun-blue pt-28 pb-14 lg:pt-36 lg:pb-16">
         <div className="absolute inset-0 kente-pattern" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <SectionHeader
@@ -68,7 +63,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-16 lg:py-24 bg-white">
+      <section className="py-10 lg:py-14 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="bg-gray-50 rounded-xl p-8 border border-gray-100">
@@ -85,30 +80,30 @@ export default function AboutPage() {
       </section>
 
       {/* Founder */}
-      <section className="py-16 lg:py-24 bg-gray-50">
+      <section className="py-10 lg:py-14 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-bold tracking-[0.2em] text-ethsun-gold text-center mb-8">{t('founderTitle')}</p>
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="bg-white rounded-xl p-8 lg:p-10 shadow-sm border border-gray-100 flex flex-col lg:flex-row gap-8 items-center">
-            <div className="flex-shrink-0">
-              <div className="w-36 h-36 rounded-full overflow-hidden border-4 border-ethsun-gold/30">
-                <Image src="/images/founder-portrait.jpg" alt="Jean-Calvin ETHIEN" width={144} height={144} className="w-full h-full object-cover" />
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="bg-white rounded-xl p-8 lg:p-10 shadow-sm border border-gray-100 flex flex-col lg:flex-row gap-8 items-start">
+            <div className="flex-shrink-0 mx-auto lg:mx-0">
+              <div className="w-48 h-60 lg:w-52 lg:h-64 rounded-xl overflow-hidden border-4 border-ethsun-gold/30 shadow-md">
+                <Image src="/images/founder-portrait.jpeg" alt="Jean-Calvin ETHIEN" width={208} height={256} className="w-full h-full object-cover object-top" />
               </div>
             </div>
             <div>
               <h3 className="font-serif text-2xl font-bold text-ethsun-navy mb-1">{t('founderName')}</h3>
               <p className="text-ethsun-gold font-semibold text-sm mb-4">{t('founderRole')}</p>
               <p className="text-gray-700 text-sm leading-relaxed mb-3">{t('founderBio')}</p>
-              <p className="text-gray-600 text-sm leading-relaxed italic">{t('founderAmbition')}</p>
+              <p className="text-gray-600 text-sm leading-relaxed italic border-l-4 border-ethsun-gold/40 pl-4 mt-4">{t('founderAmbition')}</p>
             </div>
           </motion.div>
         </div>
       </section>
 
       {/* Ecosystem */}
-      <section className="py-16 lg:py-24 bg-white">
+      <section className="py-10 lg:py-14 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="" title={t('ecosystemTitle')} subtitle="ETHSUN s'appuie sur un écosystème structuré, articulé autour de pôles complémentaires, conçus pour répondre aux enjeux contemporains de formation, de gouvernance et de performance organisationnelle." />
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {ecosystem.map((item, i) => (
               <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="bg-gray-50 rounded-xl p-6 border border-gray-100 hover:shadow-md transition-all">
                 <h4 className="font-semibold text-ethsun-navy text-sm mb-3">{item.name}</h4>
@@ -130,24 +125,24 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Learning Centers */}
-      <section className="py-16 lg:py-24 bg-gray-50">
+      {/* Présence internationale (Learning Centers) */}
+      <section className="py-10 lg:py-14 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="" title={t('campusesTitle')} />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             {learningCenters.map((lc, i) => (
-              <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}>
+              <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }}>
                 {lc.external ? (
-                  <a href={lc.link} target="_blank" rel="noopener noreferrer" className="block bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all text-center cursor-pointer">
+                  <a href={lc.link} target="_blank" rel="noopener noreferrer" className="block bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all text-center cursor-pointer">
                     <div className="text-4xl mb-3">{lc.flag}</div>
-                    <h4 className="font-serif text-lg font-bold text-ethsun-navy mb-1">{lc.city}</h4>
+                    <h4 className="font-serif text-sm font-bold text-ethsun-navy mb-1">{lc.city}</h4>
                     <p className="text-xs text-ethsun-gold font-medium mb-2">{lc.country}</p>
                     <p className="text-xs text-gray-500 leading-relaxed">{lc.desc}</p>
                   </a>
                 ) : (
-                  <Link href={lc.link!} className="block bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all text-center cursor-pointer">
+                  <Link href={lc.link!} className="block bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all text-center cursor-pointer">
                     <div className="text-4xl mb-3">{lc.flag}</div>
-                    <h4 className="font-serif text-lg font-bold text-ethsun-navy mb-1">{lc.city}</h4>
+                    <h4 className="font-serif text-sm font-bold text-ethsun-navy mb-1">{lc.city}</h4>
                     <p className="text-xs text-ethsun-gold font-medium mb-2">{lc.country}</p>
                     <p className="text-xs text-gray-500 leading-relaxed">{lc.desc}</p>
                   </Link>
@@ -159,7 +154,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="py-16 lg:py-24 bg-white">
+      <section className="py-10 lg:py-14 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="" title={t('valuesTitle')} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -176,10 +171,13 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Oxford seal */}
-      <section className="py-10 bg-gray-50 text-center">
-        <Image src="/images/seal-oxford.png" alt="ETHSUN Executive Education Oxford" width={80} height={80} className="mx-auto mb-3 opacity-70" />
-        <p className="text-xs text-gray-500 italic">sous licence ETHSUN Executive Education Oxford — Per Doctrinam Excelsior</p>
+      {/* Oxford seal — dark background so logo is visible */}
+      <section className="py-10 bg-ethsun-navy text-center">
+        <div className="inline-block bg-white rounded-2xl p-5 mb-4 shadow-lg">
+          <Image src="/images/seal-oxford.png" alt="ETHSUN Executive Education Oxford" width={80} height={80} className="mx-auto" />
+        </div>
+        <p className="text-sm text-ethsun-gold font-semibold">ETHSUN INSTITUTE</p>
+        <p className="text-xs text-white/70 italic mt-1">opère sous licence ETHSUN EXECUTIVE EDUCATION OXFORD — Per Doctrinam Excelsior</p>
       </section>
 
       <CTABlock />
