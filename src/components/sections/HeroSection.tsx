@@ -27,23 +27,6 @@ const heroImages = [
   '/images/jc-networking.jpeg',
   '/images/bnetd-group.jpeg',
   '/images/ceremony-group.jpeg',
-  '/images/visite-chantier-1.jpg',
-  '/images/visite-chantier-2.jpg',
-  '/images/visite-chantier-3.jpg',
-  '/images/event-tourisme-1.jpg',
-  '/images/event-tourisme-2.jpg',
-  '/images/event-tourisme-3.jpg',
-  '/images/event-tourisme-4.jpg',
-  '/images/utourisme-conference.jpg',
-  '/images/utourisme-audience.jpg',
-  '/images/utourisme-tribune.jpg',
-  '/images/minister-speech.jpg',
-  '/images/graduates-crowd-blue.jpg',
-  '/images/cert-remise-officiels.jpg',
-  '/images/minister-cert-remise.jpg',
-  '/images/trophee-remise.jpg',
-  '/images/jc-ministers.jpg',
-  '/images/graduates-minister-selfie.jpg',
 ];
 
 // Every 4th slide, show photo without overlay (full photo mode)
@@ -60,7 +43,6 @@ export default function HeroSection() {
       setTimeout(() => {
         setCurrentImage((prev) => {
           const next = (prev + 1) % heroImages.length;
-          // Show full photo (no text) every FULL_PHOTO_INTERVAL slides
           if ((next + 1) % FULL_PHOTO_INTERVAL === 0) {
             setShowText(false);
             setTimeout(() => setShowText(true), 3000);
@@ -95,10 +77,6 @@ export default function HeroSection() {
               fill
               className="object-cover"
               priority
-              onError={(e) => {
-                // fallback gradient background si image manquante
-                (e.target as HTMLImageElement).style.display = 'none';
-              }}
             />
           </motion.div>
         </AnimatePresence>
