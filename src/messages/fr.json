@@ -21,7 +21,7 @@
   },
   "stats": {
     "programmes": "Programmes certifiants",
-    "domains": "Domaines d'expertise",
+    "domains": "Domaines stratégiques",
     "alumni": "Professionnels certifiés",
     "campuses": "4 Hubs internationaux de formation"
   },
@@ -69,7 +69,7 @@
   "catalogue": {
     "eyebrow": "CATALOGUE",
     "title": "Nos programmes de formation",
-    "subtitle": "Trouvez le programme qui correspond à vos ambitions professionnelles. Plus de 60 certificats dans 12 domaines, accessibles en présentiel, en ligne ou en format hybride.",
+    "subtitle": "Trouvez le programme qui correspond à vos ambitions professionnelles. Plus de 60 certificats dans 9 domaines stratégiques, accessibles en présentiel, en ligne ou en format hybride.",
     "search": "Rechercher un programme, un domaine, un mot-clé...",
     "all": "Tous",
     "found": "programmes trouvés",
