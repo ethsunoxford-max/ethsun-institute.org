@@ -139,7 +139,7 @@ export default function MauricePage() {
             className="inline-flex items-center gap-2 bg-white/15 border border-white/30 rounded-full px-4 py-1.5 mb-6"
           >
             <MapPin className="w-3.5 h-3.5 text-white" />
-            <span className="text-xs font-bold tracking-widest text-white">LEARNING CENTER MAURICE</span>
+            <span className="text-xs font-bold tracking-widest text-white">TRAINING DELIVERY HUB MAURICE</span>
           </motion.div>
 
           <motion.h1
@@ -158,7 +158,7 @@ export default function MauricePage() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-lg text-white/80 leading-relaxed mb-10 max-w-2xl"
           >
-            Au cœur de l'Océan Indien, notre Learning Center de l'Île Maurice offre des programmes spécialisés en tourisme, hôtellerie, gestion des loisirs et aménagement touristique des territoires.
+            Au cœur de l'Océan Indien, notre Training Delivery Hub de l'Île Maurice offre des programmes spécialisés en tourisme, hôtellerie, gestion des loisirs et aménagement touristique des territoires.
           </motion.p>
 
           <motion.div
@@ -199,15 +199,16 @@ export default function MauricePage() {
               variants={fadeUp} initial="hidden" whileInView="visible"
               viewport={{ once: true }}
             >
-              <p className="text-xs font-bold tracking-widest text-ethsun-gold mb-4">LE LEARNING CENTER</p>
+              <p className="text-xs font-bold tracking-widest text-ethsun-gold mb-4">TRAINING DELIVERY HUB</p>
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-ethsun-navy mb-6">
                 La porte d'entrée vers l'excellence touristique
               </h2>
               <p className="text-gray-600 leading-relaxed mb-5">
-                L'Île Maurice, destination touristique de réputation mondiale, constitue un cadre idéal pour former les futurs professionnels du tourisme et de l'hôtellerie. Notre Learning Center s'appuie sur cet environnement unique pour proposer des programmes alliant théorie et immersion dans les meilleures structures de l'île.
+                L'Île Maurice, destination touristique de réputation mondiale, constitue un cadre idéal pour former les futurs professionnels du tourisme et de l'hôtellerie. Notre Training Delivery Hub s'appuie sur cet environnement unique pour proposer des programmes alliant théorie et immersion dans les meilleures structures de l'île.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
                 En partenariat avec des hôtels de luxe, des opérateurs touristiques locaux et les institutions publiques mauriciennes, nos formations préparent les professionnels à exercer dans les standards les plus exigeants du secteur.
+Les formations sont coordonnées depuis Oxford — tout renseignement et inscription via les coordonnées ci-dessous.
               </p>
 
               <div className="grid grid-cols-3 gap-6">
@@ -360,12 +361,12 @@ export default function MauricePage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <p className="text-xs font-bold tracking-widest text-amber-300 mb-4">CONTACT LEARNING CENTER</p>
+            <p className="text-xs font-bold tracking-widest text-amber-300 mb-4">CONTACT — TRAINING DELIVERY HUB MAURICE</p>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-white mb-4">
               Inscription & Renseignements
             </h2>
             <p className="text-white/75 max-w-xl mx-auto">
-              Notre équipe à l'Île Maurice est disponible pour répondre à toutes vos questions sur les programmes et les modalités d'inscription.
+              Pour toute question sur les programmes ou les modalités d'inscription, contactez notre équipe ETHSUN Executive Education Oxford, coordinatrice du hub Maurice.
             </p>
           </motion.div>
 
@@ -373,7 +374,7 @@ export default function MauricePage() {
             {[
               { icon: MapPin, label: 'Adresse', value: 'Île Maurice — Océan Indien\n(Localisation précise communiquée lors de l\'inscription)' },
               { icon: Phone, label: 'Téléphone / WhatsApp', value: '+447424201585' },
-              { icon: Mail, label: 'Email', value: 'info@ethsun-institute.com' },
+              { icon: Mail, label: 'Email', value: 'maurice@ethsun-oxford.uk' },
             ].map((c) => {
               const Icon = c.icon;
               return (
