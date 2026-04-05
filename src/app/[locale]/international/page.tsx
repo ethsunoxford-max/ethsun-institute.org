@@ -29,7 +29,7 @@ export default function InternationalPage() {
       </section>
 
       {/* Oxford section */}
-      <section className="py-16 lg:py-24 bg-white">
+      <section className="py-14 lg:py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
             <motion.div
@@ -77,36 +77,36 @@ export default function InternationalPage() {
         </div>
       </section>
 
-      {/* International Learning Centers */}
-      <section className="py-16 lg:py-24 bg-gray-50">
+      {/* International presence — 5 cities */}
+      <section className="py-14 lg:py-20 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader
             eyebrow=""
-            title="Nos Learning Centers"
-            subtitle="ETHSUN Institute déploie son expertise dans quatre villes stratégiques à travers le monde."
+            title="Notre présence internationale"
+            subtitle="ETHSUN Institute déploie son expertise dans cinq villes stratégiques à travers le monde."
           />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             {internationalPresence.map((item, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
+                transition={{ delay: i * 0.08 }}
               >
                 {item.link?.startsWith('http') ? (
                   <a href={item.link} target="_blank" rel="noopener noreferrer"
-                    className="block bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all text-center">
+                    className="block bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all text-center">
                     <div className="text-4xl mb-3">{item.flag}</div>
-                    <h3 className="font-semibold text-ethsun-navy text-base mb-1">{item.country}</h3>
+                    <h3 className="font-semibold text-ethsun-navy text-sm mb-1">{item.country}</h3>
                     <p className="text-xs text-ethsun-gold font-medium mb-2">{item.countryFull}</p>
                     <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
                   </a>
                 ) : (
                   <Link href={item.link!}
-                    className="block bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all text-center">
+                    className="block bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all text-center">
                     <div className="text-4xl mb-3">{item.flag}</div>
-                    <h3 className="font-semibold text-ethsun-navy text-base mb-1">{item.country}</h3>
+                    <h3 className="font-semibold text-ethsun-navy text-sm mb-1">{item.country}</h3>
                     <p className="text-xs text-ethsun-gold font-medium mb-2">{item.countryFull}</p>
                     <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
                   </Link>
@@ -118,14 +118,14 @@ export default function InternationalPage() {
       </section>
 
       {/* Programmes internationaux */}
-      <section className="py-16 lg:py-24 bg-white">
+      <section className="py-14 lg:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <h2 className="font-serif text-2xl lg:text-3xl font-bold text-ethsun-navy mb-5">
               Programmes internationaux
             </h2>
             <p className="text-gray-700 leading-relaxed max-w-2xl mx-auto mb-8">
-              Nos programmes internationaux sont dispensés en anglais et en français, avec des intervenants issus des meilleures institutions mondiales. Ils s&apos;adressent aux cadres et dirigeants souhaitant une certification à forte valeur ajoutée internationale.
+              Nos programmes internationaux sont dispensés en anglais, français, espagnol et arabe, avec des intervenants issus des meilleures institutions mondiales. Ils s&apos;adressent aux cadres et dirigeants souhaitant une certification à forte valeur ajoutée internationale.
             </p>
             <Link
               href="/programmes"
