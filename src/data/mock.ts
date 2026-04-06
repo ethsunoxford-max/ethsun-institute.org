@@ -39,6 +39,7 @@ export interface Testimonial {
   title: string;
   company: string;
   initials: string;
+  photo?: string;
 }
 
 export interface BlogPost {
