@@ -8,6 +8,15 @@ import { ArrowRight, Phone } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const heroImages = [
+  '/images/event-graduation-1.jpg',
+  '/images/event-graduation-2.jpg',
+  '/images/event-certificate-1.jpg',
+  '/images/event-speaker-1.jpg',
+  '/images/event-certificate-2.jpg',
+  '/images/event-certificate-3.jpg',
+  '/images/event-certificate-4.jpg',
+  '/images/event-training-1.jpg',
+  '/images/event-team-1.jpg',
   '/images/graduation-real-1.jpg',
   '/images/graduation-real-2.jpg',
   '/images/graduation-real-3.jpg',
@@ -43,6 +52,7 @@ export default function HeroSection() {
       setTimeout(() => {
         setCurrentImage((prev) => {
           const next = (prev + 1) % heroImages.length;
+          // Show full photo (no text) every FULL_PHOTO_INTERVAL slides
           if ((next + 1) % FULL_PHOTO_INTERVAL === 0) {
             setShowText(false);
             setTimeout(() => setShowText(true), 3000);
