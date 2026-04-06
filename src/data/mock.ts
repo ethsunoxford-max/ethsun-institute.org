@@ -127,22 +127,146 @@ export const allProgrammes: Programme[] = [
       'Atelier présentiel de mise en pratique'
     ]
   },
-  { id: 'p2', title: 'Management d\'Institution de Formation', slug: 'management-institution-formation', description: 'Pilotez efficacement votre institution de formation en maîtrisant la stratégie d\'établissement, l\'ingénierie de formation, la gestion financière et la démarche qualité. Ce programme forme les directeurs et managers d\'organismes de formation aux meilleures pratiques de gouvernance pédagogique et institutionnelle, conformes aux référentiels nationaux et internationaux.', certificateLevel: 'Certificat Professionnel', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-purple-800 to-slate-900', image: '/images/ethsun-doctors.jpg' },
-  { id: 'p3', title: 'Ingénierie du Développement des Collectivités Territoriales', slug: 'ingenierie-collectivites', description: 'Maîtrisez l\'ingénierie du développement territorial : gouvernance locale, gestion budgétaire, passation des marchés publics, smart cities et financement innovant des collectivités. Ce programme prépare les élus, secrétaires généraux et agents de développement à piloter un territoire performant et transparent.', certificateLevel: 'Certificat Professionnel', domain: 'Gouvernance de service public', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-teal-800 to-slate-900', image: '/images/jc-ministers.jpg' },
+  { id: 'p2', title: 'Management d\'Institution de Formation', slug: 'management-institution-formation', description: 'Pilotez efficacement votre institution de formation en maîtrisant la stratégie d\'établissement, l\'ingénierie de formation, la gestion financière et la démarche qualité. Ce programme forme les directeurs et managers d\'organismes de formation aux meilleures pratiques de gouvernance pédagogique et institutionnelle, conformes aux référentiels nationaux et internationaux.', certificateLevel: 'Certificat Professionnel', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-purple-800 to-slate-900', image: '/images/ethsun-doctors.jpg',
+    objectives: [
+      "Élaborer une vision stratégique partagée pour une institution de formation",
+      "Comprendre les rôles et responsabilités des organes de gouvernance éducative",
+      "Appréhender les leviers de performance des établissements éducatifs",
+      "Intégrer les dimensions RH, budgétaire, pédagogique et partenariale dans le management",
+      "Maîtriser la démarche qualité et les certifications dans la formation professionnelle",
+      "Développer un leadership transformationnel au service de l'institution"
+    ],
+    modules: [
+      { title: "Module 1 — Stratégie et gouvernance des institutions de formation", description: "Fondements de la gouvernance éducative, leadership et vision stratégique, organisation des organes de gouvernance, instruments de pilotage et contrats d'objectifs, responsabilité sociétale et gouvernance éthique." },
+      { title: "Module 2 — Management des établissements de formation continue", description: "Organisation et gouvernance des établissements éducatifs, pilotage pédagogique, gestion des équipes, gestion budgétaire et financière, partenariats et développement territorial, suivi-évaluation et amélioration continue." },
+      { title: "Module 3 — Élaboration et pilotage d'un projet d'établissement", description: "Cadre réglementaire, méthodologie de conception (diagnostic, objectifs, indicateurs, budget), implication des parties prenantes, outils de pilotage et plan d'action, facteurs clés de succès." },
+      { title: "Module 4 — Ingénierie de formation et démarche qualité", description: "Analyse des besoins en formation, conception de référentiels de compétences, élaboration de programmes certifiants, certification Qualiopi et normes ISO 29990, évaluation de l'impact des formations." }
+    ],
+    targetAudience: "Directeurs d'établissements de formation, directeurs pédagogiques, coordinateurs académiques, responsables de centres de formation, consultants en éducation, chefs de département.",
+    prerequisites: "Expérience managériale de 3 ans minimum dans le secteur éducatif ou de la formation professionnelle, ou direction d'équipe dans un environnement institutionnel.",
+    methods: [
+      "Études de cas d'universités et centres de formation performants (Afrique, Europe)",
+      "Ateliers de diagnostic stratégique d'établissement",
+      "Simulations de planification stratégique",
+      "Benchmark de modèles de management en Afrique et en Europe",
+      "Élaboration d'un projet institutionnel intégré",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'p3', title: 'Ingénierie du Développement des Collectivités Territoriales', slug: 'ingenierie-collectivites', description: 'Maîtrisez l\'ingénierie du développement territorial : gouvernance locale, gestion budgétaire, passation des marchés publics, smart cities et financement innovant des collectivités. Ce programme prépare les élus, secrétaires généraux et agents de développement à piloter un territoire performant et transparent.', certificateLevel: 'Certificat Professionnel', domain: 'Gouvernance de service public', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-teal-800 to-slate-900', image: '/images/jc-ministers.jpg',
+    objectives: [
+      "Comprendre les enjeux de la gouvernance territoriale dans un contexte décentralisé",
+      "Maîtriser la gestion budgétaire et comptable des collectivités locales",
+      "Renforcer le leadership des élus locaux et la gouvernance éthique",
+      "Développer des partenariats stratégiques dans le cadre de la coopération décentralisée",
+      "Structurer et piloter des projets de développement territorial",
+      "Intégrer les mécanismes de participation citoyenne et de redevabilité"
+    ],
+    modules: [
+      { title: "Module 1 — Gouvernance Territoriale et Démocratie Locale", description: "Principes de la gouvernance locale, décentralisation et subsidiarité, mécanismes de participation citoyenne, dispositifs de contrôle et de redevabilité, études de cas africains et internationaux." },
+      { title: "Module 2 — Gestion Budgétaire et Comptable des Collectivités", description: "Cadre réglementaire de la gestion financière locale, processus d'élaboration du budget, suivi de l'exécution et gestion de la trésorerie, principes de la comptabilité publique, audit et reddition des comptes." },
+      { title: "Module 3 — Leadership des Élus Locaux et Gouvernance Éthique", description: "Fondements du leadership public territorial, prise de décision et communication politique, éthique de l'action publique, prévention des conflits d'intérêts, leadership en contexte de crise." },
+      { title: "Module 4 — Diplomatie Territoriale et Coopération Décentralisée", description: "Enjeux de la coopération décentralisée, mobilisation des ressources internationales, partenariats stratégiques entre territoires, projets cofinancés (UE, AFD, BM), communication institutionnelle internationale." }
+    ],
+    targetAudience: "Élus locaux, maires et présidents de conseils régionaux, secrétaires généraux de collectivités, agents de développement local, directeurs financiers de communes, membres de la société civile.",
+    prerequisites: "Exercice ou préparation à une fonction élective ou administrative dans une collectivité territoriale. Aucun prérequis académique strict — l'expérience professionnelle est valorisée.",
+    methods: [
+      "Exposés participatifs animés par des experts en gouvernance locale",
+      "Études de cas et diagnostics territoriaux",
+      "Ateliers de simulation de prise de décision",
+      "Coaching collectif et jeux de rôle",
+      "Modules e-learning sur la plateforme Neuroklax",
+      "Atelier présentiel de mise en pratique"
+    ]
+  },
   { id: 'p4', title: 'Innovation Managériale et Performance', slug: 'innovation-manageriale', description: 'Maîtrisez l\'innovation managériale contemporaine, l\'intégration de l\'intelligence artificielle dans le management et les leviers de performance organisationnelle. Ce programme Executive forme les cadres et dirigeants à transformer leur organisation grâce aux outils de la gestion du changement et du management agile.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-sky-800 to-slate-900', image: '/images/expertise-group-full.jpeg' },
   { id: 'p5', title: 'Leadership et Science de la Décision', slug: 'leadership-decision', description: 'Développez votre leadership stratégique en comprenant les mécanismes cognitifs et émotionnels de la prise de décision. Ce programme Executive forme les dirigeants à exercer une autorité éclairée, à gérer l\'incertitude et à mobiliser leurs équipes autour d\'une vision claire et ambitieuse.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-rose-800 to-slate-900', image: '/images/utourisme-tribune.jpg' },
   { id: 'p6', title: 'Juriste d\'Entreprise', slug: 'juriste-entreprise', description: 'Devenez un expert juridique maîtrisant le droit des affaires OHADA, le droit du travail et la gestion des risques juridiques. Une formation complète pour les juristes d\'entreprise et les managers confrontés aux enjeux légaux et contractuels.', certificateLevel: 'Certificat de Qualification', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/graduates-seated.jpeg' },
   { id: 'p7', title: 'Conformité Bancaire et IFRS 17', slug: 'conformite-bancaire-ifrs17', description: 'Maîtrisez les normes IFRS 17, les systèmes de conformité réglementaire et les dispositifs anti-blanchiment pour sécuriser votre institution financière. Ce programme intensif forme les responsables conformité, auditeurs et dirigeants bancaires aux exigences légales et éthiques du secteur financier en Afrique.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-800 to-slate-900', image: '/images/jc-networking.jpeg' },
   { id: 'p8', title: 'Audit Interne et Contrôle de Gestion', slug: 'audit-interne', description: 'Renforcez vos compétences en audit interne, contrôle de gestion et pilotage de la performance organisationnelle. Idéal pour les auditeurs, contrôleurs et responsables financiers souhaitant structurer et professionnaliser leur pratique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-800 to-slate-900', image: '/images/campus-jury.jpeg' },
   { id: 'p9', title: 'Marketing Digital et Growth', slug: 'marketing-digital', description: 'Accélérez votre croissance grâce aux outils du marketing digital — SEO, réseaux sociaux, publicité en ligne et growth hacking. Une formation pratique et immédiatement applicable pour entrepreneurs, PME et professionnels du marketing souhaitant booster leur visibilité.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-pink-800 to-slate-900', image: '/images/selfie-graduates.jpeg' },
-  { id: 'p10', title: 'Supply Chain et Achats Publics', slug: 'supply-chain-achats', description: 'Structurez un processus achats performant et responsable, optimisez la chaîne logistique et maîtrisez la gestion des approvisionnements publics et privés. Ce programme forme les responsables achats et supply chain à réduire les coûts tout en garantissant qualité, conformité et durabilité.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-800 to-slate-900', image: '/images/visite-chantier-2.jpg' },
+  { id: 'p10', title: 'Supply Chain et Achats Publics', slug: 'supply-chain-achats', description: 'Structurez un processus achats performant et responsable, optimisez la chaîne logistique et maîtrisez la gestion des approvisionnements publics et privés. Ce programme forme les responsables achats et supply chain à réduire les coûts tout en garantissant qualité, conformité et durabilité.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-800 to-slate-900', image: '/images/event-training-1.jpg',
+    objectives: [
+      "Structurer un processus achats performant et responsable",
+      "Optimiser les flux logistiques et la gestion des stocks",
+      "Piloter une supply chain agile, résiliente et durable",
+      "Maîtriser la gestion des relations fournisseurs et la négociation des contrats",
+      "Identifier et gérer les risques logistiques et d'approvisionnement",
+      "Intégrer les achats publics responsables dans une démarche RSE"
+    ],
+    modules: [
+      { title: "Module 1 — Politique d'achats et sourcing", description: "Fondamentaux de la fonction achats, politique d'achats : sourcing, appels d'offres, négociation, gestion des approvisionnements et stocks (MRP, JAT, EOQ), achats publics et réglementation UEMOA." },
+      { title: "Module 2 — Gestion de la chaîne logistique", description: "Stratégies de gestion de la supply chain, optimisation des flux de matières et de produits, délais, coûts et qualité, digitalisation des opérations logistiques, entrepôts et transport." },
+      { title: "Module 3 — Relations fournisseurs et négociation", description: "Développement et évaluation des fournisseurs, techniques de négociation avancée, rédaction et gestion des contrats d'achat, gestion de la relation partenariale long terme." },
+      { title: "Module 4 — Risques et performance de la supply chain", description: "Identification et gestion des risques logistiques (ruptures, retards, fraudes), indicateurs de performance (KPIs achats/logistique), audit de la supply chain, résilience et continuité d'activité." }
+    ],
+    targetAudience: "Responsables des achats et de l'approvisionnement, directeurs logistique, supply chain managers, responsables de la passation des marchés, consultants en gestion de la chaîne logistique.",
+    prerequisites: "Expérience professionnelle de 2 ans minimum dans les achats, la logistique ou l'administration. Diplôme Bac+2 ou équivalent.",
+    methods: [
+      "Cours animés par des experts praticiens de la supply chain",
+      "Études de cas d'entreprises africaines et internationales",
+      "Simulations de négociation et d'appels d'offres",
+      "Travaux de groupe et ateliers de cartographie des flux",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
   { id: 'p11', title: 'Gestion des Ressources Humaines', slug: 'gestion-rh', description: 'Développez une politique RH stratégique, maîtrisez la gestion des talents, le droit social ivoirien et les outils de performance des ressources humaines. Destiné aux DRH, responsables RH et managers en charge du développement des équipes.', certificateLevel: 'Certificat d\'Aptitude', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-fuchsia-800 to-slate-900', image: '/images/cert-remise-officiels.jpg' },
   { id: 'p12', title: 'Intelligence Artificielle pour Managers', slug: 'ia-managers', description: 'Intégrez l\'intelligence artificielle dans votre stratégie managériale et vos processus décisionnels, sans compétences techniques requises. Un programme conçu pour les managers et dirigeants souhaitant tirer parti des outils IA pour gagner en efficacité et en compétitivité.', certificateLevel: 'Certificat d\'Initiation', domain: 'E-Learning', duration: '4 semaines', format: 'En ligne', price: { amount: 500, currency: 'EUR' }, nextSession: '2026-07-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-lime-800 to-slate-900', image: '/images/jc-medal-man.jpeg' },
   { id: 'p13', title: 'Comptabilité et Finance d\'Entreprise', slug: 'comptabilite-finance', description: 'Maîtrisez les fondamentaux de la comptabilité SYSCOHADA, de l\'analyse financière et du pilotage de la performance d\'entreprise. Une formation essentielle pour les responsables financiers, comptables et dirigeants de PME souhaitant lire et piloter leurs chiffres.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-800 to-slate-900', image: '/images/trophee-remise.jpg' },
-  { id: 'p14', title: 'Médiation Professionnelle', slug: 'mediation-professionnelle', description: 'Maîtrisez les techniques de médiation professionnelle pour prévenir et résoudre les conflits en entreprise, en institution et dans les territoires. Ce Certificate of Advanced Studies prépare à l\'exercice certifié de la médiation : médiation interne, gestion des conflits d\'intérêts et qualité relationnelle dans les organisations.', certificateLevel: 'Certificate of Advanced Studies', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-zinc-700 to-slate-900', image: '/images/utourisme-audience.jpg' },
+  { id: 'p14', title: 'Médiation Professionnelle', slug: 'mediation-professionnelle', description: 'Maîtrisez les techniques de médiation professionnelle pour prévenir et résoudre les conflits en entreprise, en institution et dans les territoires. Ce Certificate of Advanced Studies prépare à l\'exercice certifié de la médiation : médiation interne, gestion des conflits d\'intérêts et qualité relationnelle dans les organisations.', certificateLevel: 'Certificate of Advanced Studies', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-zinc-700 to-slate-900', image: '/images/utourisme-audience.jpg',
+    objectives: [
+      "Maîtriser les fondements théoriques et pratiques de la médiation professionnelle",
+      "Conduire un processus de médiation de A à Z en contexte professionnel",
+      "Développer les compétences relationnelles du médiateur (écoute, reformulation, gestion des émotions)",
+      "Distinguer médiation, conciliation, arbitrage et autres modes alternatifs de règlement",
+      "Appliquer la médiation dans les contextes internes (RH, conflits d'équipe) et externes (commercial, territorial)",
+      "Intégrer l'éthique professionnelle du médiateur et le cadre déontologique"
+    ],
+    modules: [
+      { title: "Module 1 — Fondements de la médiation professionnelle", description: "Définition et histoire de la médiation, cadre juridique et réglementaire, posture et rôle du médiateur, différences avec conciliation et arbitrage, éthique et déontologie professionnelle du médiateur." },
+      { title: "Module 2 — Techniques et processus de médiation", description: "Phases du processus de médiation, techniques d'écoute active et de reformulation, gestion des émotions et de la dynamique relationnelle, identification des besoins et intérêts des parties, rédaction de l'accord de médiation." },
+      { title: "Module 3 — Médiation en entreprise et conflits organisationnels", description: "Médiation interne RH et conflits interpersonnels, prévention des conflits d'intérêts et gouvernance éthique, médiation commerciale et contractuelle, médiation dans les institutions et collectivités." },
+      { title: "Module 4 — Pratique certifiée et installation professionnelle", description: "Mise en situation complète (cas réels supervisés), constitution du dossier de certification, positionnement et tarification du médiateur professionnel, réseaux professionnels et développement de clientèle." }
+    ],
+    targetAudience: "DRH et responsables des relations sociales, avocats et juristes, cadres dirigeants et managers, agents des services publics, consultants en développement organisationnel, tout professionnel souhaitant exercer la médiation.",
+    prerequisites: "Diplôme universitaire Bac+3 minimum ou expérience professionnelle significative. Aucune formation juridique préalable requise.",
+    methods: [
+      "Jeux de rôle et mises en situation de médiation filmées",
+      "Supervision par des médiateurs certifiés",
+      "Études de cas réels (conflits d'entreprise, litiges RH, médiations commerciales)",
+      "Ateliers de développement des compétences relationnelles",
+      "Modules e-learning sur la plateforme Neuroklax",
+      "Préparation à la certification professionnelle"
+    ]
+  },
   { id: 'p15', title: 'Entrepreneuriat et Création d\'Entreprise', slug: 'entrepreneuriat', description: 'Lancez et développez votre entreprise avec méthode : business plan, financement, marketing et gestion opérationnelle. Un programme complet pour les porteurs de projets, jeunes entrepreneurs et intrapreneurs africains souhaitant concrétiser leur vision.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 500, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/jc-cert-group-stage.jpeg' },
   { id: 'p16', title: 'Management de Projet ISO 21502', slug: 'management-projet-iso', description: 'Gérez vos projets selon les standards ISO 21502 et les meilleures pratiques du management de projet international. Pour les chefs de projet, coordinateurs et managers opérationnels souhaitant structurer leur approche et optimiser leurs livrables.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-800 to-slate-900', image: '/images/uimmo-group.jpeg' },
-  { id: 'p17', title: 'Gouvernance Publique et Anti-Corruption', slug: 'gouvernance-anti-corruption', description: 'Construisez une culture organisationnelle d\'intégrité, maîtrisez les systèmes de conformité éthique et mettez en œuvre des dispositifs anticorruption efficaces dans les institutions publiques et privées. Un Executive Certificate pour les dirigeants, élus et hauts fonctionnaires engagés dans la gouvernance éthique et la lutte contre la corruption.', certificateLevel: 'Executive Certificate', domain: 'Gouvernance de service public', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-emerald-700 to-slate-900', image: '/images/minister-cert-remise.jpg' },
+  { id: 'p17', title: 'Gouvernance Publique et Anti-Corruption', slug: 'gouvernance-anti-corruption', description: 'Construisez une culture organisationnelle d\'intégrité, maîtrisez les systèmes de conformité éthique et mettez en œuvre des dispositifs anticorruption efficaces dans les institutions publiques et privées. Un Executive Certificate pour les dirigeants, élus et hauts fonctionnaires engagés dans la gouvernance éthique et la lutte contre la corruption.', certificateLevel: 'Executive Certificate', domain: 'Gouvernance de service public', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-emerald-700 to-slate-900', image: '/images/minister-cert-remise.jpg',
+    objectives: [
+      "Comprendre les fondements de l'éthique appliquée aux pratiques professionnelles et publiques",
+      "Définir, reconnaître et prévenir les différentes formes de conflits d'intérêts",
+      "Maîtriser les mécanismes institutionnels de lutte contre la corruption",
+      "Intégrer les cadres réglementaires anti-corruption (UNODC, UA, UEMOA)",
+      "Mettre en œuvre un programme de conformité éthique dans une organisation",
+      "Promouvoir une culture d'intégrité, de redevabilité et de transparence"
+    ],
+    modules: [
+      { title: "Module 1 — Éthique et responsabilité dans les pratiques professionnelles", description: "Définitions et principes de l'éthique professionnelle, responsabilité individuelle et collective, dilemmes éthiques et mécanismes de décision, codes d'éthique et chartes professionnelles, exemples sectoriels (santé, éducation, administration, entreprise)." },
+      { title: "Module 2 — Prévention des conflits d'intérêts et intégrité décisionnelle", description: "Typologie des conflits d'intérêts (réels, potentiels, apparents), éthique décisionnelle et principes de transparence, cadres réglementaires et outils de prévention, dispositifs d'alerte et jurisprudences, responsabilités institutionnelles et individuelles." },
+      { title: "Module 3 — Mécanismes institutionnels anti-corruption", description: "Conventions internationales anti-corruption (UNCAC, UA), institutions nationales de lutte contre la corruption (HABG, CRIET, CNLCC), contrôle interne et audit public, lanceur d'alerte et protection des témoins." },
+      { title: "Module 4 — Mise en place d'un programme de conformité éthique", description: "Diagnostic d'intégrité institutionnelle, conception et déploiement d'un plan anti-corruption, formation des agents et sensibilisation aux enjeux éthiques, pilotage et évaluation du dispositif de conformité." }
+    ],
+    targetAudience: "Dirigeants et cadres supérieurs des administrations publiques, hauts fonctionnaires, élus locaux et nationaux, responsables de conformité, agents des institutions de contrôle (inspection, audit, cour des comptes).",
+    prerequisites: "Expérience professionnelle significative dans une administration publique, une institution internationale ou un secteur régulé. Niveau Bac+4 minimum ou équivalent.",
+    methods: [
+      "Cours animés par des experts en gouvernance publique et anti-corruption",
+      "Études de cas réels (scandales et réformes institutionnelles en Afrique)",
+      "Simulations de prise de décision en contexte à risque",
+      "Ateliers de rédaction de politique de prévention des conflits d'intérêts",
+      "Analyse de codes de conduite sectoriels et de jurisprudences",
+      "Atelier présentiel intensif de mise en pratique"
+    ]
+  },
   { id: 'p18', title: 'Sport Business et Management', slug: 'sport-business', description: 'Maîtrisez le management appliqué à l\'industrie sportive : droits médias, sponsoring, événementiel sportif et gestion de clubs ou fédérations. Une formation innovante pour les professionnels du sport business et du marketing sportif en Afrique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 800, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-800 to-slate-900', image: '/images/cert-group-standing.jpeg' },
   { id: 'p19', title: 'Hôtellerie et Tourisme Durable', slug: 'hotellerie-tourisme-durable', description: 'Développez le tourisme durable, la gestion hôtelière responsable et l\'aménagement des territoires touristiques dans un contexte africain. Une formation de référence qui conjugue excellence opérationnelle et approche durable pour les professionnels du secteur.', certificateLevel: 'Certificat d\'Aptitude', domain: 'Evènement', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-amber-800 to-slate-900', image: '/images/utourisme-conference.jpg' },
 ];
