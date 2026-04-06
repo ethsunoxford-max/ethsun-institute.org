@@ -2,9 +2,10 @@
 
 import { motion } from 'framer-motion';
 import { Link } from '@/i18n/routing';
+import Image from 'next/image';
 import {
   BarChart3, TrendingUp, FileSearch, Globe, Lightbulb,
-  ArrowRight, Mail, Phone
+  ArrowRight, Mail, Phone, CheckCircle
 } from 'lucide-react';
 
 const services = [
@@ -145,6 +146,75 @@ export default function AnalyticsPage() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Client References */}
+      <section className="py-14 lg:py-20 bg-white border-t border-gray-100">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <p className="text-xs font-bold tracking-widest text-ethsun-gold mb-3">RÉFÉRENCES CLIENTS</p>
+            <h2 className="font-serif text-2xl lg:text-3xl font-bold text-ethsun-navy">
+              Ils nous ont confié leurs études
+            </h2>
+          </div>
+
+          {/* FDFP Case Study */}
+          <motion.div
+            variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }}
+            className="bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl p-8 lg:p-10 border border-blue-100 shadow-sm"
+          >
+            <div className="flex flex-col lg:flex-row gap-8 items-start">
+              <div className="flex-shrink-0">
+                <div className="bg-white rounded-xl p-5 shadow-sm border border-gray-100 w-40 flex items-center justify-center">
+                  <Image src="/images/logo-fdfp.png" alt="FDFP" width={120} height={60} className="object-contain" />
+                </div>
+                <div className="mt-4 text-center">
+                  <span className="inline-block bg-ethsun-gold/10 text-ethsun-gold text-xs font-bold px-3 py-1 rounded-full border border-ethsun-gold/30">
+                    Novembre 2023
+                  </span>
+                </div>
+              </div>
+              <div className="flex-1">
+                <p className="text-xs font-bold tracking-widest text-ethsun-blue mb-2">ÉTUDE SECTORIELLE — CÔTE D&apos;IVOIRE</p>
+                <h3 className="font-serif text-xl font-bold text-ethsun-navy mb-3">
+                  Identification des besoins en formation des Très Petites Entreprises (TPE) par branche professionnelle
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed mb-5">
+                  Mandaté par le <strong>Fonds de Développement de la Formation Professionnelle (FDFP)</strong>, ETHSUN Analytics a mené une étude nationale visant à identifier les besoins spécifiques en formation des TPE ivoiriennes, réparties en 13 branches professionnelles. L&apos;étude couvre l&apos;analyse de l&apos;adéquation offre/demande de formation, la cartographie des dispositifs existants, et la proposition d&apos;un plan d&apos;action opérationnel et budgétisé.
+                </p>
+                <div className="grid sm:grid-cols-2 gap-3 mb-5">
+                  {[
+                    'Cartographie des 13 branches professionnelles ivoiriennes',
+                    'Analyse de l\'adéquation offre/demande de formation',
+                    'Identification des besoins transversaux et spécifiques des TPE',
+                    'Proposition d\'un dispositif d\'accompagnement FDFP',
+                    'Plan d\'action opérationnel et budgétisé',
+                    'Enquêtes terrain, interviews d\'experts et focus groups',
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-start gap-2">
+                      <CheckCircle className="w-4 h-4 text-ethsun-gold flex-shrink-0 mt-0.5" />
+                      <span className="text-xs text-gray-700 leading-relaxed">{item}</span>
+                    </div>
+                  ))}
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {['Étude sectorielle', 'Formation professionnelle', 'TPE', 'Côte d\'Ivoire', 'FDFP', 'Besoins en formation'].map((tag) => (
+                    <span key={tag} className="text-xs px-2.5 py-1 bg-ethsun-navy/5 text-ethsun-navy rounded-full border border-ethsun-navy/10">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          <p className="text-center text-sm text-gray-500 mt-8 italic">
+            Vous souhaitez confier une étude à ETHSUN Analytics ?{' '}
+            <Link href="/contact" className="text-ethsun-blue hover:text-ethsun-gold font-semibold transition-colors">
+              Contactez-nous →
+            </Link>
+          </p>
         </div>
       </section>
 
