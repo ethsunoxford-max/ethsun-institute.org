@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="bg-white rounded-xl p-3 inline-block mb-4">
               <Image
                 src="/images/seal-oxford.png"
-                alt="ETHSUN Executive Education Oxford"
+                alt="ETHSUN Executive Education Oxford — Per Doctrinam Excelsior"
                 width={64}
                 height={64}
                 className="h-16 w-auto"
