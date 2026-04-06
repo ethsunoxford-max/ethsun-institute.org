@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { Testimonial } from '@/data/mock';
 import { Quote } from 'lucide-react';
 
@@ -27,9 +28,21 @@ export default function TestimonialCard({ testimonial, index = 0 }: Props) {
       </p>
 
       <div className="flex items-center gap-3">
-        <div className="w-11 h-11 rounded-full bg-ethsun-navy flex items-center justify-center text-white text-sm font-bold">
-          {testimonial.initials}
-        </div>
+        {testimonial.photo ? (
+          <div className="w-11 h-11 rounded-full overflow-hidden flex-shrink-0 border-2 border-ethsun-gold/30">
+            <Image
+              src={testimonial.photo}
+              alt={testimonial.name}
+              width={44}
+              height={44}
+              className="w-full h-full object-cover object-top"
+            />
+          </div>
+        ) : (
+          <div className="w-11 h-11 rounded-full bg-ethsun-navy flex items-center justify-center text-white text-sm font-bold flex-shrink-0">
+            {testimonial.initials}
+          </div>
+        )}
         <div>
           <p className="font-semibold text-ethsun-navy text-sm">{testimonial.name}</p>
           <p className="text-xs text-gray-500">{testimonial.title}, {testimonial.company}</p>
