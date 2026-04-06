@@ -85,8 +85,8 @@ export default function AboutPage() {
           <p className="text-xs font-bold tracking-[0.2em] text-ethsun-gold text-center mb-8">{t('founderTitle')}</p>
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="bg-white rounded-xl p-8 lg:p-10 shadow-sm border border-gray-100 flex flex-col lg:flex-row gap-8 items-start">
             <div className="flex-shrink-0 mx-auto lg:mx-0">
-              <div className="w-48 h-60 lg:w-52 lg:h-64 rounded-xl overflow-hidden border-4 border-ethsun-gold/30 shadow-md">
-                <Image src="/images/founder-portrait.jpeg" alt="Jean-Calvin ETHIEN" width={208} height={256} className="w-full h-full object-cover object-top" />
+              <div className="w-52 h-72 lg:w-60 lg:h-80 rounded-xl overflow-hidden border-4 border-ethsun-gold/30 shadow-lg">
+                <Image src="/images/founder-portrait.jpeg" alt="Jean-Calvin ETHIEN" width={300} height={380} className="w-full h-full object-cover object-top" />
               </div>
             </div>
             <div>
