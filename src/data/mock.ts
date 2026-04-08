@@ -584,7 +584,607 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax",
       "Atelier présentiel avec professionnels du tourisme"
     ]
+  },,
+  { id: 'ie1', title: 'Exploration et Exploitation Minière', slug: 'exploration-et-exploitation-miniere', description: 'Maîtrisez les techniques de prospection géologique, d\'évaluation des réserves et d\'extraction minière. Ce certificat prépare les ingénieurs et techniciens à opérer sur des sites miniers en adoptant des pratiques modernes, durables et innovantes.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-700 to-slate-900', image: '/images/event-training-1.jpg',
+    objectives: [
+      "Acquérir des compétences en prospection et cartographie géologique",
+      "Analyser et évaluer les réserves minières en termes de qualité et viabilité économique",
+      "Maîtriser les méthodes modernes d'extraction sûres et respectueuses de l'environnement",
+      "Gérer les opérations de mines à ciel ouvert et souterraines",
+      "Intégrer les technologies innovantes : drones, IA, capteurs dans l'exploration minière"
+    ],
+    modules: [
+      { title: "Module 1 — Prospection géologique et évaluation des réserves", description: "Techniques modernes de prospection géologique, cartographie et levés géophysiques, méthodes d'analyse des carottes et échantillons, évaluation des réserves (JORC, NI 43-101), viabilité économique des gisements." },
+      { title: "Module 2 — Méthodes d'extraction minière", description: "Exploitation à ciel ouvert (open pit), mines souterraines et galeries, sélection de la méthode selon le gisement, abattage, chargement, transport et traitement du minerai." },
+      { title: "Module 3 — Innovations et technologies minières", description: "Drones et imagerie satellite, IA et big data dans la gestion minière, automatisation des équipements, SIG et géo-informatique, simulation de gisements." },
+      { title: "Module 4 — Sécurité, environnement et durabilité", description: "Normes ISO 45001 et HSE dans les mines, gestion des déchets miniers et des eaux, réhabilitation des sites, conformité EITI et audits environnementaux." }
+    ],
+    targetAudience: "Ingénieurs miniers et géologues, techniciens des sites d'exploitation, responsables des opérations minières, étudiants en géologie et ingénierie minière.",
+    prerequisites: "Diplôme d'ingénieur, de géologie ou de sciences de la terre. Niveau Bac+3 minimum.",
+    methods: [
+      "Cours techniques par des ingénieurs praticiens du secteur minier",
+      "Études de cas de mines africaines et internationales",
+      "Exercices de cartographie et d'interprétation géologique",
+      "Simulations de gestion de mine sur logiciel spécialisé",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
   },
+  { id: 'ie2', title: 'Sécurité et Santé au Travail dans les Industries Extractives', slug: 'securite-et-sante-au-travail-dans-les-industries-extractives', description: 'Maîtrisez les normes internationales de sécurité minière (ISO 45001, OHSAS), les techniques de prévention des accidents et la gestion des substances dangereuses pour garantir la sécurité des travailleurs sur les sites extractifs.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/expertise-group-full.jpeg',
+    objectives: [
+      "Maîtriser les standards ISO 45001 et OHSAS appliqués aux industries extractives",
+      "Anticiper et prévenir les accidents sur les sites miniers et pétroliers",
+      "Appliquer les protocoles de secourisme industriel",
+      "Gérer les substances dangereuses et risques chimiques",
+      "Concevoir et déployer une politique HSE intégrée"
+    ],
+    modules: [
+      { title: "Module 1 — Normes HSE et management de la sécurité", description: "ISO 45001, OHSAS 18001, audit de conformité sécurité, systèmes de management HSE intégrés, cartographie des risques sur sites extractifs, responsabilités légales." },
+      { title: "Module 2 — Prévention des accidents et gestion des risques", description: "Analyse des risques (HAZOP, FMEA, arbre des causes), accidents typiques dans les mines et chantiers pétroliers, barrières de sécurité, procédures d'urgence et culture de la sécurité." },
+      { title: "Module 3 — Secourisme industriel et gestion des urgences", description: "Secourisme adapté aux sites miniers, plans d'évacuation et simulation, coordination avec services d'urgence, gestion des crises sur sites isolés." },
+      { title: "Module 4 — Gestion des substances dangereuses", description: "Classification GHS/CLP, stockage, manipulation et transport sécurisé, déversements accidentels et dépollution, documentation et traçabilité réglementaire." }
+    ],
+    targetAudience: "Responsables HSE, ingénieurs de sécurité, techniciens SST, managers des opérations dans les mines, le pétrole et le gaz.",
+    prerequisites: "Expérience professionnelle dans les industries extractives ou l'industrie lourde. Diplôme Bac+2 minimum.",
+    methods: [
+      "Exercices pratiques de sécurité sur site simulé",
+      "Études d'accidents réels et analyses causes-effets",
+      "Simulations de plans d'urgence",
+      "Formation secouriste",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ie3', title: 'Environnement et Développement Durable — Industries Extractives', slug: 'environnement-et-developpement-durable-industries-extractive', description: 'Intégrez les enjeux environnementaux dans l\'exploitation minière et pétrolière. Ce certificat couvre la réhabilitation des sites, la gestion des déchets, l\'EIES et la conformité ISO 14001 pour concilier performance industrielle et responsabilité environnementale.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-700 to-slate-900', image: '/images/event-team-1.jpg',
+    objectives: [
+      "Comprendre les impacts environnementaux des activités extractives",
+      "Mettre en oeuvre un plan de réhabilitation des sites miniers",
+      "Gérer les déchets miniers et le traitement des eaux polluées",
+      "Assurer la conformité aux normes EITI et ISO 14001",
+      "Élaborer une étude d'impact environnemental et social (EIES)"
+    ],
+    modules: [
+      { title: "Module 1 — Impacts environnementaux et cadre réglementaire", description: "Types d'impacts (air, eau, sol, biodiversité), cadre réglementaire national et EITI, ISO 14001 et systèmes de management environnemental, Principes de l'Équateur." },
+      { title: "Module 2 — Gestion des déchets miniers et des eaux", description: "Caractérisation et stockage des résidus miniers, parcs à résidus et surveillance, traitement des eaux acides de mine, phytorestauration et techniques de dépollution." },
+      { title: "Module 3 — Réhabilitation et fermeture des sites", description: "Planification de la fermeture dès l'exploration, techniques de réhabilitation morphologique et végétale, monitoring post-fermeture, provisions financières." },
+      { title: "Module 4 — EIES et développement communautaire", description: "Méthodologie de l'Étude d'Impact Environnemental et Social, consultation des communautés, Plan de gestion environnementale et sociale (PGES), RSE et politique de développement communautaire." }
+    ],
+    targetAudience: "Responsables environnement, ingénieurs HSE, consultants en évaluation environnementale, agents des ministères des mines et de l'environnement.",
+    prerequisites: "Formation en sciences de l'environnement, ingénierie ou géologie. Diplôme Bac+3.",
+    methods: [
+      "Études d'impact environnemental de sites africains",
+      "Ateliers de rédaction d'EIES",
+      "Exercices de modélisation des impacts",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ie4', title: 'Gestion et Ingénierie des Hydrocarbures', slug: 'gestion-et-ingenierie-des-hydrocarbures', description: 'Maîtrisez les fondamentaux de l\'ingénierie pétrolière et gazière : géologie pétrolière, techniques de forage, gestion des réservoirs, sécurité des installations et contrats pétroliers. La formation de référence pour les professionnels du secteur.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-amber-800 to-slate-900', image: '/images/minister-speech.jpg',
+    objectives: [
+      "Comprendre la géologie pétrolière et les mécanismes de formation des réservoirs",
+      "Maîtriser les techniques de forage et de complétion des puits",
+      "Gérer la production et l'optimisation des réservoirs d'hydrocarbures",
+      "Analyser les enjeux économiques, fiscaux et contractuels du secteur pétrolier"
+    ],
+    modules: [
+      { title: "Module 1 — Géologie pétrolière et exploration", description: "Formation des hydrocarbures et systèmes pétroliers, sismique 2D/3D, forage d'exploration, évaluation des réservoirs, ressources et réserves (JORC, SPE-PRMS)." },
+      { title: "Module 2 — Forage et ingénierie de puits", description: "Composantes d'un système de forage, fluides de forage, complétion et stimulation des puits, prévention des éruptions (BOP), maintenance et workover." },
+      { title: "Module 3 — Gestion des réservoirs et production", description: "Mécanismes de production primaire, secondaire et tertiaire, modélisation des réservoirs, optimisation de la récupération, traitement des fluides produits." },
+      { title: "Module 4 — Contrats pétroliers, fiscalité et environnement", description: "Contrats PSC et JOA, fiscalité pétrolière africaine, EITI et transparence, impact environnemental et social des projets pétroliers." }
+    ],
+    targetAudience: "Ingénieurs et techniciens pétroliers, géologues de l'exploration, responsables des opérations, cadres des sociétés nationales d'hydrocarbures.",
+    prerequisites: "Diplôme d'ingénieur, géologie ou sciences physiques.",
+    methods: [
+      "Cours par des ingénieurs praticiens du secteur pétrolier",
+      "Études de cas de champs africains (Côte d'Ivoire, Congo, Nigeria, Sénégal)",
+      "Simulation de réservoir",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ie5', title: 'Gestion des Projets dans les Industries Extractives', slug: 'gestion-des-projets-dans-les-industries-extractives', description: 'Planifiez, exécutez et contrôlez des projets miniers et pétroliers complexes selon les meilleures pratiques du management de projet. Ce certificat prépare les chefs de projet à délivrer des résultats dans des environnements industriels exigeants.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1300, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-700 to-slate-900', image: '/images/event-graduation-1.jpg',
+    objectives: [
+      "Planifier un projet industriel extractif de A à Z",
+      "Maîtriser l'estimation des coûts et la gestion budgétaire CAPEX/OPEX",
+      "Gérer les délais, ressources et qualité des projets",
+      "Identifier et mitiger les risques spécifiques aux projets extractifs"
+    ],
+    modules: [
+      { title: "Module 1 — Initiation et planification des projets industriels", description: "Cycle de vie d'un projet extractif (FEED, ingénierie, construction, commissioning), charte de projet, WBS, planification des ressources et approvisionnements." },
+      { title: "Module 2 — Gestion des coûts et des délais", description: "Estimations CAPEX/OPEX, budgétisation et contrôle des coûts, planification CPM et Gantt, gestion de la valeur acquise (EVM), reporting de projet." },
+      { title: "Module 3 — Gestion des risques et de la qualité", description: "Risques techniques, sécuritaires et environnementaux, plans de mitigation, contrôle qualité des travaux, gestion des non-conformités et modifications." },
+      { title: "Module 4 — Management des parties prenantes et clôture", description: "Gestion des relations communautaires, communication de projet, réception et mise en service, retour d'expérience et capitalisation." }
+    ],
+    targetAudience: "Chefs de projet dans les mines et le pétrole, ingénieurs de projet, coordinateurs de chantier, planificateurs et contrôleurs de projet.",
+    prerequisites: "Diplôme d'ingénieur ou équivalent. Expérience professionnelle de 2 ans minimum.",
+    methods: [
+      "Cours par des chefs de projet certifiés PMP ayant travaillé en Afrique",
+      "Exercices de planification sous MS Project",
+      "Études de cas de projets miniers et pétroliers",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ie6', title: 'Réglementation et Contractualisation dans les Industries Extractives', slug: 'reglementation-et-contractualisation-dans-les-industries-ext', description: 'Maîtrisez le cadre juridique et contractuel régissant les industries minières et pétrolières en Afrique : codes miniers, contrats de partage de production, fiscalité extractive et conformité aux normes EITI.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-slate-600 to-indigo-900', image: '/images/jc-ministers.jpg',
+    objectives: [
+      "Analyser les codes miniers et pétroliers des pays africains",
+      "Comprendre et négocier les contrats pétroliers (PSC, JOA)",
+      "Maîtriser la fiscalité minière et pétrolière (royalties, taxes, bonus)",
+      "Assurer la conformité EITI et anti-corruption"
+    ],
+    modules: [
+      { title: "Module 1 — Cadres réglementaires miniers et pétroliers en Afrique", description: "Codes miniers nationaux (Côte d'Ivoire, Mali, Sénégal, RDC), législation pétrolière, rôle des autorités de régulation, titres miniers et permis." },
+      { title: "Module 2 — Types de contrats dans les industries extractives", description: "Contrats PSC/CPE, joint-ventures et JOA, contrats EPC et sous-traitance, négociation et rédaction contractuelle." },
+      { title: "Module 3 — Fiscalité et revenus extractifs", description: "Régimes fiscaux comparés en Afrique, royalties et impôts, prix de transfert et optimisation fiscale, EITI et transparence des revenus." },
+      { title: "Module 4 — Contentieux, arbitrage et conformité", description: "Arbitrage international (CIRDI, CCI), conformité FCPA et anti-corruption, gestion des relations communautaires et RSE." }
+    ],
+    targetAudience: "Juristes d'entreprises minières et pétrolières, agents des administrations des mines, négociateurs de contrats, consultants en droit minier.",
+    prerequisites: "Formation juridique, économique ou en ingénierie.",
+    methods: [
+      "Cours par des juristes spécialisés en droit minier africain",
+      "Analyse de contrats PSC anonymisés",
+      "Simulations de négociation de contrats miniers",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ie7', title: 'Digitalisation et Innovation dans les Industries Extractives', slug: 'digitalisation-et-innovation-dans-les-industries-extractives', description: 'Intégrez les technologies numériques dans vos opérations extractives : IA, big data, drones, SIG et IoT industriel. Ce certificat prépare les professionnels à conduire la transformation digitale du secteur minier et pétrolier.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-teal-700 to-slate-900', image: '/images/jc-medal-man.jpeg',
+    objectives: [
+      "Appliquer l'IA dans l'optimisation des opérations extractives",
+      "Utiliser le big data et la géo-informatique pour la prospection",
+      "Exploiter drones et capteurs pour la surveillance des sites",
+      "Piloter une transformation digitale dans une opération extractive"
+    ],
+    modules: [
+      { title: "Module 1 — IA et big data dans les industries extractives", description: "Machine learning pour la prédiction des gisements et la maintenance prédictive, analyse des données géophysiques par IA, optimisation des procédés par algorithmes." },
+      { title: "Module 2 — Géo-informatique et SIG", description: "SIG appliqués à l'exploration, télédétection et imagerie satellite, cartographie 3D des gisements, logiciels ArcGIS, QGIS, Surpac." },
+      { title: "Module 3 — Drones, IoT et surveillance des sites", description: "Utilisation des drones (UAV) pour inspection et cartographie, capteurs IoT pour surveillance des équipements, maintenance prédictive, sécurisation numérique des infrastructures." },
+      { title: "Module 4 — Transformation digitale et innovation sectorielle", description: "Stratégie de transformation digitale pour une mine ou société pétrolière, blockchain pour la traçabilité des minerais, smart contracts, Industry 4.0 dans l'extractif." }
+    ],
+    targetAudience: "Ingénieurs et techniciens des industries extractives, managers de l'innovation, responsables SI, data scientists souhaitant se spécialiser.",
+    prerequisites: "Diplôme d'ingénieur ou de data science. Expérience dans les industries extractives ou les technologies numériques.",
+    methods: [
+      "Démonstrations d'outils numériques spécialisés",
+      "Études de cas d'innovation dans les mines africaines",
+      "Ateliers pratiques sur logiciels sectoriels",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ie8', title: 'Réglementation et Fiscalité des Industries Extractives', slug: 'reglementation-et-fiscalite-des-industries-extractives', description: 'Comprenez et appliquez les cadres réglementaires et fiscaux spécifiques aux ressources naturelles en Afrique. Indispensable pour les professionnels en charge de la conformité, la négociation fiscale et la gouvernance des revenus extractifs.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-700 to-slate-900', image: '/images/minister-cert-remise.jpg',
+    objectives: [
+      "Naviguer dans les réglementations nationales des pays africains producteurs",
+      "Analyser les régimes fiscaux et douaniers des ressources naturelles",
+      "Identifier les opportunités d'optimisation fiscale légale",
+      "Assurer la conformité EITI et les standards de transparence"
+    ],
+    modules: [
+      { title: "Module 1 — Réglementations des pays africains producteurs", description: "Revue comparative des codes miniers et pétroliers (Côte d'Ivoire, Sénégal, Mali, RDC, Ghana), procédures d'octroi des titres miniers, réformes récentes." },
+      { title: "Module 2 — Régimes fiscaux miniers et pétroliers", description: "Royalties et redevances, impôts sur les bénéfices, taxes sur la valeur minière, régimes douaniers des équipements, comparaison fiscale entre pays." },
+      { title: "Module 3 — Conformité EITI et lutte anti-corruption", description: "Principes de l'EITI, reporting des paiements, lutte contre les flux financiers illicites, prix de transfert et protection des revenus publics." },
+      { title: "Module 4 — Gestion fiscale et relations avec l'administration", description: "Négociation avec les administrations fiscales, contentieux et voies de recours, community development agreements, partage des revenus avec les collectivités." }
+    ],
+    targetAudience: "Directeurs financiers et fiscalistes des sociétés minières, agents des administrations fiscales, consultants en fiscalité extractive, juristes spécialisés.",
+    prerequisites: "Formation en droit, finance ou économie.",
+    methods: [
+      "Analyse comparative de codes miniers et régimes fiscaux africains",
+      "Études de cas de contentieux fiscaux",
+      "Ateliers de calcul de la charge fiscale",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ie9', title: 'Leadership et Management dans les Industries Extractives', slug: 'leadership-et-management-dans-les-industries-extractives', description: 'Développez votre capacité à diriger des équipes multiculturelles sur des sites miniers et pétroliers. Un programme Executive pour les managers de l\'industrie extractive souhaitant renforcer leur leadership stratégique et éthique.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '4 semaines', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/event-speaker-1.jpg',
+    objectives: [
+      "Développer un leadership adapté aux environnements industriels complexes et multiculturels",
+      "Gérer des équipes pluridisciplinaires sur des sites d'extraction",
+      "Maîtriser la gestion des conflits et la prévention des tensions sociales",
+      "Adopter un leadership éthique et responsable dans le secteur extractif"
+    ],
+    modules: [
+      { title: "Module 1 — Leadership multiculturel dans l'extractif", description: "Leadership situationnel et transformationnel, management d'équipes multiculturelles, communication interculturelle, motivation et rétention des talents." },
+      { title: "Module 2 — Gestion des conflits sur les sites", description: "Sources et prévention des conflits sur sites miniers, techniques de médiation, gestion des relations syndicales, maintien de la cohésion des équipes." },
+      { title: "Module 3 — Leadership éthique et RSE", description: "Éthique du leadership dans un secteur à impact, responsabilité envers les communautés locales, prévention du harcèlement, gouvernance éthique des opérations." },
+      { title: "Module 4 — Décision stratégique et gestion de crise", description: "Prise de décision sous contrainte, gestion de crise industrielle (accidents, arrêts), communication de crise, retour d'expérience." }
+    ],
+    targetAudience: "Managers et superviseurs des sites miniers et pétroliers, directeurs de sites, responsables RH du secteur extractif.",
+    prerequisites: "Expérience managériale de 2 ans minimum dans les industries extractives.",
+    methods: [
+      "Études de cas de leadership sur sites africains",
+      "Jeux de rôles de gestion de conflits",
+      "Coaching collectif de développement du leadership",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ie10', title: 'Maintenance des Équipements Miniers et Pétroliers', slug: 'maintenance-des-equipements-miniers-et-petroliers', description: 'Maîtrisez la maintenance préventive, corrective et prédictive des équipements lourds utilisés dans les industries minières et pétrolières pour garantir performance, sécurité et durabilité des actifs industriels.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-neutral-700 to-slate-900', image: '/images/campus-jury.jpeg',
+    objectives: [
+      "Maîtriser la maintenance industrielle préventive et corrective",
+      "Diagnostiquer et résoudre les pannes sur équipements miniers et pétroliers",
+      "Intégrer les outils modernes : GMAO, capteurs, maintenance prédictive",
+      "Optimiser la durée de vie des équipements"
+    ],
+    modules: [
+      { title: "Module 1 — Fondamentaux de la maintenance industrielle", description: "Types de maintenance (préventive, corrective, prédictive), indicateurs MTBF, MTTR et disponibilité, niveaux de maintenance et qualification, documentation technique." },
+      { title: "Module 2 — Maintenance des équipements miniers", description: "Engins de foration, concassage, broyage et criblage, maintenance des engins de transport (camions, pelles), lubrification et diagnostics." },
+      { title: "Module 3 — Maintenance des équipements pétroliers", description: "Pompes, compresseurs, séparateurs, inspection des pipelines, maintenance des systèmes électriques et d'instrumentation offshore/onshore." },
+      { title: "Module 4 — GMAO et technologies modernes", description: "GMAO (Maximo, SAP PM), maintenance prédictive par capteurs et analyse vibratoire, IIoT et surveillance en temps réel, optimisation des plans de maintenance." }
+    ],
+    targetAudience: "Techniciens et ingénieurs de maintenance des sites miniers et pétroliers, planificateurs de maintenance, agents fiabilité.",
+    prerequisites: "Formation technique en mécanique ou maintenance industrielle.",
+    methods: [
+      "Cours par des techniciens et ingénieurs de maintenance expérimentés",
+      "Études de cas de pannes industrielles",
+      "Exercices de planification de programmes de maintenance",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'im1', title: 'Gérance Locative — Maîtriser la Gestion Locative', slug: 'gerance-locative-maitriser-la-gestion-locative', description: 'Maîtrisez les techniques de gestion locative, les obligations légales du gestionnaire, la sélection des locataires et la prévention des litiges pour optimiser la rentabilité d\'un portefeuille immobilier locatif.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-emerald-700 to-slate-900', image: '/images/event-certificate-1.jpg',
+    objectives: [
+      "Comprendre le rôle et les responsabilités du gestionnaire locatif",
+      "Maîtriser la législation sur les loyers, baux et droits des locataires",
+      "Appliquer des techniques rigoureuses de sélection des locataires",
+      "Rédiger et gérer les baux de location de manière sécurisée",
+      "Anticiper et résoudre les litiges locatifs"
+    ],
+    modules: [
+      { title: "Module 1 — Fondamentaux de la gestion locative", description: "Rôle et responsabilités du gestionnaire locatif, enjeux financiers du portefeuille, cadre juridique des baux d'habitation et commerciaux, relation propriétaire-gestionnaire-locataire." },
+      { title: "Module 2 — Obligations légales et fiscales", description: "Réglementation locale des loyers, fiscalité des revenus locatifs, déclarations obligatoires, conformité des logements, obligations en matière d'assurances." },
+      { title: "Module 3 — Sélection des locataires et gestion des baux", description: "Critères de sélection des locataires, analyse de solvabilité et garanties, rédaction sécurisée du bail, états des lieux, indexation et révisions des loyers." },
+      { title: "Module 4 — Prévention et gestion des litiges", description: "Gestion des impayés et procédures de recouvrement, traitement des dégradations, procédures d'expulsion, médiation locative et résolution amiable des conflits." }
+    ],
+    targetAudience: "Gestionnaires immobiliers, agents immobiliers, propriétaires investisseurs, conseillers immobiliers, étudiants en gestion immobilière.",
+    prerequisites: "Intérêt pour l'immobilier et la gestion locative. Aucun prérequis technique strict.",
+    methods: [
+      "Exposés théoriques et études de cas pratiques",
+      "Analyse de baux réels et rédaction commentée",
+      "Mise en situation de gestion de litiges",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'im2', title: 'Techniques de Financement de Projet Immobilier', slug: 'techniques-de-financement-de-projet-immobilier', description: 'Maîtrisez les techniques de financement des projets immobiliers : montage financier, sources de financement (banques, investisseurs, crowdfunding), structuration des dossiers et gestion des risques pour maximiser la rentabilité.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-700 to-slate-900', image: '/images/event-certificate-2.jpg',
+    objectives: [
+      "Acquérir une vue d'ensemble des méthodes de financement immobilier",
+      "Identifier les sources de financement adaptées à chaque projet",
+      "Structurer le montage financier et le dossier de financement",
+      "Évaluer les risques financiers et gérer le retour sur investissement"
+    ],
+    modules: [
+      { title: "Module 1 — Panorama des financements immobiliers", description: "Types de projets et besoins de financement, dette senior, mezzanine et fonds propres, crédit bancaire immobilier (conditions, garanties), aides publiques et subventions au logement." },
+      { title: "Module 2 — Sources de financement alternatives", description: "Investisseurs en capital et fonds immobiliers (SCPI), crowdfunding immobilier, partenariats public-privé, financement islamique (Mourabaha, Musharaka)." },
+      { title: "Module 3 — Montage financier et structuration du dossier", description: "Business plan immobilier et prévisionnel financier, ratio LTV et critères bancaires, montage juridique (SCI, SPV, holding), rédaction du dossier de financement et pitch investisseur." },
+      { title: "Module 4 — Risques et maximisation du ROI", description: "Analyse de rentabilité (TRI, VAN, cash-flow), risques de marché, construction et vacance, couvertures et assurances immobilières, scénarios de stress." }
+    ],
+    targetAudience: "Promoteurs immobiliers, investisseurs, responsables financiers du secteur immobilier, banquiers crédit immobilier, porteurs de projets immobiliers.",
+    prerequisites: "Connaissance de base en finance ou en immobilier.",
+    methods: [
+      "Études de cas de montages financiers réels",
+      "Ateliers de construction d'un dossier de financement",
+      "Simulations de négociation bancaire",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'im3', title: 'Expertise Immobilière — Évaluation des Biens', slug: 'expertise-immobiliere-evaluation-des-biens', description: 'Devenez expert immobilier capable de réaliser des évaluations précises : approche comparative, méthode par le revenu, analyse des risques et rédaction de rapports d\'expertise conformes aux standards professionnels.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-700 to-slate-900', image: '/images/event-certificate-3.jpg',
+    objectives: [
+      "Comprendre les bases de l'expertise immobilière et ses applications",
+      "Maîtriser les méthodes d'évaluation (comparative, par le revenu, par le coût)",
+      "Analyser les facteurs influençant la valeur d'un bien immobilier",
+      "Rédiger des rapports d'expertise professionnels et conformes aux normes"
+    ],
+    modules: [
+      { title: "Module 1 — Fondamentaux de l'expertise immobilière", description: "Définition et types d'expertise, cadre juridique et déontologique, marchés immobiliers et indicateurs de valeur, normes professionnelles (TEGoVA, RICS, IVS)." },
+      { title: "Module 2 — Méthodes d'évaluation", description: "Méthode par comparaison directe (MCD) et ajustements, méthode par capitalisation du revenu et DCF, méthode par le coût de remplacement, choix et pondération des méthodes." },
+      { title: "Module 3 — Facteurs de valeur et risques", description: "Localisation, environnement et accessibilité, état technique du bâtiment et diagnostics, facteurs juridiques (titres, servitudes, hypothèques), tendances du marché local." },
+      { title: "Module 4 — Rédaction du rapport d'expertise", description: "Structure et contenu du rapport, normes de présentation, mission d'expertise et lettre de mission, responsabilité de l'expert et assurance professionnelle." }
+    ],
+    targetAudience: "Experts immobiliers et évaluateurs, agents immobiliers, banquiers crédit immobilier, notaires, investisseurs et gestionnaires de patrimoine.",
+    prerequisites: "Expérience dans l'immobilier, la finance ou le droit immobilier recommandée.",
+    methods: [
+      "Exercices d'évaluation sur des biens réels",
+      "Analyse commentée de rapports d'expertise",
+      "Ateliers de rédaction de rapport",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'im4', title: 'Agrément et Cadre Légal de l\'Activité Immobilière', slug: 'agrement-et-cadre-legal-de-lactivite-immobiliere', description: 'Comprenez le cadre juridique régissant l\'activité immobilière en Côte d\'Ivoire : conditions d\'agrément, obligations légales des professionnels, réglementation des transactions et pratiques commerciales conformes.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-fuchsia-700 to-slate-900', image: '/images/event-certificate-4.jpg',
+    objectives: [
+      "Comprendre le cadre juridique du secteur immobilier en Côte d'Ivoire",
+      "Maîtriser les conditions d'obtention de l'agrément immobilier",
+      "Identifier les responsabilités légales des professionnels de l'immobilier",
+      "Appliquer les réglementations lors des transactions immobilières"
+    ],
+    modules: [
+      { title: "Module 1 — Réglementation du secteur immobilier", description: "Lois et décrets encadrant l'activité immobilière en Côte d'Ivoire, rôle des institutions de régulation, catégories d'activités (promotion, transaction, gestion, expertise), droit foncier." },
+      { title: "Module 2 — Obtention de l'agrément immobilier", description: "Conditions de diplôme et d'expérience requises, dossier de demande et démarches administratives, assurance RC professionnelle, renouvellement et sanctions." },
+      { title: "Module 3 — Responsabilités et obligations des professionnels", description: "Obligations légales de l'agent immobilier et du promoteur, code de déontologie professionnelle, obligations d'information et de conseil, gestion des conflits d'intérêts." },
+      { title: "Module 4 — Transactions immobilières et pratiques commerciales", description: "Processus légal d'une transaction (compromis, acte authentique), mandats de vente et honoraires, TVA immobilière et droits de mutation, lutte contre la fraude immobilière." }
+    ],
+    targetAudience: "Agents immobiliers, promoteurs, gestionnaires de patrimoine, juristes immobiliers, toute personne souhaitant créer ou régulariser une activité immobilière.",
+    prerequisites: "Intérêt ou activité dans le secteur immobilier.",
+    methods: [
+      "Exposés par des juristes et professionnels agréés",
+      "Études de cas de contentieux immobiliers",
+      "Simulations de procédures d'agrément",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ec1', title: 'L\'Éthique en Entreprise : Fondements et Pratiques', slug: 'lethique-en-entreprise-fondements-et-pratiques', description: 'Comprenez et appliquez les principes éthiques fondamentaux dans la gestion d\'entreprise. Ce module forme à la transparence, l\'intégrité et la responsabilité pour construire une culture organisationnelle éthique durable.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-purple-700 to-slate-900', image: '/images/cert-remise-officiels.jpg',
+    objectives: [
+      "Appréhender les principes fondamentaux de l'éthique en gestion",
+      "Identifier et analyser les dilemmes éthiques dans les décisions stratégiques",
+      "Reconnaître les défis éthiques dans les RH et les relations commerciales",
+      "Promouvoir une culture d'éthique organisationnelle durable"
+    ],
+    modules: [
+      { title: "Module 1 — Bases de l'éthique en entreprise", description: "Définitions et fondements de l'éthique professionnelle, importance dans la gouvernance, principes d'intégrité, transparence et responsabilité." },
+      { title: "Module 2 — Éthique dans les décisions stratégiques", description: "Identification des dilemmes éthiques, mécanismes de décision éthique, études de cas de décisions stratégiques controversées." },
+      { title: "Module 3 — Défis éthiques quotidiens", description: "Éthique dans les RH, pratiques commerciales éthiques, gestion des conflits d'intérêts dans les équipes." },
+      { title: "Module 4 — Culture d'éthique organisationnelle", description: "Construction d'une culture éthique, codes d'éthique et chartes, dispositifs d'alerte, leadership éthique et exemplarité." }
+    ],
+    targetAudience: "Cadres dirigeants, responsables RH, directeurs des affaires juridiques, consultants en gouvernance, managers souhaitant renforcer la culture d'intégrité.",
+    prerequisites: "Expérience professionnelle en entreprise ou organisation.",
+    methods: [
+      "Exposés interactifs et études de cas réels",
+      "Discussions sur des dilemmes éthiques",
+      "Mise en situation et jeux de rôle",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ec2', title: 'Éthique et Gouvernance d\'Entreprise : Culture d\'Intégrité', slug: 'ethique-et-gouvernance-dentreprise-culture-dintegrite', description: 'Instaurer une gouvernance éthique au sein de l\'entreprise en structurant des pratiques transparentes, clarifiant les rôles des parties prenantes et évaluant l\'efficacité des dispositifs de gouvernance.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-indigo-700 to-slate-900', image: '/images/graduates-seated.jpeg',
+    objectives: [
+      "Maîtriser les principes fondamentaux de la gouvernance éthique",
+      "Structurer des pratiques de gouvernance pour des décisions transparentes",
+      "Clarifier les rôles des dirigeants, actionnaires et parties prenantes",
+      "Développer des mécanismes d'évaluation de la gouvernance"
+    ],
+    modules: [
+      { title: "Module 1 — Gouvernance éthique : principes et cadre", description: "Fondements de la gouvernance d'entreprise, lien éthique-performance, normes (OCDE, ISO 26000), gouvernance dans le contexte africain." },
+      { title: "Module 2 — Mise en oeuvre de la gouvernance éthique", description: "Organes de gouvernance (CA, comités d'audit et d'éthique), politiques de transparence et d'intégrité, mécanismes de contrôle et reporting." },
+      { title: "Module 3 — Parties prenantes et responsabilités", description: "Cartographie des parties prenantes, responsabilités des dirigeants, actionnaires et employés, engagement et communication." },
+      { title: "Module 4 — Évaluation de la gouvernance", description: "Indicateurs de performance éthique, audit de gouvernance, benchmarking des bonnes pratiques, plans d'amélioration." }
+    ],
+    targetAudience: "Dirigeants et administrateurs, responsables de la gouvernance, cadres supérieurs, consultants en gouvernance.",
+    prerequisites: "Fonction managériale ou de direction.",
+    methods: [
+      "Études de cas de bonnes et mauvaises pratiques",
+      "Ateliers de diagnostic de gouvernance",
+      "Simulations de comités d'éthique",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ec3', title: 'RSE : De l\'Éthique à l\'Action', slug: 'rse-de-lethique-a-laction', description: 'Intégrez les pratiques éthiques et responsables dans vos stratégies RSE. Apprenez à mesurer l\'impact de vos actions ESG et à communiquer efficacement sur vos engagements environnementaux, sociaux et de gouvernance.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-lime-700 to-slate-900', image: '/images/event-graduation-2.jpg',
+    objectives: [
+      "Comprendre les concepts clés de la RSE et son intégration stratégique",
+      "Développer des politiques RSE éthiques et responsables",
+      "Mesurer et évaluer l'impact des initiatives RSE",
+      "Communiquer efficacement sur la RSE pour renforcer la crédibilité"
+    ],
+    modules: [
+      { title: "Module 1 — Fondamentaux de la RSE", description: "Définition et évolution de la RSE, cadres normatifs (ISO 26000, GRI, ODD), RSE et performance durable, enjeux ESG pour les entreprises africaines." },
+      { title: "Module 2 — Intégration de l'éthique dans les stratégies RSE", description: "RSE environnementale (empreinte carbone, économie circulaire), RSE sociale (emploi décent, diversité), RSE de gouvernance (transparence, anti-corruption)." },
+      { title: "Module 3 — Mesure et évaluation de l'impact RSE", description: "Indicateurs de performance RSE, reporting extra-financier, outils d'audit et de certification, cartographie des parties prenantes." },
+      { title: "Module 4 — Communication RSE", description: "Stratégies de communication RSE authentique, rapport de développement durable, communication digitale responsable, prévention du greenwashing." }
+    ],
+    targetAudience: "Responsables RSE et développement durable, directeurs de la communication, dirigeants d'entreprises engagées, consultants en durabilité.",
+    prerequisites: "Intérêt pour le développement durable et la gouvernance.",
+    methods: [
+      "Études de cas d'entreprises africaines engagées en RSE",
+      "Ateliers de construction d'un plan RSE",
+      "Analyse de rapports RSE réels",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ec4', title: 'Éthique et Compliance : Assurer la Conformité Légale', slug: 'ethique-et-compliance-assurer-la-conformite-legale', description: 'Mettez en place des systèmes de conformité efficaces : obligations légales, gestion des risques de non-conformité, programme de compliance interne et audits de contrôle. La formation de référence pour les responsables conformité.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-rose-700 to-slate-900', image: '/images/cert-group-standing.jpeg',
+    objectives: [
+      "Maîtriser les obligations légales et réglementaires de conformité",
+      "Identifier et minimiser les risques de non-conformité",
+      "Créer un cadre de conformité interne adapté à son organisation",
+      "Déployer des audits et contrôles internes de conformité"
+    ],
+    modules: [
+      { title: "Module 1 — Réglementations et normes de conformité", description: "Cadre légal de la conformité (UEMOA, OHADA), lois anti-corruption, protection des données, obligations sectorielles spécifiques." },
+      { title: "Module 2 — Gestion des risques de conformité", description: "Cartographie des risques de non-conformité, risques de conflits d'intérêts, due diligence des tiers, gestion des incidents." },
+      { title: "Module 3 — Programme de conformité interne", description: "Conception d'un programme de compliance, code de conduite, formation des collaborateurs, dispositif d'alerte éthique." },
+      { title: "Module 4 — Audits et contrôles internes", description: "Planification et exécution des audits de conformité, rédaction du rapport d'audit, suivi des recommandations, indicateurs de performance." }
+    ],
+    targetAudience: "Responsables compliance et contrôle interne, directeurs des affaires juridiques, auditeurs internes, managers en charge de la gouvernance.",
+    prerequisites: "Expérience professionnelle en entreprise ou institution.",
+    methods: [
+      "Études de cas de scandales de conformité",
+      "Atelier de construction d'un plan de conformité",
+      "Simulations d'audit",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ec5', title: 'Gestion des Conflits d\'Intérêts : Prévention et Stratégies', slug: 'gestion-des-conflits-dinterets-prevention-et-strategies', description: 'Identifiez, prévenez et gérez les conflits d\'intérêts dans l\'entreprise. Ce module fournit des outils concrets pour instaurer la transparence et protéger l\'intégrité des prises de décision organisationnelles.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-sky-700 to-slate-900', image: '/images/event-certificate-4.jpg',
+    objectives: [
+      "Reconnaître les situations de conflits d'intérêts réels, potentiels et apparents",
+      "Développer des politiques de prévention des conflits d'intérêts",
+      "Gérer les conflits d'intérêts dans les décisions clés",
+      "Instaurer des mécanismes de transparence et de communication"
+    ],
+    modules: [
+      { title: "Module 1 — Identifier les conflits d'intérêts", description: "Définition et typologies, exemples sectoriels (marchés publics, finance, santé), obligations de déclaration, jurisprudence africaine." },
+      { title: "Module 2 — Stratégies de prévention", description: "Politiques internes de gestion, séparation des fonctions et rotation, registres des intérêts, formation et sensibilisation." },
+      { title: "Module 3 — Gestion dans les décisions stratégiques", description: "Procédures lors d'une situation identifiée, rôle du comité d'éthique, documentation et traçabilité, communication transparente." },
+      { title: "Module 4 — Transparence institutionnelle", description: "Communication interne et externe, rapports annuels d'intégrité, gestion de la réputation, benchmarking des bonnes pratiques." }
+    ],
+    targetAudience: "Dirigeants, managers en charge de la gouvernance, responsables des marchés publics, membres de comités d'audit et d'éthique.",
+    prerequisites: "Expérience professionnelle en gestion ou administration.",
+    methods: [
+      "Études de cas de conflits d'intérêts réels",
+      "Mises en situation de prise de décision",
+      "Construction d'une politique de gestion des conflits d'intérêts",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'ec6', title: 'Leadership Éthique : Diriger avec Intégrité', slug: 'leadership-ethique-diriger-avec-integrite', description: 'Adoptez un leadership éthique fondé sur l\'intégrité, la responsabilité et la confiance. Ce module prépare les dirigeants à exercer une autorité éclairée, à gérer les crises avec transparence et à inspirer une culture d\'excellence éthique.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-teal-600 to-slate-900', image: '/images/jc-networking.jpeg',
+    objectives: [
+      "Comprendre les valeurs du leadership éthique et leur impact organisationnel",
+      "Prendre des décisions éthiques dans des situations complexes",
+      "Renforcer son intégrité personnelle et inspirer la responsabilité",
+      "Maintenir une posture éthique en période de crise"
+    ],
+    modules: [
+      { title: "Module 1 — Valeurs et fondements du leadership éthique", description: "Principes du leadership éthique (intégrité, responsabilité, transparence), modèles de leadership éthique, éthique personnelle et professionnelle du leader." },
+      { title: "Module 2 — Décision éthique en contexte complexe", description: "Cadres de décision éthique (utilitarisme, déontologie), gestion des dilemmes éthiques, processus de délibération collégiale." },
+      { title: "Module 3 — Responsabilité et intégrité du leader", description: "Exemplarité et leadership par l'exemple, redevabilité et transparence, gestion des erreurs, développement de la confiance." },
+      { title: "Module 4 — Leadership éthique en crise", description: "Maintien de l'intégrité sous pression, communication éthique de crise, gestion des conflits interpersonnels, reconstruction de la confiance." }
+    ],
+    targetAudience: "Cadres dirigeants, managers, responsables RH et de la formation, tout professionnel en position de leadership.",
+    prerequisites: "Expérience en management ou leadership.",
+    methods: [
+      "Coaching de développement du leadership",
+      "Jeux de rôle et mises en situation de crise",
+      "Analyse de leaders africains emblématiques",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'g1', title: 'Économie Mondiale et Commerce International', slug: 'economie-mondiale-et-commerce-international', description: 'Comprenez les mécanismes de l\'économie globale, les dynamiques du commerce international et les stratégies d\'internationalisation. Indispensable pour les dirigeants souhaitant développer leurs activités à l\'échelle mondiale.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-600 to-slate-900', image: '/images/event-speaker-1.jpg',
+    objectives: [
+      "Analyser les grandes tendances de l'économie mondiale",
+      "Maîtriser les théories du commerce international et leurs applications",
+      "Identifier et gérer les risques économiques et politiques des échanges",
+      "Développer des stratégies d'internationalisation efficaces"
+    ],
+    modules: [
+      { title: "Module 1 — Dynamiques de l'économie mondiale", description: "Grands équilibres macroéconomiques (PIB, inflation, changes), institutions du commerce international (OMC, FMI, BM), théories des avantages comparatifs." },
+      { title: "Module 2 — Commerce international et géopolitique", description: "Politiques commerciales et protectionnisme, accords régionaux (ZLECAF, CEDEAO), tensions géopolitiques et leurs effets sur les échanges." },
+      { title: "Module 3 — Risques des échanges internationaux", description: "Risques économiques et politiques, fluctuation des devises, outils de couverture à l'export (COFACE, banques de développement)." },
+      { title: "Module 4 — Stratégies d'internationalisation", description: "Modes d'entrée sur les marchés étrangers, adaptation de l'offre, financement de l'internationalisation, business plan international." }
+    ],
+    targetAudience: "Responsables commerciaux, directeurs d'internationalisation, cadres d'entreprises multinationales, entrepreneurs souhaitant s'implanter à l'international.",
+    prerequisites: "Diplôme Bac+2 minimum ou expérience en commerce ou gestion.",
+    methods: [
+      "Décryptage de rapports macroéconomiques (BM, OCDE, FMI)",
+      "Études de cas d'expansion internationale d'entreprises africaines",
+      "Simulation d'une décision d'implantation internationale",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'g2', title: 'Innovation Marketing et Communication Corporate', slug: 'innovation-marketing-et-communication-corporate', description: 'Maîtrisez les stratégies marketing innovantes et la communication d\'entreprise pour différencier votre offre, renforcer votre image de marque et engager vos clients grâce aux outils digitaux et aux nouvelles approches créatives.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-pink-600 to-slate-900', image: '/images/selfie-graduates.jpeg',
+    objectives: [
+      "Élaborer une stratégie marketing innovante et différenciante",
+      "Piloter une communication d'entreprise cohérente et engageante",
+      "Intégrer les nouveaux comportements des consommateurs et outils numériques",
+      "Mesurer la performance des campagnes marketing"
+    ],
+    modules: [
+      { title: "Module 1 — Fondamentaux du marketing stratégique", description: "Marketing stratégique et opérationnel, segmentation-ciblage-positionnement, innovation produit et expérience client, analyse de la concurrence." },
+      { title: "Module 2 — Innovation marketing digital", description: "IA et big data dans le marketing, brand content et storytelling digital, réseaux sociaux et marketing d'engagement, personnalisation et automation." },
+      { title: "Module 3 — Communication corporate", description: "Communication institutionnelle et de crise, gestion de l'image de marque, relations presse et relations publiques." },
+      { title: "Module 4 — Mesure de la performance", description: "KPIs marketing et tableaux de bord, ROI des campagnes, outils d'analyse (Google Analytics, Meta Business), reporting et optimisation." }
+    ],
+    targetAudience: "Responsables marketing et communication, directeurs de la stratégie de marque, consultants, entrepreneurs et PME.",
+    prerequisites: "Expérience ou intérêt pour le marketing et la communication.",
+    methods: [
+      "Analyse de campagnes innovantes de marques africaines",
+      "Création d'un plan de communication complet",
+      "Ateliers de storytelling et de co-création",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'g3', title: 'Analyse et Pilotage de la Performance Financière', slug: 'analyse-et-pilotage-de-la-performance-financiere', description: 'Transformez vos données financières en leviers de décision stratégique. Ce module vous forme à l\'analyse des états financiers, à la modélisation de la performance et à la construction d\'outils de pilotage financier.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-emerald-600 to-slate-900', image: '/images/trophee-remise.jpg',
+    objectives: [
+      "Lire et interpréter les états financiers d'une entreprise",
+      "Modéliser la performance économique et identifier les leviers d'amélioration",
+      "Construire des outils de pilotage financier adaptés",
+      "Prendre des décisions stratégiques basées sur l'analyse financière"
+    ],
+    modules: [
+      { title: "Module 1 — Analyse des états financiers", description: "Bilan, compte de résultat et flux de trésorerie, ratios de rentabilité, solvabilité et liquidité, analyse comparative et benchmarking sectoriel." },
+      { title: "Module 2 — Modélisation financière", description: "Modélisation Excel de la performance, budget prévisionnel, seuil de rentabilité, scénarios de croissance et de crise." },
+      { title: "Module 3 — Pilotage et reporting", description: "Tableau de bord financier et KPIs, contrôle budgétaire et analyse des écarts, reporting pour les dirigeants, suivi de trésorerie." },
+      { title: "Module 4 — Décision financière stratégique", description: "Évaluation des investissements (VAN, TRI), arbitrage financement propre vs dette, optimisation du capital, gestion des risques financiers." }
+    ],
+    targetAudience: "Directeurs financiers, contrôleurs de gestion, analystes financiers, chefs d'entreprise, consultants en finance.",
+    prerequisites: "Connaissance de base en comptabilité ou gestion financière.",
+    methods: [
+      "Lecture commentée d'états financiers d'entreprises africaines",
+      "Modélisation sur tableur en atelier",
+      "Simulation de tableau de bord financier",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'g4', title: 'Éthique et Conformité en Entreprise — Module Court', slug: 'ethique-et-conformite-en-entreprise-module-court', description: 'Intégrez l\'éthique et la conformité dans la stratégie de votre entreprise. Ce module forme à comprendre les obligations légales, prévenir les risques éthiques et instaurer une culture d\'intégrité durable.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-600 to-slate-900', image: '/images/jc-cert-group-stage.jpeg',
+    objectives: [
+      "Comprendre les concepts d'éthique et de conformité en entreprise",
+      "Maîtriser les cadres réglementaires et légaux",
+      "Instaurer une culture d'éthique organisationnelle",
+      "Développer des stratégies de gestion des risques éthiques"
+    ],
+    modules: [
+      { title: "Module 1 — Éthique et conformité : enjeux et concepts", description: "Définitions et interdépendance éthique-conformité, enjeux pour l'entreprise, panorama des risques éthiques dans les différents secteurs." },
+      { title: "Module 2 — Cadres réglementaires et légaux", description: "Normes de conformité (UEMOA, OHADA, standards internationaux), lois anti-corruption, protection des données, RSE." },
+      { title: "Module 3 — Culture éthique et compliance opérationnelle", description: "Code de conduite, formation des équipes, gestion des conflits d'intérêts, dispositifs d'alerte éthique." },
+      { title: "Module 4 — Gestion des risques éthiques", description: "Cartographie des risques éthiques, stratégies de prévention, gestion des incidents, évaluation de l'impact réputationnel." }
+    ],
+    targetAudience: "Responsables de la conformité et gestion des risques, cadres dirigeants, DRH, consultants en éthique et gouvernance.",
+    prerequisites: "Expérience professionnelle en entreprise.",
+    methods: [
+      "Études de cas de crises éthiques d'entreprises",
+      "Atelier de construction d'un code de conduite",
+      "Simulation d'un incident de conformité",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'g5', title: 'Innovation Managériale et Performance Organisationnelle', slug: 'innovation-manageriale-et-performance-organisationnelle', description: 'Développez des pratiques managériales innovantes pour renforcer la performance organisationnelle. Ce module couvre le design thinking, les méthodes agiles et le management participatif pour améliorer l\'efficacité collective.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-600 to-slate-900', image: '/images/event-training-1.jpg',
+    objectives: [
+      "Comprendre les principes de l'innovation managériale",
+      "Utiliser les outils agiles et le design thinking pour stimuler l'innovation",
+      "Intégrer l'innovation dans la stratégie organisationnelle",
+      "Mesurer et améliorer la performance organisationnelle"
+    ],
+    modules: [
+      { title: "Module 1 — Innovation managériale : principes", description: "Définition et leviers de l'innovation managériale, organisations innovantes, management agile et participatif, barrières à l'innovation." },
+      { title: "Module 2 — Outils de l'innovation en équipe", description: "Design thinking, méthodes agiles (Scrum, Kanban), intelligence collective, hackathons et sprints d'idéation." },
+      { title: "Module 3 — Innovation dans la stratégie", description: "Intégration de l'innovation dans la culture, gestion du changement, innovation RH, modèles organisationnels innovants." },
+      { title: "Module 4 — Mesure de la performance", description: "Indicateurs de l'innovation managériale, tableaux de bord, analyse des résultats, retour d'expérience et capitalisation." }
+    ],
+    targetAudience: "Directeurs et managers souhaitant innover dans leurs pratiques, responsables de la transformation, consultants en management stratégique.",
+    prerequisites: "Expérience de management ou de direction d'équipe.",
+    methods: [
+      "Ateliers pratiques de design thinking",
+      "Études de cas d'organisations innovantes africaines",
+      "Simulations de conduite du changement",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'g6', title: 'Leadership et Sciences de la Décision — Session Courte', slug: 'leadership-et-sciences-de-la-decision-session-courte', description: 'Optimisez votre prise de décision stratégique grâce aux sciences comportementales. Ce module forme les dirigeants à comprendre les biais cognitifs, décider en contexte incertain et exercer un leadership éclairé et responsable.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-rose-600 to-slate-900', image: '/images/utourisme-tribune.jpg',
+    objectives: [
+      "Étudier les théories du leadership et de la prise de décision",
+      "Identifier les biais cognitifs perturbant la décision",
+      "Maîtriser les techniques de décision en environnement incertain",
+      "Développer un leadership éclairé et éthique"
+    ],
+    modules: [
+      { title: "Module 1 — Théories du leadership", description: "Grandes théories du leadership (situationnel, transformationnel, éthique), influence et autorité, modèles africains de leadership." },
+      { title: "Module 2 — Biais cognitifs et décision", description: "Biais de confirmation, ancrage, effet de groupe, heuristiques, techniques pour neutraliser les biais, intelligence émotionnelle." },
+      { title: "Module 3 — Décision en contexte complexe", description: "Cadres décisionnels (OODA Loop, matrices, arbres), décision sous incertitude, décision collaborative et intelligence collective." },
+      { title: "Module 4 — Leadership éthique et stratégique", description: "Prise de décision éthique en crise, communication de la décision, leadership transformationnel, développement du plan de leadership personnel." }
+    ],
+    targetAudience: "Cadres dirigeants, managers seniors, responsables de stratégie, coachs d'organisation.",
+    prerequisites: "Expérience managériale ou de direction.",
+    methods: [
+      "Autodiagnostic du profil décisionnel",
+      "Jeux de rôle et simulations stratégiques",
+      "Études de cas de grandes décisions africaines",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'g7', title: 'Achats, Approvisionnement et Gestion de la Chaîne Logistique', slug: 'achats-approvisionnement-et-gestion-de-la-chaine-logistique', description: 'Maîtrisez les processus d\'achats, d\'approvisionnement et de gestion de la supply chain pour améliorer la performance globale de l\'entreprise en optimisant les coûts, les délais et la gestion des risques logistiques.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-amber-600 to-slate-900', image: '/images/event-team-1.jpg',
+    objectives: [
+      "Maîtriser les processus d'achats et d'approvisionnement",
+      "Optimiser les flux logistiques et la gestion des stocks",
+      "Développer les relations fournisseurs et négocier les contrats",
+      "Gérer les risques logistiques et optimiser les coûts"
+    ],
+    modules: [
+      { title: "Module 1 — Fondamentaux des achats et approvisionnement", description: "Processus d'achats et d'approvisionnement, politique d'achats et sourcing, appels d'offres et sélection des fournisseurs, gestion des stocks (MRP, JAT, EOQ)." },
+      { title: "Module 2 — Gestion de la chaîne logistique", description: "Stratégies de supply chain, optimisation des flux de matières et produits, délais, coûts et qualité, digitalisation logistique (ERP, blockchain, IA)." },
+      { title: "Module 3 — Relations fournisseurs et négociation", description: "Développement et évaluation des fournisseurs, techniques de négociation avancée, rédaction des contrats d'achat, gestion partenariale long terme." },
+      { title: "Module 4 — Risques logistiques et performance", description: "Identification des risques (ruptures, retards, fraudes), indicateurs de performance (OTD, TCO, taux de service), audit de la supply chain, résilience et continuité." }
+    ],
+    targetAudience: "Responsables des achats et de l'approvisionnement, supply chain managers, directeurs logistique, consultants en gestion de la chaîne logistique.",
+    prerequisites: "Expérience professionnelle en achats, logistique ou administration. Diplôme Bac+2.",
+    methods: [
+      "Cartographie d'une chaîne logistique complète",
+      "Simulation d'un processus achats",
+      "Études de cas d'entreprises africaines et internationales",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  }
 ];
 
 export const events: EventData[] = [
