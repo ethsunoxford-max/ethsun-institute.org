@@ -180,12 +180,157 @@ export const allProgrammes: Programme[] = [
       "Atelier présentiel de mise en pratique"
     ]
   },
-  { id: 'p4', title: 'Innovation Managériale et Performance', slug: 'innovation-manageriale', description: 'Maîtrisez l\'innovation managériale contemporaine, l\'intégration de l\'intelligence artificielle dans le management et les leviers de performance organisationnelle. Ce programme Executive forme les cadres et dirigeants à transformer leur organisation grâce aux outils de la gestion du changement et du management agile.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-sky-800 to-slate-900', image: '/images/expertise-group-full.jpeg' },
-  { id: 'p5', title: 'Leadership et Science de la Décision', slug: 'leadership-decision', description: 'Développez votre leadership stratégique en comprenant les mécanismes cognitifs et émotionnels de la prise de décision. Ce programme Executive forme les dirigeants à exercer une autorité éclairée, à gérer l\'incertitude et à mobiliser leurs équipes autour d\'une vision claire et ambitieuse.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-rose-800 to-slate-900', image: '/images/utourisme-tribune.jpg' },
-  { id: 'p6', title: 'Juriste d\'Entreprise', slug: 'juriste-entreprise', description: 'Devenez un expert juridique maîtrisant le droit des affaires OHADA, le droit du travail et la gestion des risques juridiques. Une formation complète pour les juristes d\'entreprise et les managers confrontés aux enjeux légaux et contractuels.', certificateLevel: 'Certificat de Qualification', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/graduates-seated.jpeg' },
-  { id: 'p7', title: 'Conformité Bancaire et IFRS 17', slug: 'conformite-bancaire-ifrs17', description: 'Maîtrisez les normes IFRS 17, les systèmes de conformité réglementaire et les dispositifs anti-blanchiment pour sécuriser votre institution financière. Ce programme intensif forme les responsables conformité, auditeurs et dirigeants bancaires aux exigences légales et éthiques du secteur financier en Afrique.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-800 to-slate-900', image: '/images/jc-networking.jpeg' },
-  { id: 'p8', title: 'Audit Interne et Contrôle de Gestion', slug: 'audit-interne', description: 'Renforcez vos compétences en audit interne, contrôle de gestion et pilotage de la performance organisationnelle. Idéal pour les auditeurs, contrôleurs et responsables financiers souhaitant structurer et professionnaliser leur pratique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-800 to-slate-900', image: '/images/campus-jury.jpeg' },
-  { id: 'p9', title: 'Marketing Digital et Growth', slug: 'marketing-digital', description: 'Accélérez votre croissance grâce aux outils du marketing digital — SEO, réseaux sociaux, publicité en ligne et growth hacking. Une formation pratique et immédiatement applicable pour entrepreneurs, PME et professionnels du marketing souhaitant booster leur visibilité.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-pink-800 to-slate-900', image: '/images/selfie-graduates.jpeg' },
+  { id: 'p4', title: 'Innovation Managériale et Performance', slug: 'innovation-manageriale', description: 'Maîtrisez l\'innovation managériale contemporaine, l\'intégration de l\'intelligence artificielle dans le management et les leviers de performance organisationnelle. Ce programme Executive forme les cadres et dirigeants à transformer leur organisation grâce aux outils de la gestion du changement et du management agile.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-sky-800 to-slate-900', image: '/images/expertise-group-full.jpeg',
+    objectives: [
+      "Comprendre les leviers de l'innovation managériale contemporaine et leurs applications",
+      "Intégrer l'intelligence artificielle comme outil de transformation et de pilotage managérial",
+      "Mettre en œuvre des modèles de gouvernance innovants dans son organisation",
+      "Renforcer la capacité d'adaptation, d'expérimentation et de création de valeur",
+      "Favoriser une culture de l'innovation, de l'intelligence collective et de l'organisation apprenante",
+      "Utiliser les technologies disruptives pour améliorer la performance des équipes"
+    ],
+    modules: [
+      { title: "Module 1 — Innovation managériale et nouvelles formes de gouvernance", description: "Management agile, participatif et responsabilisant, nouveaux modes de gouvernance et d'organisation, leadership partagé et empowerment des équipes, culture d'innovation et organisation apprenante." },
+      { title: "Module 2 — Technologies disruptives et performance organisationnelle", description: "IA, big data, automatisation et algorithmes dans le management, méthodes d'expérimentation : design thinking, lean startup, outils de pilotage augmenté par les données, digitalisation des processus RH et managériaux." },
+      { title: "Module 3 — Intelligence collective et gestion du changement", description: "Intelligence collective et innovation participative, conduite du changement organisationnel, gestion des résistances et facilitation de l'adoption, développement des compétences et hybridation des métiers." },
+      { title: "Module 4 — Mesure de la performance et indicateurs d'innovation", description: "Indicateurs de performance augmentée (efficience, bien-être, durabilité), tableaux de bord de la performance managériale, évaluation de l'impact des initiatives d'innovation, ajustement et amélioration continue des pratiques." }
+    ],
+    targetAudience: "Directeurs et managers souhaitant développer des pratiques de gestion innovantes, responsables de la transformation digitale, consultants en management stratégique, chefs de projet, responsables RH et du développement des talents.",
+    prerequisites: "Expérience managériale de 2 ans minimum. Diplôme Bac+3 ou équivalent. Aucune compétence technique en IA n'est requise.",
+    methods: [
+      "Analyse de modèles managériaux innovants (Google, Spotify, organisations africaines de référence)",
+      "Démonstration d'outils d'IA générative appliqués à la gestion",
+      "Atelier de design d'un modèle organisationnel innovant",
+      "Études de cas de transformation réussie d'organisations",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'p5', title: 'Leadership et Science de la Décision', slug: 'leadership-decision', description: 'Développez votre leadership stratégique en comprenant les mécanismes cognitifs et émotionnels de la prise de décision. Ce programme Executive forme les dirigeants à exercer une autorité éclairée, à gérer l\'incertitude et à mobiliser leurs équipes autour d\'une vision claire et ambitieuse.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-rose-800 to-slate-900', image: '/images/utourisme-tribune.jpg',
+    objectives: [
+      "Comprendre les mécanismes cognitifs et émotionnels à l'œuvre dans la prise de décision",
+      "Identifier les biais cognitifs et les facteurs d'influence sur les décisions stratégiques",
+      "Développer une posture de leadership éthique, stratégique et adaptatif",
+      "Maîtriser les techniques de prise de décision en environnement complexe et incertain",
+      "Renforcer la capacité à mobiliser les équipes autour d'une vision claire",
+      "Exercer un leadership transformationnel inspirant confiance et responsabilité"
+    ],
+    modules: [
+      { title: "Module 1 — Fondements du leadership et théories de la décision", description: "Grandes théories du leadership (situationnel, transformationnel, éthique), pouvoir, autorité, influence et posture du leader, modèles décisionnels (arbre de décision, matrices multicritères, théorie des jeux), biais cognitifs et rationalité limitée." },
+      { title: "Module 2 — Neurosciences de la décision et biais cognitifs", description: "Neurosciences appliquées au leadership et à la décision, biais de confirmation, effet de groupe, heuristiques et erreurs de jugement, intuition vs raisonnement analytique, autodiagnostic du profil décisionnel." },
+      { title: "Module 3 — Décision en contexte d'incertitude et de crise", description: "Prise de décision en environnements VUCA (Volatile, Incertain, Complexe, Ambigu), gestion du stress décisionnel et de la pression, outils d'analyse de risques, décision collaborative et intelligence collective, exercices de simulation de crise." },
+      { title: "Module 4 — Leadership éthique et vision stratégique", description: "Leadership éthique et prise de décision responsable, communication de la vision stratégique, gestion des conflits d'intérêts et dilemmes éthiques, leadership transformationnel et mobilisation des équipes, développement du plan de leadership personnel." }
+    ],
+    targetAudience: "Cadres dirigeants, responsables de la stratégie, managers seniors, décideurs publics et privés, chefs de projet stratégique, coachs d'organisation, toute personne appelée à exercer une fonction de leadership.",
+    prerequisites: "Expérience managériale ou de direction de 3 ans minimum. Diplôme Bac+4 ou équivalent, ou expérience professionnelle significative en management.",
+    methods: [
+      "Études de cas réels de décisions stratégiques (politique, finance, diplomatie, Afrique)",
+      "Autodiagnostic du profil décisionnel et du style de leadership",
+      "Jeux de rôles simulant des situations de crise ou de conflit d'intérêt",
+      "Analyses de grandes décisions historiques et leurs conséquences",
+      "Modules e-learning sur la plateforme Neuroklax",
+      "Coaching individuel de développement du leadership"
+    ]
+  },
+  { id: 'p6', title: 'Juriste d\'Entreprise', slug: 'juriste-entreprise', description: 'Devenez un expert juridique maîtrisant le droit des affaires OHADA, le droit du travail et la gestion des risques juridiques. Une formation complète pour les juristes d\'entreprise et les managers confrontés aux enjeux légaux et contractuels.', certificateLevel: 'Certificat de Qualification', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/graduates-seated.jpeg',
+    objectives: [
+      "Maîtriser le cadre juridique des affaires OHADA et son application pratique en entreprise",
+      "Appréhender les principes du droit du travail et gérer les relations sociales",
+      "Identifier, prévenir et gérer les risques juridiques dans l'entreprise",
+      "Rédiger et négocier les contrats commerciaux et partenariats d'affaires",
+      "Comprendre les enjeux de la conformité éthique et réglementaire",
+      "Intégrer les normes de gouvernance d'entreprise et de responsabilité sociale"
+    ],
+    modules: [
+      { title: "Module 1 — Droit des affaires OHADA et contrats commerciaux", description: "Droit commercial OHADA (Acte uniforme), formes sociales et gouvernance des entreprises, rédaction et négociation des contrats commerciaux, droit des sûretés et garanties, contentieux commercial et arbitrage CCJA." },
+      { title: "Module 2 — Droit du travail et relations sociales", description: "Code du travail ivoirien et droit social UEMOA, contrats de travail, recrutement et licenciement, relations avec les institutions représentatives du personnel, gestion des conflits sociaux, hygiène et sécurité au travail." },
+      { title: "Module 3 — Conformité éthique et gestion des risques juridiques", description: "Cartographie des risques juridiques de l'entreprise, conformité aux réglementations sectorielles, dispositifs anti-corruption et protection des données (ARTCI), responsabilité des dirigeants, gestion des litiges et contentieux." },
+      { title: "Module 4 — Gouvernance d'entreprise et droit fiscal", description: "Principes de gouvernance d'entreprise, droits et devoirs des actionnaires et administrateurs, fiscalité des entreprises (IS, TVA, droit d'enregistrement), optimisation fiscale légale, gestion des contrôles fiscaux." }
+    ],
+    targetAudience: "Juristes d'entreprise, responsables juridiques et compliance, directeurs administratifs et financiers, secrétaires généraux, managers confrontés aux enjeux légaux et contractuels, étudiants en droit des affaires.",
+    prerequisites: "Diplôme Bac+3 minimum en droit, gestion ou équivalent. Une expérience professionnelle dans un environnement juridique ou d'entreprise est appréciée.",
+    methods: [
+      "Cours magistraux animés par des juristes praticiens et avocats d'affaires",
+      "Études de cas tirés du contentieux africain (OHADA, UEMOA)",
+      "Ateliers de rédaction contractuelle et analyse de clauses",
+      "Simulations de négociation et de gestion de litiges",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'p7', title: 'Conformité Bancaire et IFRS 17', slug: 'conformite-bancaire-ifrs17', description: 'Maîtrisez les normes IFRS 17, les systèmes de conformité réglementaire et les dispositifs anti-blanchiment pour sécuriser votre institution financière. Ce programme intensif forme les responsables conformité, auditeurs et dirigeants bancaires aux exigences légales et éthiques du secteur financier en Afrique.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-800 to-slate-900', image: '/images/jc-networking.jpeg',
+    objectives: [
+      "Maîtriser les normes IFRS 17 et leurs implications pour les institutions financières",
+      "Identifier les enjeux de la conformité réglementaire dans le secteur bancaire et assurantiel",
+      "Déployer une démarche éthique et anticorruption efficace dans une institution financière",
+      "Concevoir des dispositifs de contrôle interne, d'alerte et de prévention du blanchiment",
+      "Gérer les risques de non-conformité et de conflits d'intérêts",
+      "Mettre en place un programme de conformité intégré aux processus métier bancaires"
+    ],
+    modules: [
+      { title: "Module 1 — Normes IFRS 17 et reporting financier", description: "Introduction aux normes IFRS et transition vers IFRS 17, principes de comptabilisation des contrats d'assurance, modèles de mesure (BBA, PAA, VFA), impact sur les états financiers et le reporting des assureurs, communication avec les régulateurs et les investisseurs." },
+      { title: "Module 2 — Conformité réglementaire bancaire et financière", description: "Cadre réglementaire de la conformité bancaire (BCEAO, COBAC, Bâle III), obligations KYC/KYB et lutte anti-blanchiment (LCB-FT), conformité aux normes FATCA et échange automatique d'informations, protection des données clients et cybersécurité financière." },
+      { title: "Module 3 — Éthique bancaire et gouvernance financière", description: "Fondamentaux de la conformité : cadre légal, risques, obligations, normes internationales ISO 37001 (anticorruption) et RSE, dispositifs d'alerte éthique et protection des lanceurs d'alerte, codes de conduite et chartes éthiques dans les institutions financières." },
+      { title: "Module 4 — Audit de conformité et contrôle interne", description: "Cartographie des risques de conformité, conception et déploiement d'un plan de conformité intégré, formation des agents et sensibilisation aux enjeux éthiques, pilotage et évaluation du dispositif de conformité, préparation aux inspections des autorités de contrôle." }
+    ],
+    targetAudience: "Responsables conformité, compliance officers, auditeurs internes et externes, directeurs des risques, responsables juridiques, dirigeants bancaires et assurantiels, agents des autorités de régulation (BCEAO, COBAC, ARTCI).",
+    prerequisites: "Diplôme Bac+4 minimum en finance, droit ou comptabilité. Expérience professionnelle dans le secteur bancaire, financier ou assurantiel fortement recommandée.",
+    methods: [
+      "Cours animés par des experts en conformité bancaire et régulation financière",
+      "Études de cas (scandales financiers : Enron, Wirecard, cas africains)",
+      "Atelier de construction d'un plan de conformité pour institution financière",
+      "Analyse de dispositifs éthiques réels d'entreprises financières africaines",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'p8', title: 'Audit Interne et Contrôle de Gestion', slug: 'audit-interne', description: 'Renforcez vos compétences en audit interne, contrôle de gestion et pilotage de la performance organisationnelle. Idéal pour les auditeurs, contrôleurs et responsables financiers souhaitant structurer et professionnaliser leur pratique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-800 to-slate-900', image: '/images/campus-jury.jpeg',
+    objectives: [
+      "Analyser les états financiers et modéliser la performance économique de l'entreprise",
+      "Maîtriser les techniques d'audit interne et les normes IIA",
+      "Construire des outils de pilotage et de contrôle de gestion adaptés",
+      "Identifier les leviers d'amélioration de la rentabilité et de la performance",
+      "Concevoir et déployer un système de contrôle interne efficace",
+      "Préparer et conduire des missions d'audit et des rapports de conformité"
+    ],
+    modules: [
+      { title: "Module 1 — Analyse financière et performance d'entreprise", description: "États financiers SYSCOHADA : bilan, compte de résultat, tableau de flux, ratios de rentabilité, solvabilité et structure financière, analyse des marges et du seuil de rentabilité, diagnostic financier complet, lecture et interprétation des rapports annuels." },
+      { title: "Module 2 — Contrôle de gestion et pilotage de la performance", description: "Budget, prévisionnel et suivi budgétaire, outils de modélisation financière sur tableur, tableau de bord de pilotage et reporting de gestion, simulation de scénarios (croissance, crise, restructuration), indicateurs clés de performance (KPIs)." },
+      { title: "Module 3 — Audit interne et normes professionnelles", description: "Cadre de référence international de l'audit interne (IIA), planification et programmation d'une mission d'audit, techniques de collecte de preuves et d'analyse, rédaction du rapport d'audit et suivi des recommandations, audit de conformité réglementaire et opérationnel." },
+      { title: "Module 4 — Contrôle interne et gestion des risques", description: "Référentiel COSO de contrôle interne, cartographie des risques opérationnels et financiers, conception de dispositifs de contrôle interne, évaluation de l'efficacité des contrôles, audit informatique et contrôle des systèmes d'information." }
+    ],
+    targetAudience: "Auditeurs internes et contrôleurs de gestion, directeurs financiers et responsables comptables, chefs de mission d'audit, responsables du contrôle interne, dirigeants de PME souhaitant structurer leur pilotage financier.",
+    prerequisites: "Diplôme Bac+3 minimum en finance, comptabilité ou gestion. Expérience professionnelle en comptabilité ou gestion financière souhaitée.",
+    methods: [
+      "Lecture commentée d'états financiers réels d'entreprises africaines",
+      "Modélisation sur tableur de scénarios financiers",
+      "Simulation de missions d'audit interne complètes",
+      "Diagnostic de performance d'une entreprise type",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'p9', title: 'Marketing Digital et Growth', slug: 'marketing-digital', description: 'Accélérez votre croissance grâce aux outils du marketing digital — SEO, réseaux sociaux, publicité en ligne et growth hacking. Une formation pratique et immédiatement applicable pour entrepreneurs, PME et professionnels du marketing souhaitant booster leur visibilité.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-pink-800 to-slate-900', image: '/images/selfie-graduates.jpeg',
+    objectives: [
+      "Élaborer une stratégie marketing digitale innovante et différenciante",
+      "Maîtriser les outils du marketing digital : SEO, SEA, réseaux sociaux, email marketing",
+      "Piloter une communication d'entreprise cohérente et engageante sur les canaux digitaux",
+      "Intégrer les nouveaux comportements des consommateurs et les données clients",
+      "Concevoir et déployer des campagnes de growth hacking et de publicité en ligne",
+      "Mesurer et optimiser la performance des actions marketing (KPIs, ROI)"
+    ],
+    modules: [
+      { title: "Module 1 — Fondamentaux du marketing digital et stratégie de marque", description: "Les fondamentaux du marketing stratégique et opérationnel, brand content, storytelling et réputation digitale, positionnement et différenciation, cycle de vie client et parcours d'achat digital, communication corporate interne et externe." },
+      { title: "Module 2 — SEO, SEA et visibilité en ligne", description: "Référencement naturel (SEO) : audit, optimisation on-page et off-page, stratégie de contenu, publicité en ligne (Google Ads, Meta Ads), création et optimisation de campagnes payantes, analyse des résultats et optimisation du ROI, outils : Google Analytics, Search Console, Meta Business Suite." },
+      { title: "Module 3 — Réseaux sociaux, influence et engagement client", description: "Stratégie réseaux sociaux (LinkedIn, Instagram, Facebook, TikTok, WhatsApp Business), création de contenus viraux et marketing d'influence, communauté et engagement des abonnés, social selling et prospection digitale, gestion de la e-réputation et des crises." },
+      { title: "Module 4 — Growth hacking, email marketing et mesure de performance", description: "Techniques de growth hacking et d'acquisition à coût réduit, email marketing et automatisation (séquences de nurturing), entonnoir de conversion et optimisation du tunnel de vente, tableaux de bord marketing et indicateurs de performance (KPIs), outils : Mailchimp, HubSpot, Canva." }
+    ],
+    targetAudience: "Responsables marketing et communication, entrepreneurs et dirigeants de PME/TPE, chargés de communication digitale, créateurs d'entreprise, consultants en marketing, community managers souhaitant évoluer vers des fonctions stratégiques.",
+    prerequisites: "Aucun prérequis technique spécifique. Une expérience ou un intérêt pour le marketing ou la communication est un plus. Diplôme Bac+2 ou expérience professionnelle.",
+    methods: [
+      "Analyse de campagnes innovantes réelles (Airbnb, Tesla, marques africaines)",
+      "Création d'une stratégie de marque et d'un plan de communication",
+      "Ateliers pratiques de création de contenu et de campagnes publicitaires",
+      "Simulations de lancement de produit sur les réseaux sociaux",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
   { id: 'p10', title: 'Supply Chain et Achats Publics', slug: 'supply-chain-achats', description: 'Structurez un processus achats performant et responsable, optimisez la chaîne logistique et maîtrisez la gestion des approvisionnements publics et privés. Ce programme forme les responsables achats et supply chain à réduire les coûts tout en garantissant qualité, conformité et durabilité.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-800 to-slate-900', image: '/images/event-training-1.jpg',
     objectives: [
       "Structurer un processus achats performant et responsable",
@@ -211,9 +356,81 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p11', title: 'Gestion des Ressources Humaines', slug: 'gestion-rh', description: 'Développez une politique RH stratégique, maîtrisez la gestion des talents, le droit social ivoirien et les outils de performance des ressources humaines. Destiné aux DRH, responsables RH et managers en charge du développement des équipes.', certificateLevel: 'Certificat d\'Aptitude', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-fuchsia-800 to-slate-900', image: '/images/cert-remise-officiels.jpg' },
-  { id: 'p12', title: 'Intelligence Artificielle pour Managers', slug: 'ia-managers', description: 'Intégrez l\'intelligence artificielle dans votre stratégie managériale et vos processus décisionnels, sans compétences techniques requises. Un programme conçu pour les managers et dirigeants souhaitant tirer parti des outils IA pour gagner en efficacité et en compétitivité.', certificateLevel: 'Certificat d\'Initiation', domain: 'E-Learning', duration: '4 semaines', format: 'En ligne', price: { amount: 500, currency: 'EUR' }, nextSession: '2026-07-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-lime-800 to-slate-900', image: '/images/jc-medal-man.jpeg' },
-  { id: 'p13', title: 'Comptabilité et Finance d\'Entreprise', slug: 'comptabilite-finance', description: 'Maîtrisez les fondamentaux de la comptabilité SYSCOHADA, de l\'analyse financière et du pilotage de la performance d\'entreprise. Une formation essentielle pour les responsables financiers, comptables et dirigeants de PME souhaitant lire et piloter leurs chiffres.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-800 to-slate-900', image: '/images/trophee-remise.jpg' },
+  { id: 'p11', title: 'Gestion des Ressources Humaines', slug: 'gestion-rh', description: 'Développez une politique RH stratégique, maîtrisez la gestion des talents, le droit social ivoirien et les outils de performance des ressources humaines. Destiné aux DRH, responsables RH et managers en charge du développement des équipes.', certificateLevel: 'Certificat d\'Aptitude', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-fuchsia-800 to-slate-900', image: '/images/cert-remise-officiels.jpg',
+    objectives: [
+      "Développer une politique RH stratégique alignée sur les objectifs de l'organisation",
+      "Maîtriser les processus de recrutement, d'intégration et de fidélisation des talents",
+      "Gérer les relations sociales et maîtriser le droit du travail ivoirien et UEMOA",
+      "Concevoir et piloter des plans de formation et de développement des compétences",
+      "Mettre en œuvre des outils d'évaluation et de gestion de la performance",
+      "Digitaliser les processus RH et utiliser les outils SIRH modernes"
+    ],
+    modules: [
+      { title: "Module 1 — Stratégie RH et management des talents", description: "Rôle stratégique de la fonction RH, conception d'une politique RH alignée sur la stratégie d'entreprise, gestion des talents : attraction, développement, fidélisation, gestion prévisionnelle des emplois et des compétences (GPEC), marque employeur et attractivité." },
+      { title: "Module 2 — Droit du travail et relations sociales", description: "Code du travail ivoirien et droit social UEMOA, rédaction des contrats de travail, gestion des procédures disciplinaires et de licenciement, dialogue social et relations avec les institutions représentatives du personnel, hygiène, sécurité et conditions de travail (HSCT)." },
+      { title: "Module 3 — Formation professionnelle et gestion des compétences", description: "Analyse des besoins en formation (ABF), élaboration du plan de développement des compétences, ingénierie et déploiement des actions de formation, évaluation de la formation et mesure du retour sur investissement, certification Qualiopi et dispositifs FDFP." },
+      { title: "Module 4 — Pilotage de la performance et digitalisation RH", description: "Systèmes d'évaluation et d'appréciation des performances, rémunération et politique salariale, tableaux de bord RH et indicateurs (absentéisme, turnover, masse salariale), outils SIRH et digitalisation de la gestion RH, HR analytics et aide à la décision." }
+    ],
+    targetAudience: "Directeurs et responsables des ressources humaines, DRH, responsables de la formation, managers en charge du développement des équipes, chefs d'entreprise et dirigeants de PME, gestionnaires de paie souhaitant évoluer.",
+    prerequisites: "Diplôme Bac+3 minimum ou expérience professionnelle significative en gestion d'équipe ou en administration du personnel. Aucun prérequis juridique strict.",
+    methods: [
+      "Cours animés par des DRH et juristes praticiens",
+      "Études de cas de politiques RH d'entreprises africaines et internationales",
+      "Ateliers de rédaction de documents RH (fiches de poste, contrats, plans de formation)",
+      "Simulations d'entretiens annuels et de procédures disciplinaires",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'p12', title: 'Intelligence Artificielle pour Managers', slug: 'ia-managers', description: 'Intégrez l\'intelligence artificielle dans votre stratégie managériale et vos processus décisionnels, sans compétences techniques requises. Un programme conçu pour les managers et dirigeants souhaitant tirer parti des outils IA pour gagner en efficacité et en compétitivité.', certificateLevel: 'Certificat d\'Initiation', domain: 'E-Learning', duration: '4 semaines', format: 'En ligne', price: { amount: 500, currency: 'EUR' }, nextSession: '2026-07-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-lime-800 to-slate-900', image: '/images/jc-medal-man.jpeg',
+    objectives: [
+      "Comprendre les fondamentaux de l'intelligence artificielle et ses enjeux pour les managers",
+      "Intégrer l'IA dans la stratégie managériale et les processus décisionnels",
+      "Identifier les cas d'usage de l'IA dans son secteur d'activité",
+      "Utiliser les outils d'IA générative pour gagner en productivité",
+      "Évaluer les impacts organisationnels, éthiques et humains de l'IA",
+      "Piloter une démarche de transformation IA dans son équipe ou organisation"
+    ],
+    modules: [
+      { title: "Module 1 — Comprendre l'IA : fondamentaux et enjeux stratégiques", description: "Démystifier l'IA : machine learning, deep learning, IA générative, panorama des technologies IA et de leurs applications sectorielles, IA comme levier de transformation organisationnelle, enjeux stratégiques, concurrentiels et géopolitiques de l'IA." },
+      { title: "Module 2 — IA générative et productivité managériale", description: "Maîtrise des outils d'IA générative (ChatGPT, Claude, Gemini, Copilot), prompt engineering et optimisation des requêtes, automatisation des tâches à faible valeur ajoutée, production de documents, analyses et rapports assistés par IA, cas pratiques sectoriels." },
+      { title: "Module 3 — IA appliquée au management et à la décision", description: "Big data et analyse prédictive pour la décision managériale, IA dans les RH (recrutement, évaluation, formation), IA dans le marketing (personnalisation, ciblage, prévision), IA dans la finance et la comptabilité, tableau de bord enrichi par l'IA." },
+      { title: "Module 4 — Transformation IA et éthique de l'IA", description: "Conduite d'une transformation IA dans une organisation, éthique de l'IA : biais algorithmiques, responsabilité, transparence, gouvernance des données et RGPD, impacts de l'IA sur l'emploi et les compétences, élaboration d'un plan de transformation IA pour son organisation." }
+    ],
+    targetAudience: "Managers et cadres dirigeants souhaitant intégrer l'IA dans leur pratique, directeurs de la transformation digitale, responsables de la stratégie, chefs de projet, dirigeants de PME et d'institutions souhaitant tirer parti de l'IA. Aucune compétence technique requise.",
+    prerequisites: "Aucune compétence informatique ou mathématique requise. Expérience professionnelle en management ou direction d'équipe. Curiosité et ouverture aux nouvelles technologies.",
+    methods: [
+      "Démonstrations en direct d'outils d'IA générative appliqués à des cas concrets",
+      "Ateliers pratiques de prompt engineering et d'utilisation des outils IA",
+      "Transformation d'un processus métier réel grâce à l'IA",
+      "Études de cas de transformation IA réussies (Afrique et international)",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'p13', title: 'Comptabilité et Finance d\'Entreprise', slug: 'comptabilite-finance', description: 'Maîtrisez les fondamentaux de la comptabilité SYSCOHADA, de l\'analyse financière et du pilotage de la performance d\'entreprise. Une formation essentielle pour les responsables financiers, comptables et dirigeants de PME souhaitant lire et piloter leurs chiffres.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-800 to-slate-900', image: '/images/trophee-remise.jpg',
+    objectives: [
+      "Maîtriser les principes fondamentaux de la comptabilité SYSCOHADA",
+      "Lire, comprendre et analyser les états financiers d'une entreprise",
+      "Utiliser les outils de modélisation financière pour piloter la performance",
+      "Identifier les leviers d'amélioration de la rentabilité et de la structure financière",
+      "Élaborer un budget prévisionnel et suivre son exécution",
+      "Prendre des décisions stratégiques éclairées sur la base des données financières"
+    ],
+    modules: [
+      { title: "Module 1 — Fondamentaux de la comptabilité SYSCOHADA", description: "Principes comptables fondamentaux et plan SYSCOHADA, enregistrements comptables et journaux, grand livre et balance des comptes, états financiers annuels : bilan, compte de résultat et état des flux de trésorerie, révision des comptes et lettrage." },
+      { title: "Module 2 — Analyse financière et diagnostic d'entreprise", description: "Lecture et interprétation des états financiers, ratios de rentabilité, de solvabilité et de liquidité, analyse de la structure financière et du fonds de roulement, diagnostic financier complet d'une entreprise, analyse comparative sectorielle." },
+      { title: "Module 3 — Modélisation et pilotage de la performance financière", description: "Budget prévisionnel et compte de résultat prévisionnel, seuil de rentabilité et point mort, outils de modélisation financière sur Excel, tableau de bord financier et indicateurs clés (KPIs), simulation de scénarios (croissance, crise, restructuration)." },
+      { title: "Module 4 — Fiscalité d'entreprise et décisions financières stratégiques", description: "Fiscalité des entreprises : IS, TVA, taxe patronale, optimisation fiscale légale, financement de l'entreprise (fonds propres, emprunts, subventions), évaluation d'investissements (VAN, TRI, délai de récupération), gestion de trésorerie et relation bancaire." }
+    ],
+    targetAudience: "Responsables financiers et comptables, directeurs administratifs et financiers, dirigeants de PME et TPE souhaitant maîtriser leurs chiffres, contrôleurs de gestion débutants, entrepreneurs en phase de création ou de développement.",
+    prerequisites: "Niveau Bac+2 minimum ou expérience professionnelle en gestion administrative. Une première exposition à la comptabilité est utile mais non obligatoire.",
+    methods: [
+      "Exposés illustrés par des cas chiffrés tirés d'entreprises ivoiriennes",
+      "Exercices pratiques de saisie comptable et d'établissement d'états financiers",
+      "Ateliers de modélisation financière sur tableur",
+      "Lectures et analyses d'états financiers réels",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
   { id: 'p14', title: 'Médiation Professionnelle', slug: 'mediation-professionnelle', description: 'Maîtrisez les techniques de médiation professionnelle pour prévenir et résoudre les conflits en entreprise, en institution et dans les territoires. Ce Certificate of Advanced Studies prépare à l\'exercice certifié de la médiation : médiation interne, gestion des conflits d\'intérêts et qualité relationnelle dans les organisations.', certificateLevel: 'Certificate of Advanced Studies', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-zinc-700 to-slate-900', image: '/images/utourisme-audience.jpg',
     objectives: [
       "Maîtriser les fondements théoriques et pratiques de la médiation professionnelle",
@@ -240,8 +457,57 @@ export const allProgrammes: Programme[] = [
       "Préparation à la certification professionnelle"
     ]
   },
-  { id: 'p15', title: 'Entrepreneuriat et Création d\'Entreprise', slug: 'entrepreneuriat', description: 'Lancez et développez votre entreprise avec méthode : business plan, financement, marketing et gestion opérationnelle. Un programme complet pour les porteurs de projets, jeunes entrepreneurs et intrapreneurs africains souhaitant concrétiser leur vision.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 500, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/jc-cert-group-stage.jpeg' },
-  { id: 'p16', title: 'Management de Projet ISO 21502', slug: 'management-projet-iso', description: 'Gérez vos projets selon les standards ISO 21502 et les meilleures pratiques du management de projet international. Pour les chefs de projet, coordinateurs et managers opérationnels souhaitant structurer leur approche et optimiser leurs livrables.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-800 to-slate-900', image: '/images/uimmo-group.jpeg' },
+  { id: 'p15', title: 'Entrepreneuriat et Création d\'Entreprise', slug: 'entrepreneuriat', description: 'Lancez et développez votre entreprise avec méthode : business plan, financement, marketing et gestion opérationnelle. Un programme complet pour les porteurs de projets, jeunes entrepreneurs et intrapreneurs africains souhaitant concrétiser leur vision.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 500, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/jc-cert-group-stage.jpeg',
+    objectives: [
+      "Structurer et valider une idée d'entreprise avec les outils du business model",
+      "Élaborer un business plan complet et convaincant pour lever des financements",
+      "Maîtriser les étapes de création et d'enregistrement d'une entreprise en Côte d'Ivoire",
+      "Construire une stratégie marketing et commerciale pour lancer son activité",
+      "Gérer les aspects financiers, juridiques et fiscaux d'une jeune entreprise",
+      "Développer un réseau d'affaires et identifier les écosystèmes d'accompagnement"
+    ],
+    modules: [
+      { title: "Module 1 — Idéation, business model et validation du projet", description: "Génération et sélection d'idées d'entreprise, méthodologie lean startup et test d'hypothèses, Business Model Canvas (BMC) et Value Proposition Canvas, étude de marché et analyse de la concurrence, validation du concept avec les premiers clients (MVP)." },
+      { title: "Module 2 — Création de l'entreprise et aspects juridiques", description: "Formes juridiques d'entreprises (SARL, SA, SAS, entreprise individuelle, OHADA), démarches de création et enregistrement (CEPICI, CGA), fiscalité du créateur et régimes d'imposition, contrats commerciaux et protections (marques, brevets), gestion des associés et pacte d'actionnaires." },
+      { title: "Module 3 — Business plan, financement et stratégie commerciale", description: "Rédaction du business plan complet (executive summary, marché, stratégie, finances), prévisionnel financier et plan de trésorerie, sources de financement (banques, microfinance, investisseurs, subventions, diaspora), stratégie commerciale et plan marketing de lancement, pitching et levée de fonds." },
+      { title: "Module 4 — Gestion et développement de la jeune entreprise", description: "Management opérationnel de la jeune entreprise, gestion des ressources humaines (premiers recrutements, contrats), pilotage financier et contrôle de gestion simplifié, stratégies de croissance et de scaling, écosystème entrepreneurial africain (incubateurs, accélérateurs, réseaux)." }
+    ],
+    targetAudience: "Porteurs de projets et entrepreneurs en phase de démarrage, jeunes diplômés souhaitant créer leur entreprise, intrapreneurs cherchant à innover au sein de leur organisation, dirigeants de TPE souhaitant structurer leur activité, membres de la diaspora africaine porteurs de projets.",
+    prerequisites: "Aucun prérequis académique spécifique. Une idée ou un projet d'entreprise, même embryonnaire, est recommandé. Diplôme Bac ou expérience professionnelle.",
+    methods: [
+      "Coaching individuel du projet d'entreprise tout au long du programme",
+      "Ateliers de création du Business Model Canvas",
+      "Exercices de rédaction du business plan en conditions réelles",
+      "Séances de pitch devant un jury d'entrepreneurs et d'investisseurs",
+      "Modules e-learning sur la plateforme Neuroklax",
+      "Mise en réseau avec l'écosystème entrepreneurial africain"
+    ]
+  },
+  { id: 'p16', title: 'Management de Projet ISO 21502', slug: 'management-projet-iso', description: 'Gérez vos projets selon les standards ISO 21502 et les meilleures pratiques du management de projet international. Pour les chefs de projet, coordinateurs et managers opérationnels souhaitant structurer leur approche et optimiser leurs livrables.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-800 to-slate-900', image: '/images/uimmo-group.jpeg',
+    objectives: [
+      "Maîtriser les principes et processus du management de projet selon ISO 21502",
+      "Structurer le démarrage, la planification et la clôture d'un projet",
+      "Utiliser les outils de planification, de suivi et de contrôle de projet (WBS, Gantt, chemin critique)",
+      "Gérer les risques, les délais, les coûts et les parties prenantes d'un projet",
+      "Coordonner les équipes projet en environnement multiculturel et multidisciplinaire",
+      "Intégrer les approches agiles et hybrides dans la gestion de projets complexes"
+    ],
+    modules: [
+      { title: "Module 1 — Fondamentaux du management de projet et ISO 21502", description: "Introduction à la norme ISO 21502 et au cadre PMI, cycle de vie du projet (initialisation, planification, exécution, contrôle, clôture), rôles et responsabilités du chef de projet, charte de projet et registre des parties prenantes, gouvernance et comité de pilotage." },
+      { title: "Module 2 — Planification, ordonnancement et maîtrise des coûts", description: "Structure de décomposition du travail (WBS), planification des délais et diagramme de Gantt, méthode du chemin critique (CPM) et PERT, estimation et budgétisation du projet, courbe S et contrôle budgétaire, outils de planification (MS Project, Trello, Asana)." },
+      { title: "Module 3 — Gestion des risques et qualité du projet", description: "Identification et évaluation des risques projet, plan de réponse aux risques et mesures d'atténuation, gestion de la qualité (assurance et contrôle qualité), gestion des changements et des avenants, communication projet et reporting aux parties prenantes." },
+      { title: "Module 4 — Leadership de projet et approches agiles", description: "Leadership et management des équipes projet multiculturelles, gestion des conflits sur les sites de projet, introduction aux méthodes agiles (Scrum, Kanban), approches hybrides agile/traditionnel pour projets complexes, retour d'expérience et clôture de projet." }
+    ],
+    targetAudience: "Chefs de projet et coordinateurs de projets, managers opérationnels en charge de projets, responsables de programme et de portefeuille de projets, ingénieurs et techniciens évoluant vers le management de projet, cadres des administrations publiques gérant des projets de développement.",
+    prerequisites: "Expérience professionnelle de 2 ans minimum. Diplôme Bac+3 ou équivalent. Avoir participé à au moins un projet dans sa carrière.",
+    methods: [
+      "Cours animés par des chefs de projet certifiés PMP et ISO",
+      "Exercices pratiques de planification sur outils de gestion de projet",
+      "Simulation complète d'un projet de A à Z (cas industriel ou de développement)",
+      "Études de cas de projets africains et internationaux (mines, BTP, gouvernance)",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
   { id: 'p17', title: 'Gouvernance Publique et Anti-Corruption', slug: 'gouvernance-anti-corruption', description: 'Construisez une culture organisationnelle d\'intégrité, maîtrisez les systèmes de conformité éthique et mettez en œuvre des dispositifs anticorruption efficaces dans les institutions publiques et privées. Un Executive Certificate pour les dirigeants, élus et hauts fonctionnaires engagés dans la gouvernance éthique et la lutte contre la corruption.', certificateLevel: 'Executive Certificate', domain: 'Gouvernance de service public', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-emerald-700 to-slate-900', image: '/images/minister-cert-remise.jpg',
     objectives: [
       "Comprendre les fondements de l'éthique appliquée aux pratiques professionnelles et publiques",
@@ -268,8 +534,57 @@ export const allProgrammes: Programme[] = [
       "Atelier présentiel intensif de mise en pratique"
     ]
   },
-  { id: 'p18', title: 'Sport Business et Management', slug: 'sport-business', description: 'Maîtrisez le management appliqué à l\'industrie sportive : droits médias, sponsoring, événementiel sportif et gestion de clubs ou fédérations. Une formation innovante pour les professionnels du sport business et du marketing sportif en Afrique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 800, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-800 to-slate-900', image: '/images/cert-group-standing.jpeg' },
-  { id: 'p19', title: 'Hôtellerie et Tourisme Durable', slug: 'hotellerie-tourisme-durable', description: 'Développez le tourisme durable, la gestion hôtelière responsable et l\'aménagement des territoires touristiques dans un contexte africain. Une formation de référence qui conjugue excellence opérationnelle et approche durable pour les professionnels du secteur.', certificateLevel: 'Certificat d\'Aptitude', domain: 'Evènement', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-amber-800 to-slate-900', image: '/images/utourisme-conference.jpg' },
+  { id: 'p18', title: 'Sport Business et Management', slug: 'sport-business', description: 'Maîtrisez le management appliqué à l\'industrie sportive : droits médias, sponsoring, événementiel sportif et gestion de clubs ou fédérations. Une formation innovante pour les professionnels du sport business et du marketing sportif en Afrique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 800, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-800 to-slate-900', image: '/images/cert-group-standing.jpeg',
+    objectives: [
+      "Comprendre les fondamentaux de l'industrie sportive et ses modèles économiques",
+      "Maîtriser le management et la gouvernance des clubs, fédérations et ligues sportives",
+      "Développer des stratégies de sponsoring, de marketing sportif et de droits médias",
+      "Concevoir et piloter des événements sportifs de grande envergure",
+      "Explorer les opportunités du sport business en Afrique et les enjeux de développement",
+      "Intégrer le digital et les nouvelles technologies dans le management sportif"
+    ],
+    modules: [
+      { title: "Module 1 — Économie du sport et modèles d'affaires", description: "Panorama de l'industrie sportive mondiale et africaine, modèles économiques des clubs, fédérations et ligues, sources de revenus : billetterie, droits TV, merchandising, licences, économie des grands événements sportifs (CAN, JO, Coupe du Monde), investissement sportif et valorisation des actifs." },
+      { title: "Module 2 — Gouvernance et management des organisations sportives", description: "Gouvernance des fédérations sportives nationales et internationales, management opérationnel d'un club professionnel, droit du sport : statuts, contrats, transferts, gestion des ressources humaines sportives (agents, entraîneurs, joueurs), conformité et lutte contre la corruption dans le sport." },
+      { title: "Module 3 — Marketing sportif, sponsoring et droits médias", description: "Stratégie de marketing sportif et image de marque, partenariats et sponsoring : recherche, négociation, activation, droits médias et stratégies de diffusion (TV, streaming, digital), community management et fan engagement digital, endorsement sportif et influence marketing." },
+      { title: "Module 4 — Management événementiel et sport en Afrique", description: "Organisation et gestion d'événements sportifs (logistique, sécurité, communication), stratégies de financement et de billetterie des événements, impact économique et social du sport en Afrique, sport et développement durable (ESG), enjeux et opportunités du marché sportif africain." }
+    ],
+    targetAudience: "Professionnels du sport (dirigeants de clubs, managers, agents), responsables marketing et communication dans les organisations sportives, journalistes sportifs évoluant vers le management, entrepreneurs du secteur sportif, cadres d'administrations sportives et fédérations.",
+    prerequisites: "Diplôme Bac+2 minimum ou expérience professionnelle dans le secteur sportif, médiatique ou commercial. Passion pour le sport et intérêt pour le business.",
+    methods: [
+      "Études de cas de clubs africains et de grandes organisations sportives internationales",
+      "Ateliers de construction d'un business plan d'organisation sportive",
+      "Simulations de négociation de contrats de sponsoring",
+      "Interventions de dirigeants sportifs africains (guests speakers)",
+      "Modules e-learning sur la plateforme Neuroklax"
+    ]
+  },
+  { id: 'p19', title: 'Hôtellerie et Tourisme Durable', slug: 'hotellerie-tourisme-durable', description: 'Développez le tourisme durable, la gestion hôtelière responsable et l\'aménagement des territoires touristiques dans un contexte africain. Une formation de référence qui conjugue excellence opérationnelle et approche durable pour les professionnels du secteur.', certificateLevel: 'Certificat d\'Aptitude', domain: 'Evènement', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-amber-800 to-slate-900', image: '/images/utourisme-conference.jpg',
+    objectives: [
+      "Maîtriser les fondamentaux de la gestion hôtelière et de l'exploitation touristique",
+      "Développer et mettre en œuvre une stratégie de tourisme durable et responsable",
+      "Concevoir des produits touristiques adaptés aux marchés africains et internationaux",
+      "Gérer la qualité des prestations hôtelières et l'expérience client",
+      "Piloter un établissement touristique avec les outils de management moderne",
+      "Positionner une destination ou un établissement sur les marchés numériques"
+    ],
+    modules: [
+      { title: "Module 1 — Management hôtelier et exploitation touristique", description: "Fondamentaux de l'industrie hôtelière et touristique africaine, organisation et gestion opérationnelle d'un hôtel (réception, hébergement, restauration, événementiel), revenue management et yield management, gestion des ressources humaines hôtelières, normes de qualité et de classification hôtelière." },
+      { title: "Module 2 — Tourisme durable et développement territorial", description: "Principes du tourisme durable et critères du Global Sustainable Tourism Council (GSTC), écotourisme et tourisme communautaire en Afrique, impact environnemental et social du tourisme, aménagement et valorisation des territoires touristiques, stratégie de développement touristique local." },
+      { title: "Module 3 — Marketing touristique et commercialisation", description: "Conception et commercialisation de produits touristiques innovants, stratégie de distribution : OTAs (Booking, Airbnb), agences, vente directe, marketing digital touristique (SEO, réseaux sociaux, e-réputation), partenariats et stratégies de promotion des destinations, gestion des avis en ligne et de l'image." },
+      { title: "Module 4 — Pilotage financier et gestion de destination", description: "Analyse financière et contrôle de gestion hôtelière, budget et prévisionnel d'exploitation hôtelière, politique de prix et optimisation du taux d'occupation, financement des projets touristiques (Banque mondiale, AFD, fonds sectoriels), gouvernance des destinations et coopération institutionnelle." }
+    ],
+    targetAudience: "Directeurs et managers hôteliers, responsables de structures touristiques et d'agences de voyages, cadres des ministères et directions du tourisme, entrepreneurs du secteur de l'hospitalité et du tourisme durable, agents de développement territorial chargés du tourisme.",
+    prerequisites: "Diplôme Bac+2 minimum ou expérience professionnelle dans le secteur de l'hôtellerie, du tourisme ou de l'aménagement territorial. Intérêt pour le développement durable.",
+    methods: [
+      "Études de cas de destinations et établissements touristiques durables africains",
+      "Visites et retours d'expérience d'hôteliers et d'opérateurs touristiques",
+      "Ateliers de conception de produits touristiques innovants",
+      "Simulations de gestion d'établissement hôtelier",
+      "Modules e-learning sur la plateforme Neuroklax",
+      "Atelier présentiel avec professionnels du tourisme"
+    ]
+  },
 ];
 
 export const events: EventData[] = [
