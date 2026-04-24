@@ -568,7 +568,7 @@ export const aboutContent = {
       fr: 'Animé par une conviction profonde que le capital humain constitue le premier levier de transformation durable, Jean-Calvin ETHIEN, PDG de ETHSUN Institute, s\'engage activement en faveur du développement des compétences en Afrique et à l\'international. À travers une approche structurée, exigeante et tournée vers l\'impact, il œuvre à la conception de dispositifs de formation capables de renforcer les capacités des individus, d\'accompagner la montée en performance des organisations et de préparer une nouvelle génération de leaders aptes à relever les défis économiques, institutionnels et technologiques contemporains.',
       en: 'Driven by the deep conviction that human capital is the primary lever of sustainable transformation, Jean-Calvin ETHIEN, CEO of ETHSUN Institute, is actively committed to skills development across Africa and internationally. Through a structured, demanding, and impact-oriented approach, he works to design training systems capable of strengthening individual capacities, supporting organizational performance, and preparing a new generation of leaders ready to meet today\'s economic, institutional, and technological challenges.',
     },
-    photo: '/images/founder-jean-calvin-ethien.jpg',
+    image: '/images/founder-jean-calvin-ethien.jpg',
   },
   ecosystem: [
     {
