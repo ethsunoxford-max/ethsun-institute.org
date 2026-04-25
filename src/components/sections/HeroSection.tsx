@@ -7,38 +7,44 @@ import Image from 'next/image';
 import { ArrowRight, Phone } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
+// Images nettoyées :
+// ✅ Garder : graduations, cérémonies, groupes, networking
+// ❌ Supprimé : trophee-remise.jpg (trophée 3 personnes)
+// ❌ Supprimé : speaker-podium.jpeg (1 personne seule au pupitre)
+// ❌ Supprimé : event-speaker-1.jpg (orateur seul)
+// ❌ Supprimé : uimmo-group.jpeg / uimmo1-group.jpeg (inexistantes)
+// ✅ event-training-1.jpg conservé (1 seule visite terrain gardée)
+// ✅ Ajout : ethsun-audience-pro.jpg, campus-training.jpeg, graduates-audience.jpeg (QVT)
 const heroImages = [
   '/images/event-graduation-1.jpg',
   '/images/event-graduation-2.jpg',
-  '/images/event-certificate-1.jpg',
-  '/images/event-speaker-1.jpg',
-  '/images/event-certificate-2.jpg',
-  '/images/event-certificate-3.jpg',
-  '/images/event-certificate-4.jpg',
-  '/images/event-training-1.jpg',
-  '/images/event-team-1.jpg',
-  '/images/graduation-real-1.jpg',
-  '/images/graduation-real-2.jpg',
-  '/images/graduation-real-3.jpg',
-  '/images/graduation-bnetd-1.jpg',
-  '/images/graduation-bnetd-2.jpg',
-  '/images/graduation-bnetd-3.jpg',
-  '/images/graduation-bnetd-4.jpg',
-  '/images/uimmo-group.jpeg',
-  '/images/uimmo1-group.jpeg',
-  '/images/expertise-group-full.jpeg',
-  '/images/graduates-crowd.jpeg',
-  '/images/award-ceremony.jpeg',
   '/images/cert-group-kente.jpeg',
+  '/images/event-certificate-1.jpg',
+  '/images/graduates-crowd.jpeg',
+  '/images/event-certificate-2.jpg',
+  '/images/graduation-real-1.jpg',
   '/images/cert-group-standing.jpeg',
+  '/images/event-certificate-3.jpg',
+  '/images/graduation-real-2.jpg',
   '/images/graduates-kente.jpeg',
+  '/images/event-certificate-4.jpg',
+  '/images/graduation-real-3.jpg',
+  '/images/ethsun-audience-pro.jpg',
+  '/images/graduation-bnetd-1.jpg',
+  '/images/campus-training.jpeg',
+  '/images/graduation-bnetd-2.jpg',
+  '/images/expertise-group-full.jpeg',
+  '/images/graduates-audience.jpeg',
+  '/images/graduation-bnetd-3.jpg',
   '/images/jc-cert-group-stage.jpeg',
+  '/images/graduation-bnetd-4.jpg',
   '/images/jc-networking.jpeg',
   '/images/bnetd-group.jpeg',
   '/images/ceremony-group.jpeg',
+  '/images/selfie-graduates.jpeg',
+  '/images/event-training-1.jpg',
 ];
 
-// Every 4th slide, show photo without overlay (full photo mode)
 const FULL_PHOTO_INTERVAL = 4;
 
 export default function HeroSection() {
@@ -52,7 +58,6 @@ export default function HeroSection() {
       setTimeout(() => {
         setCurrentImage((prev) => {
           const next = (prev + 1) % heroImages.length;
-          // Show full photo (no text) every FULL_PHOTO_INTERVAL slides
           if ((next + 1) % FULL_PHOTO_INTERVAL === 0) {
             setShowText(false);
             setTimeout(() => setShowText(true), 3000);
@@ -65,8 +70,6 @@ export default function HeroSection() {
     }, 5000);
     return () => clearInterval(interval);
   }, []);
-
-  const isFullPhotoMode = !showText && (currentImage + 1) % FULL_PHOTO_INTERVAL === 0;
 
   return (
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
@@ -83,7 +86,7 @@ export default function HeroSection() {
           >
             <Image
               src={heroImages[currentImage]}
-              alt="ETHSUN Institute — Cérémonie de graduation"
+              alt="ETHSUN Institute — Formation professionnelle"
               fill
               className="object-cover"
               priority
@@ -91,7 +94,7 @@ export default function HeroSection() {
           </motion.div>
         </AnimatePresence>
 
-        {/* Dark overlay — fades out when showing full photo */}
+        {/* Dark overlay */}
         <motion.div
           className="absolute inset-0"
           animate={{
@@ -129,7 +132,7 @@ export default function HeroSection() {
         ))}
       </div>
 
-      {/* Text content — appears / disappears */}
+      {/* Text content */}
       <AnimatePresence>
         {showText && (
           <motion.div
