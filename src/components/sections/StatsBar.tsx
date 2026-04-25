@@ -8,6 +8,7 @@ const hubs = [
   { flag: '🇨🇮', label: 'Abidjan', href: '/programmes' },
   { flag: '🇬🇧', label: 'Oxford', href: 'https://www.ethsun-oxford.uk' },
   { flag: '🇲🇺', label: 'Maurice', href: '/international/maurice' },
+  { flag: '🇸🇬', label: 'Singapour', href: '/international/singapour' },
   { flag: '🇨🇭', label: 'Genève', href: '/international/geneve' },
 ];
 
@@ -15,8 +16,8 @@ export default function StatsBar() {
   const t = useTranslations('stats');
 
   const stats = [
-    { number: '60+', label: t('programmes') },
-    { number: '12', label: t('domains') },
+    { number: '73+', label: t('programmes') },
+    { number: '9', label: t('domains') },
     { number: '500+', label: t('alumni') },
   ];
 
@@ -36,9 +37,7 @@ export default function StatsBar() {
               <p className="text-3xl lg:text-4xl font-bold text-ethsun-blue font-serif">
                 {stat.number}
               </p>
-              <p className="mt-1 text-sm text-gray-500">
-                {stat.label}
-              </p>
+              <p className="mt-1 text-sm text-gray-500">{stat.label}</p>
             </motion.div>
           ))}
 
@@ -50,7 +49,7 @@ export default function StatsBar() {
             transition={{ delay: 0.3 }}
             className="text-center px-4 col-span-2 lg:col-span-1"
           >
-            <p className="text-3xl lg:text-4xl font-bold text-ethsun-blue font-serif mb-1">4</p>
+            <p className="text-3xl lg:text-4xl font-bold text-ethsun-blue font-serif mb-1">5</p>
             <p className="text-sm text-gray-500 mb-3">{t('campuses')}</p>
             <div className="flex items-center justify-center gap-3 flex-wrap">
               {hubs.map((hub) =>
