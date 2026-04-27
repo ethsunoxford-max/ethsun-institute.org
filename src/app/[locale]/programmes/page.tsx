@@ -12,11 +12,12 @@ import { allProgrammes } from '@/data/mock';
 // Domaines dans l'ordre demandé
 const DOMAINS_ORDER = [
   'Industries extractives',
-  'Gouvernance et service public',
+  'Gouvernance de service public',
   'Immobilier et BTP',
-  'Collectivités décentralisées',
+  'Collectivités Territoriales',
   'Métiers de la formation',
-  'Banque, finance et administration des entreprises',
+  'Banque/Finance/Admin entreprises',
+  'Éthique & Médiation',
   'E-Learning',
   'Formation sur mesure',
   'Evènement',
@@ -25,11 +26,12 @@ const DOMAINS_ORDER = [
 // Icônes par domaine
 const DOMAIN_ICONS: Record<string, string> = {
   'Industries extractives': '⛏️',
-  'Gouvernance et service public': '🏛️',
+  'Gouvernance de service public': '🏛️',
   'Immobilier et BTP': '🏗️',
-  'Collectivités décentralisées': '🗺️',
+  'Collectivités Territoriales': '🗺️',
   'Métiers de la formation': '🎓',
-  'Banque, finance et administration des entreprises': '💼',
+  'Banque/Finance/Admin entreprises': '💼',
+  'Éthique & Médiation': '⚖️',
   'E-Learning': '💻',
   'Formation sur mesure': '✏️',
   'Evènement': '🎤',
