@@ -15,15 +15,15 @@
   "hero": {
     "eyebrow": "ETHSUN INSTITUTE",
     "title": "Propulsez votre carrière au sommet",
-    "subtitle": "Plus de 60 certificats professionnels dans 12 domaines stratégiques. Formations présentielles, en ligne et en format hybride, conçues pour les cadres, dirigeants et entrepreneurs.",
+    "subtitle": "Plus de 73 certificats professionnels dans 9 domaines stratégiques. Formations présentielles, en ligne et en format hybride, conçues pour les cadres, dirigeants et entrepreneurs.",
     "cta1": "Découvrir nos programmes",
-    "cta2": "S'inscrire"
+    "cta2": "Parler à un conseiller"
   },
   "stats": {
     "programmes": "Programmes certifiants",
-    "domains": "Domaines d'expertise",
+    "domains": "Domaines stratégiques",
     "alumni": "Professionnels certifiés",
-    "campuses": "2 Learning Centers — Abidjan & Oxford"
+    "campuses": "5 Training Delivery Hubs"
   },
   "featured": {
     "eyebrow": "NOS FORMATIONS",
@@ -51,7 +51,7 @@
     "cta2": "Parler à un conseiller"
   },
   "footer": {
-    "description": "ETHSUN INSTITUTE est un centre de formation professionnel agréé sous licence ETHSUN EXECUTIVE EDUCATION OXFORD.",
+    "description": "ETHSUN INSTITUTE est un centre de formation professionnel agréé exploitant une licence ETHSUN EXECUTIVE EDUCATION OXFORD",
     "programmes": "Programmes",
     "certPro": "Certificats Professionnels",
     "execCert": "Executive Certificates",
@@ -59,12 +59,8 @@
     "custom": "Formations sur mesure",
     "seminars": "Séminaires et Ateliers",
     "contactTitle": "Contact",
-    "contactAddress": "Cocody 2 Plateaux Vallon, Rue J, Abidjan",
-    "contactPhone": "(+225) 05 45 61 30 35",
-    "contactPhoneBis": "(+225) 07 07 50 05 01",
-    "contactEmail": "info@ethsun-institute.com",
     "followUs": "Suivez-nous",
-    "franchise": "sous licence ETHSUN Executive Education Oxford",
+    "franchise": "ETHSUN INSTITUT est un centre de formation professionnel agréé opérant sous licence ETHSUN EXECUTIVE EDUCATION OXFORD",
     "motto": "Per Doctrinam Excelsior",
     "rights": "Tous droits réservés.",
     "legal": "Mentions légales",
@@ -73,7 +69,7 @@
   "catalogue": {
     "eyebrow": "CATALOGUE",
     "title": "Nos programmes de formation",
-    "subtitle": "Trouvez le programme qui correspond à vos ambitions professionnelles. Plus de 60 certificats dans 12 domaines, accessibles en présentiel, en ligne ou en format hybride.",
+    "subtitle": "Trouvez le programme qui correspond à vos ambitions professionnelles. Plus de 60 certificats dans 9 domaines stratégiques, accessibles en présentiel, en ligne ou en format hybride.",
     "search": "Rechercher un programme, un domaine, un mot-clé...",
     "all": "Tous",
     "found": "programmes trouvés",
@@ -82,12 +78,7 @@
     "price": "Tarif",
     "noResults": "Aucun programme trouvé.",
     "customCta": "Vous ne trouvez pas ce que vous cherchez ? Nous concevons également des formations sur mesure pour les entreprises et institutions.",
-    "customBtn": "Demander une formation sur mesure",
-    "downloadBrochure": "Télécharger la brochure",
-    "calendar": "Calendrier de réalisation",
-    "enrollmentDeadline": "Date limite d'inscription",
-    "startDate": "Début",
-    "endDate": "Fin"
+    "customBtn": "Demander une formation sur mesure"
   },
   "programme": {
     "breadcrumbHome": "Accueil",
@@ -108,11 +99,7 @@
     "price": "Tarif",
     "register": "S'inscrire maintenant",
     "brochure": "Télécharger la brochure",
-    "whatsapp": "Besoin de conseils ? Contactez-nous sur WhatsApp",
-    "context": "Contexte et introduction",
-    "calendarTitle": "Calendrier détaillé",
-    "paymentTitle": "Paiement sécurisé",
-    "paymentMethods": "Carte bancaire, PayPal ou virement bancaire"
+    "whatsapp": "Besoin de conseils ? Contactez-nous sur WhatsApp"
   },
   "eventPage": {
     "edition": "1ÈRE ÉDITION",
@@ -126,40 +113,32 @@
     "statsDuration": "journée intensive",
     "rectorTitle": "Recteur Honorifique",
     "rectorName": "M. Siandou FOFANA",
-    "rectorRole": "Ancien Ministre du Tourisme et des Loisirs de Côte d'Ivoire",
-    "rectorBio": "Artisan de la stratégie « Sublime Côte d'Ivoire », M. Fofana est une figure emblématique du développement touristique en Afrique de l'Ouest. Son parrainage confère à cet événement une dimension institutionnelle majeure.",
+    "rectorRole": "Ministre du Tourisme et des Loisirs de Côte d'Ivoire",
+    "rectorBio": "Artisan de la stratégie Sublime Côte d'Ivoire, M. Fofana est une figure emblématique du développement touristique en Afrique de l'Ouest. Son parrainage confère à cet événement une dimension institutionnelle majeure.",
     "schedule": "Programme de la journée",
     "partnersTitle": "Partenaires institutionnels",
     "registerCta": "S'inscrire à la 1ère Université Africaine du Tourisme",
-    "registerFee": "Tarif d'inscription : 500 €",
     "contactTitle": "Contact",
-    "whatsappContact": "(+225) 05 45 61 30 35",
-    "editionsTitle": "Calendrier des éditions",
-    "city": "Ville",
-    "country": "Pays",
-    "eventDate": "Date",
-    "objectives": "Objectifs",
-    "targetAudience": "Public cible",
-    "registrationLink": "Lien d'inscription et de paiement"
+    "price": "500 €",
+    "registerImmo": "S'inscrire à la 6ème Université de l'Immobilier"
   },
   "about": {
     "eyebrow": "À PROPOS",
     "title": "L'Université des Entreprises à Haut Rendement",
-    "subtitle": "Renforcer les capacités des cadres, dirigeants et leaders.",
+    "subtitle": "Renforcer les capacités des cadres, dirigeants et leaders pour un impact durable en Afrique et dans le monde.",
     "missionTitle": "Notre mission",
     "missionText1": "ETHSUN Institute accompagne les professionnels, cadres et dirigeants dans leur montée en compétences à travers des programmes certifiants de niveau international. Nous croyons que la formation est le levier le plus puissant pour transformer les organisations et les économies africaines.",
     "missionText2": "Nos programmes sont conçus par des experts praticiens, ancrés dans les réalités du terrain africain et enrichis par les meilleures pratiques internationales.",
     "visionTitle": "Notre vision",
-    "visionText": "Devenir une institution académique de référence, rayonnant à l'échelle internationale depuis nos Learning Centers à travers le monde.",
+    "visionText": "Devenir une institution académique de référence, rayonnant à l'échelle internationale depuis nos hubs de formation à travers le monde. Nous aspirons à créer un écosystème éducatif qui connecte l'Afrique aux standards mondiaux de l'excellence professionnelle.",
     "founderTitle": "Le fondateur",
     "founderName": "Jean-Calvin ETHIEN",
     "founderRole": "Président Directeur Général",
-    "founderBio": "Animé par une conviction profonde que le capital humain constitue le premier levier de transformation durable, Jean-Calvin ETHIEN, PDG de ETHSUN Institute, s'engage activement en faveur du développement des compétences en Afrique et à l'international. À travers une approche structurée, exigeante et tournée vers l'impact, il œuvre à la conception de dispositifs de formation capables de renforcer les capacités des individus, d'accompagner la montée en performance des organisations et de préparer une nouvelle génération de leaders aptes à relever les défis économiques, institutionnels et technologiques contemporains.",
-    "learningCentersTitle": "Nos Learning Centers",
+    "founderBio": "Animé par une conviction profonde que le capital humain constitue le premier levier de transformation durable, Jean-Calvin ETHIEN, PDG d'ETHSUN Institute, s'engage activement en faveur du développement des compétences en Afrique et à l'international. À travers une approche structurée, exigeante et tournée vers l'impact, il œuvre à la conception de dispositifs de formation capables de renforcer les capacités des individus, d'accompagner la montée en performance des organisations et de préparer une nouvelle génération de leaders aptes à relever les défis économiques, institutionnels et technologiques contemporains.",
+    "founderAmbition": "Son ambition : faire d'ETHSUN Institute un groupe international de formation de référence — un pont entre l'excellence académique d'Oxford, la rigueur des institutions suisses et le dynamisme entrepreneurial africain.",
+    "campusesTitle": "Nos Learning Centers",
     "valuesTitle": "Nos valeurs",
-    "ecosystemTitle": "Notre écosystème",
-    "ecosystemSubtitle": "ETHSUN s'appuie sur un écosystème structuré, articulé autour de pôles complémentaires, conçus pour répondre aux enjeux contemporains de formation, de gouvernance et de performance organisationnelle.",
-    "licenceNote": "sous licence ETHSUN Executive Education Oxford — Per Doctrinam Excelsior"
+    "ecosystemTitle": "Notre écosystème"
   },
   "contact": {
     "eyebrow": "CONTACT",
@@ -181,17 +160,7 @@
     "send": "Envoyer le message",
     "whatsapp": "Discuter sur WhatsApp",
     "appointment": "Réserver un rendez-vous",
-    "successTitle": "Message envoyé !",
-    "successMessage": "Votre message a bien été transmis à notre équipe. Nous vous répondrons dans les 24h ouvrées.",
-    "errorMessage": "Une erreur s'est produite. Veuillez réessayer ou nous contacter directement par WhatsApp.",
-    "learningCenterTitle": "Learning Center Abidjan",
-    "address": "Cocody 2 Plateaux Vallon, Rue J",
-    "city": "Abidjan, Côte d'Ivoire",
-    "phone1": "(+225) 05 45 61 30 35",
-    "phone2": "(+225) 07 07 50 05 01",
-    "emailContact": "info@ethsun-institute.com",
-    "mapTitle": "Nous trouver",
-    "bookingTitle": "Prendre rendez-vous"
+    "campusAbidjan": "LEARNING CENTER ABIDJAN — Cocody 2 Plateaux Vallon"
   },
   "blog": {
     "eyebrow": "BLOG",
@@ -209,218 +178,18 @@
   "elearning": {
     "eyebrow": "E-LEARNING",
     "title": "Apprenez où que vous soyez",
-    "subtitle": "Accédez aux programmes en ligne certifiés à votre rythme, via Neuroklax, notre plateforme d'apprentissage numérique.",
+    "subtitle": "Accédez aux programmes en ligne certifiés à votre rythme, via Neuroklax notre plateforme d'apprentissage numérique.",
     "whyTitle": "Pourquoi le Digital Learning ETHSUN ?",
     "howTitle": "Comment ça marche",
-    "ctaPlatform": "Accéder à la plateforme d'apprentissage",
-    "ctaProgrammes": "Voir les formations en ligne",
-    "platformNote": "La plateforme Neuroklax vous donne accès à vos cours, ressources et évaluations 24h/24, 7j/7.",
-    "onlineOnlyNote": "Les formations en ligne sont 100% asynchrones et accessibles depuis n'importe quel appareil."
-  },
-  "international": {
-    "eyebrow": "INTERNATIONAL",
-    "title": "Une formation d'excellence, un rayonnement mondial",
-    "subtitle": "ETHSUN INSTITUTE porte l'ambition d'une formation africaine aux standards internationaux les plus exigeants.",
-    "presenceTitle": "PRÉSENCE INTERNATIONALE",
-    "presenceNote": "ETHSUN Institute opère sous licence ETHSUN Executive Education Oxford et déploie ses Learning Centers dans les villes suivantes.",
-    "learningCentersTitle": "Nos Learning Centers",
-    "clickToDiscover": "Cliquez pour découvrir les programmes"
-  },
-  "enterprises": {
-    "eyebrow": "ENTREPRISES",
-    "title": "Solutions de formation pour les organisations",
-    "subtitle": "Des programmes sur mesure, déployés dans vos locaux ou dans nos Learning Centers, pour renforcer les compétences de vos équipes.",
-    "stepsTitle": "Notre démarche",
-    "sectorsTitle": "Secteurs d'intervention",
-    "ctaTitle": "Un projet de formation pour votre organisation ?",
-    "ctaSubtitle": "Contactez notre équipe pour un diagnostic gratuit de vos besoins en compétences.",
-    "cta": "Demander un devis"
-  },
-  "alumni": {
-    "eyebrow": "ALUMNI",
-    "title": "Nos Alumni Parlent",
-    "subtitle": "Ils ont choisi ETHSUN pour accélérer leur parcours professionnel. Découvrez leurs témoignages.",
-    "networkTitle": "Rejoignez le réseau alumni ETHSUN",
-    "networkText": "Plus de 500 professionnels certifiés à travers l'Afrique et le monde. Mentorat, opportunités professionnelles et événements exclusifs.",
-    "joinCta": "Rejoindre le réseau",
-    "programme": "Programme suivi"
-  },
-  "analytics": {
-    "eyebrow": "ETHSUN ANALYTICS",
-    "title": "Intelligence au service de la décision",
-    "subtitle": "Pôle dédié à l'étude stratégique, à la recherche appliquée et à l'intelligence économique pour les institutions publiques et privées.",
-    "intro": "ETHSUN Analytics accompagne les organisations dans leurs processus de décision à travers des analyses approfondies, des études sectorielles et des outils d'aide à la décision.",
-    "servicesTitle": "Nos prestations",
-    "services": {
-      "dataCollection": {
-        "title": "Collecte et analyse de données",
-        "desc": "Conception d'enquêtes, collecte de données terrain, traitement statistique et restitution analytique."
-      },
-      "impactStudies": {
-        "title": "Études d'impact",
-        "desc": "Évaluation de l'impact des politiques publiques, programmes de développement et initiatives institutionnelles."
-      },
-      "sectorStudies": {
-        "title": "Études sectorielles",
-        "desc": "Analyses approfondies des dynamiques économiques, sociales et institutionnelles par secteur."
-      },
-      "strategicIntel": {
-        "title": "Intelligence économique",
-        "desc": "Veille stratégique, benchmarking et cartographie des acteurs clés dans les secteurs cibles."
-      },
-      "governance": {
-        "title": "Appui à la gouvernance",
-        "desc": "Outils de pilotage, tableaux de bord décisionnels et accompagnement à la réforme institutionnelle."
-      },
-      "consulting": {
-        "title": "Conseil stratégique",
-        "desc": "Accompagnement à l'élaboration de stratégies, plans d'action et feuilles de route institutionnelles."
-      }
-    },
-    "clientsTitle": "Nos clients",
-    "clients": "Ministères et institutions publiques, organismes de développement, banques et institutions financières, entreprises privées, ONG et organisations internationales.",
-    "ctaTitle": "Un projet d'étude ou d'analyse ?",
-    "ctaSubtitle": "Contactez notre équipe ETHSUN Analytics pour discuter de votre besoin.",
-    "cta": "Nous contacter"
-  },
-  "learningCenterMaurice": {
-    "eyebrow": "LEARNING CENTER",
-    "country": "République de Maurice",
-    "flag": "🇲🇺",
-    "title": "Learning Center Maurice",
-    "subtitle": "Hub régional dédié au tourisme, aux loisirs, à l'hôtellerie et à l'aménagement touristique des territoires.",
-    "intro": "Située au cœur de l'Océan Indien, l'île Maurice est un laboratoire vivant du tourisme durable et du développement hôtelier. Notre Learning Center tire parti de ce contexte unique pour offrir des formations ancrées dans les réalités du secteur touristique régional et international.",
-    "programmesTitle": "Programmes proposés",
-    "programmes": [
-      "Aménagement Touristique des Territoires",
-      "Management Hôtelier et Qualité de Service",
-      "Tourisme Durable et Écotourisme",
-      "Stratégie de Développement des Destinations",
-      "Revenue Management et Distribution Hôtelière"
-    ],
-    "formatTitle": "Formats disponibles",
-    "formats": "Présentiel · En ligne · Blended Learning",
-    "calendarNote": "Les sessions présentielles sont organisées à Maurice. Consultez le calendrier pour les dates de la prochaine édition.",
-    "ctaRegister": "S'inscrire à une formation",
-    "ctaContact": "Nous contacter"
-  },
-  "learningCenterSingapour": {
-    "eyebrow": "LEARNING CENTER",
-    "country": "République de Singapour",
-    "flag": "🇸🇬",
-    "title": "Learning Center Singapour",
-    "subtitle": "Hub régional dédié à l'éthique, la bonne gouvernance, la conformité réglementaire et la lutte anticorruption.",
-    "intro": "Singapour est reconnue mondialement comme un modèle de gouvernance, de transparence et d'efficacité institutionnelle. Notre Learning Center s'appuie sur cet environnement d'excellence pour former les dirigeants africains et asiatiques aux standards les plus rigoureux de l'éthique et de la conformité.",
-    "programmesTitle": "Programmes proposés",
-    "programmes": [
-      "Éthique Professionnelle et Conformité Réglementaire",
-      "Gouvernance d'Entreprise et Lutte Anticorruption",
-      "Prévention des Conflits d'Intérêts",
-      "Conformité Internationale et Due Diligence",
-      "Leadership Éthique et Intégrité Institutionnelle"
-    ],
-    "formatTitle": "Formats disponibles",
-    "formats": "Présentiel · En ligne · Bootcamp intensif",
-    "calendarNote": "Les sessions présentielles sont organisées à Singapour. Consultez le calendrier pour les dates de la prochaine édition.",
-    "ctaRegister": "S'inscrire à une formation",
-    "ctaContact": "Nous contacter"
-  },
-  "legal": {
-    "eyebrow": "INFORMATIONS LÉGALES",
-    "title": "Mentions légales",
-    "lastUpdate": "Dernière mise à jour : mars 2026",
-    "sections": {
-      "editor": {
-        "title": "1. Éditeur du site",
-        "content": "Le site ethsun-institute.com est édité par ETHSUN Institute, centre de formation professionnelle continue, opérant sous licence ETHSUN Executive Education Oxford.\n\nSiège social : Cocody 2 Plateaux Vallon, Rue J — Abidjan, République de Côte d'Ivoire\nTéléphone : (+225) 05 45 61 30 35 / 07 07 50 05 01\nEmail : info@ethsun-institute.com\nDirecteur de la publication : Jean-Calvin ETHIEN, Président Directeur Général"
-      },
-      "hosting": {
-        "title": "2. Hébergement",
-        "content": "Le site est hébergé par Vercel Inc., 340 Pine Street, Suite 701, San Francisco, California 94104, États-Unis d'Amérique.\nSite : https://vercel.com"
-      },
-      "ip": {
-        "title": "3. Propriété intellectuelle",
-        "content": "L'ensemble des contenus présents sur ce site (textes, images, logos, vidéos, documents téléchargeables) sont protégés par le droit d'auteur et sont la propriété exclusive d'ETHSUN Institute ou de ses partenaires. Toute reproduction, représentation, modification, publication ou transmission de tout ou partie de ces éléments, quel que soit le moyen ou le support utilisé, est interdite sans l'autorisation préalable et écrite d'ETHSUN Institute.\n\nLa marque ETHSUN est opérée sous licence ETHSUN Executive Education Oxford."
-      },
-      "liability": {
-        "title": "4. Limitation de responsabilité",
-        "content": "ETHSUN Institute s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées sur ce site. Toutefois, ETHSUN Institute ne peut garantir l'exactitude, la complétude, l'actualité des informations diffusées. En conséquence, l'utilisateur reconnaît utiliser ces informations sous sa responsabilité exclusive. ETHSUN Institute décline toute responsabilité pour tout dommage résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à disposition sur le site."
-      },
-      "cookies": {
-        "title": "5. Cookies",
-        "content": "Le site ethsun-institute.com peut utiliser des cookies techniques nécessaires à son bon fonctionnement. Ces cookies ne collectent aucune donnée personnelle à des fins commerciales. Vous pouvez configurer votre navigateur pour refuser les cookies, ce qui pourrait affecter certaines fonctionnalités du site."
-      },
-      "links": {
-        "title": "6. Liens hypertextes",
-        "content": "Le site peut contenir des liens vers des sites tiers. ETHSUN Institute n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu. L'existence d'un lien depuis ce site vers un site tiers ne constitue pas une approbation de ce site ou de son contenu."
-      },
-      "law": {
-        "title": "7. Droit applicable",
-        "content": "Les présentes mentions légales sont régies par le droit ivoirien. En cas de litige, et à défaut de résolution amiable, compétence exclusive est attribuée aux tribunaux compétents d'Abidjan, Côte d'Ivoire."
-      }
-    }
-  },
-  "privacy": {
-    "eyebrow": "PROTECTION DES DONNÉES",
-    "title": "Politique de confidentialité",
-    "lastUpdate": "Dernière mise à jour : mars 2026",
-    "sections": {
-      "intro": {
-        "title": "1. Introduction",
-        "content": "ETHSUN Institute s'engage à protéger la vie privée de ses utilisateurs et à traiter leurs données personnelles conformément aux réglementations applicables en matière de protection des données, notamment le Règlement Général sur la Protection des Données (RGPD) de l'Union Européenne et les lois ivoiriennes en vigueur.\n\nLa présente politique explique comment nous collectons, utilisons, stockons et protégeons vos données personnelles lorsque vous utilisez notre site web ou interagissez avec nos services."
-      },
-      "controller": {
-        "title": "2. Responsable du traitement",
-        "content": "Le responsable du traitement de vos données personnelles est :\nETHSUN Institute\nCocody 2 Plateaux Vallon, Rue J — Abidjan, Côte d'Ivoire\nEmail : info@ethsun-institute.com\nTéléphone : (+225) 05 45 61 30 35"
-      },
-      "dataCollected": {
-        "title": "3. Données collectées",
-        "content": "Nous collectons les données personnelles suivantes :\n• Données d'identification : nom, prénom\n• Coordonnées : adresse email, numéro de téléphone\n• Données professionnelles : intitulé de poste, organisation, secteur d'activité\n• Données relatives à votre intérêt pour nos formations : programme sélectionné, message\n• Données de navigation : adresse IP, cookies techniques, données de connexion\n\nCes données sont collectées lorsque vous remplissez notre formulaire de contact, vous inscrivez à un programme ou à un événement, ou naviguez sur notre site."
-      },
-      "purposes": {
-        "title": "4. Finalités du traitement",
-        "content": "Vos données personnelles sont collectées pour les finalités suivantes :\n• Répondre à vos demandes d'information sur nos programmes de formation\n• Gérer vos inscriptions à nos formations et événements\n• Vous envoyer des informations relatives à nos programmes, actualités et événements (avec votre consentement)\n• Améliorer la qualité de nos services et de notre site web\n• Respecter nos obligations légales et réglementaires"
-      },
-      "legalBasis": {
-        "title": "5. Base légale du traitement",
-        "content": "Le traitement de vos données repose sur :\n• Votre consentement explicite (pour les communications marketing)\n• L'exécution d'un contrat ou de mesures précontractuelles (pour la gestion des inscriptions)\n• Nos intérêts légitimes (pour l'amélioration de nos services)\n• Le respect de nos obligations légales"
-      },
-      "retention": {
-        "title": "6. Durée de conservation",
-        "content": "Vos données personnelles sont conservées pour la durée strictement nécessaire à la réalisation des finalités pour lesquelles elles ont été collectées :\n• Données de contact et d'inscription : 3 ans à compter du dernier contact\n• Données de facturation : 10 ans (obligations comptables)\n• Données de navigation (cookies) : 13 mois maximum"
-      },
-      "rights": {
-        "title": "7. Vos droits",
-        "content": "Conformément aux réglementations applicables, vous disposez des droits suivants sur vos données personnelles :\n• Droit d'accès : obtenir une copie de vos données\n• Droit de rectification : corriger des données inexactes\n• Droit à l'effacement : demander la suppression de vos données\n• Droit à la limitation du traitement\n• Droit d'opposition au traitement\n• Droit à la portabilité de vos données\n\nPour exercer ces droits, contactez-nous à : info@ethsun-institute.com"
-      },
-      "security": {
-        "title": "8. Sécurité des données",
-        "content": "ETHSUN Institute met en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre tout accès non autorisé, toute divulgation, altération ou destruction. Notre site utilise le protocole HTTPS pour sécuriser les échanges de données."
-      },
-      "thirdParties": {
-        "title": "9. Partage des données avec des tiers",
-        "content": "Vos données ne sont pas vendues à des tiers. Elles peuvent être partagées avec :\n• Nos prestataires techniques (hébergeur Vercel, outils d'emailing Brevo) dans le strict cadre de la fourniture de leurs services\n• Les autorités compétentes si la loi l'exige\n\nCes prestataires sont soumis à des obligations de confidentialité et ne peuvent utiliser vos données qu'aux fins pour lesquelles elles leur ont été communiquées."
-      },
-      "contact": {
-        "title": "10. Contact et réclamations",
-        "content": "Pour toute question relative à cette politique de confidentialité ou pour exercer vos droits, contactez-nous :\nEmail : info@ethsun-institute.com\nAdresse : ETHSUN Institute — Cocody 2 Plateaux Vallon, Rue J, Abidjan, Côte d'Ivoire\n\nSi vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de l'autorité de protection des données compétente."
-      }
-    }
+    "ctaPlatform": "Accéder à la plateforme e-learning",
+    "ctaProgrammes": "Voir les formations en ligne"
   },
   "common": {
     "learnMore": "En savoir plus",
-    "fcfa": "FCFA",
-    "register": "S'inscrire",
-    "download": "Télécharger",
-    "contact": "Nous contacter",
-    "discover": "Découvrir",
-    "back": "Retour",
-    "seeAll": "Voir tout",
-    "close": "Fermer",
-    "loading": "Chargement...",
-    "submitSuccess": "Votre message a bien été envoyé !",
-    "submitSuccessDetail": "Notre équipe vous contactera dans les 24 heures ouvrées.",
-    "securePayment": "Paiement sécurisé",
-    "paymentMethods": "Carte bancaire · PayPal · Virement bancaire"
+    "fcfa": "FCFA"
+  },
+  "legal": {
+    "title": "Mentions Légales",
+    "privacyTitle": "Politique de Confidentialité"
   }
 }
