@@ -7,7 +7,33 @@ import { Search, SlidersHorizontal } from 'lucide-react';
 import SectionHeader from '@/components/sections/SectionHeader';
 import ProgrammeCard from '@/components/sections/ProgrammeCard';
 import CTABlock from '@/components/sections/CTABlock';
-import { allProgrammes, domains } from '@/data/mock';
+import { allProgrammes } from '@/data/mock';
+
+// Domaines dans l'ordre demandé
+const DOMAINS_ORDER = [
+  'Industries extractives',
+  'Gouvernance et service public',
+  'Immobilier et BTP',
+  'Collectivités décentralisées',
+  'Métiers de la formation',
+  'Banque, finance et administration des entreprises',
+  'E-Learning',
+  'Formation sur mesure',
+  'Evènement',
+];
+
+// Icônes par domaine
+const DOMAIN_ICONS: Record<string, string> = {
+  'Industries extractives': '⛏️',
+  'Gouvernance et service public': '🏛️',
+  'Immobilier et BTP': '🏗️',
+  'Collectivités décentralisées': '🗺️',
+  'Métiers de la formation': '🎓',
+  'Banque, finance et administration des entreprises': '💼',
+  'E-Learning': '💻',
+  'Formation sur mesure': '✏️',
+  'Evènement': '🎤',
+};
 
 export default function CataloguePage() {
   const t = useTranslations('catalogue');
@@ -17,9 +43,18 @@ export default function CataloguePage() {
 
   const formats = ['Présentiel', 'En ligne', 'Blended'];
 
+  // Tous les domaines présents dans les données
+  const allDomains = useMemo(() => {
+    const domainsFromData = [...new Set(allProgrammes.map(p => p.domain))];
+    // Trier selon l'ordre défini, mettre les autres à la fin
+    const ordered = DOMAINS_ORDER.filter(d => domainsFromData.includes(d));
+    const others = domainsFromData.filter(d => !DOMAINS_ORDER.includes(d));
+    return [...ordered, ...others];
+  }, []);
+
   const filtered = useMemo(() => {
     return allProgrammes.filter((p) => {
-      const matchSearch = !search || 
+      const matchSearch = !search ||
         p.title.toLowerCase().includes(search.toLowerCase()) ||
         p.domain.toLowerCase().includes(search.toLowerCase()) ||
         p.description.toLowerCase().includes(search.toLowerCase());
@@ -28,6 +63,20 @@ export default function CataloguePage() {
       return matchSearch && matchDomain && matchFormat;
     });
   }, [search, selectedDomain, selectedFormat]);
+
+  // Grouper par domaine pour l'affichage
+  const groupedByDomain = useMemo(() => {
+    const groups: Record<string, typeof filtered> = {};
+    const orderedDomains = selectedDomain
+      ? [selectedDomain]
+      : allDomains.filter(d => filtered.some(p => p.domain === d));
+
+    for (const domain of orderedDomains) {
+      const progs = filtered.filter(p => p.domain === domain);
+      if (progs.length > 0) groups[domain] = progs;
+    }
+    return groups;
+  }, [filtered, allDomains, selectedDomain]);
 
   return (
     <>
@@ -64,23 +113,20 @@ export default function CataloguePage() {
             <button
               onClick={() => setSelectedDomain(null)}
               className={`flex-shrink-0 px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                !selectedDomain
-                  ? 'bg-ethsun-navy text-white'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                !selectedDomain ? 'bg-ethsun-navy text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
               {t('all')}
             </button>
-            {domains.map((domain) => (
+            {allDomains.map((domain) => (
               <button
                 key={domain}
                 onClick={() => setSelectedDomain(selectedDomain === domain ? null : domain)}
                 className={`flex-shrink-0 px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                  selectedDomain === domain
-                    ? 'bg-ethsun-navy text-white'
-                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  selectedDomain === domain ? 'bg-ethsun-navy text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                 }`}
               >
+                {DOMAIN_ICONS[domain] && <span className="mr-1">{DOMAIN_ICONS[domain]}</span>}
                 {domain}
               </button>
             ))}
@@ -95,9 +141,7 @@ export default function CataloguePage() {
                   key={f}
                   onClick={() => setSelectedFormat(selectedFormat === f ? null : f)}
                   className={`px-3 py-1 rounded-md text-xs font-medium transition-colors ${
-                    selectedFormat === f
-                      ? 'bg-ethsun-blue text-white'
-                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    selectedFormat === f ? 'bg-ethsun-blue text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                   }`}
                 >
                   {f}
@@ -108,22 +152,41 @@ export default function CataloguePage() {
         </div>
       </section>
 
-      {/* Results */}
+      {/* Results — groupés par domaine */}
       <section className="py-10 lg:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-sm text-gray-500 mb-6">
+          <p className="text-sm text-gray-500 mb-8">
             <span className="font-bold text-ethsun-navy">{filtered.length}</span> {t('found')}
           </p>
 
-          {filtered.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-              {filtered.map((prog, i) => (
-                <ProgrammeCard key={prog.id} programme={prog} index={i} />
-              ))}
-            </div>
-          ) : (
+          {filtered.length === 0 ? (
             <div className="text-center py-20">
               <p className="text-gray-500 text-lg">{t('noResults')}</p>
+            </div>
+          ) : (
+            <div className="space-y-14">
+              {Object.entries(groupedByDomain).map(([domain, programmes]) => (
+                <div key={domain}>
+                  {/* En-tête de domaine */}
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="w-1 h-8 bg-ethsun-gold rounded-full" />
+                    <div>
+                      <h2 className="text-xl font-serif font-bold text-ethsun-navy">
+                        {DOMAIN_ICONS[domain] && <span className="mr-2">{DOMAIN_ICONS[domain]}</span>}
+                        {domain}
+                      </h2>
+                      <p className="text-xs text-gray-400 mt-0.5">{programmes.length} programme{programmes.length > 1 ? 's' : ''}</p>
+                    </div>
+                  </div>
+
+                  {/* Grille */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                    {programmes.map((prog, i) => (
+                      <ProgrammeCard key={prog.id} programme={prog} index={i} />
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           )}
 

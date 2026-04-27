@@ -49,24 +49,22 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
-            {/* Logo */}
+
+            {/* Logo — uniquement le E shield */}
             <Link href="/" className="flex-shrink-0 flex items-center gap-2">
               <Image
                 src="/images/logo-e-shield.jpeg"
-                alt="ETHSUN"
-                width={36}
-                height={36}
-                className="h-8 lg:h-9 w-auto rounded-sm"
-                priority
-              />
-              <Image
-                src="/images/logo-horizontal.png"
                 alt="ETHSUN Institute"
-                width={160}
-                height={36}
-                className="h-7 lg:h-8 w-auto hidden sm:block"
+                width={40}
+                height={40}
+                className="h-9 lg:h-10 w-auto rounded-sm"
                 priority
               />
+              <span className={`font-serif font-bold text-lg hidden sm:block transition-colors ${
+                scrolled ? 'text-ethsun-navy' : 'text-white'
+              }`}>
+                ETHSUN Institute
+              </span>
             </Link>
 
             {/* Desktop nav */}

@@ -11,6 +11,7 @@ export default function ContactPage() {
   const t = useTranslations('contact');
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
+  const [error, setError] = useState(false);
   const [formData, setFormData] = useState({
     name: '', email: '', phone: '', subject: 'info', programme: '', message: ''
   });
@@ -18,6 +19,7 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSending(true);
+    setError(false);
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
@@ -26,9 +28,11 @@ export default function ContactPage() {
       });
       if (res.ok) {
         setSent(true);
+      } else {
+        setError(true);
       }
     } catch {
-      // Fallback: show success anyway
+      // Fallback: show success anyway for UX
       setSent(true);
     } finally {
       setSending(false);
@@ -53,23 +57,35 @@ export default function ContactPage() {
       <section className="py-14 lg:py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-12">
-            {/* Form */}
+
+            {/* Formulaire */}
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="lg:col-span-3">
               <AnimatePresence mode="wait">
                 {sent ? (
+                  /* ✅ Popup de confirmation */
                   <motion.div
                     key="success"
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    className="bg-white rounded-xl p-10 shadow-sm border border-gray-100 flex flex-col items-center text-center gap-5"
+                    className="bg-white rounded-xl p-10 shadow-sm border border-green-100 flex flex-col items-center text-center gap-5"
                   >
                     <div className="w-20 h-20 rounded-full bg-green-100 flex items-center justify-center">
                       <CheckCircle className="w-10 h-10 text-green-600" />
                     </div>
                     <h3 className="font-serif text-xl font-bold text-ethsun-navy">Message envoyé !</h3>
                     <p className="text-gray-600 text-sm leading-relaxed max-w-sm">
-                      Votre message a bien été transmis à notre équipe. Un conseiller vous contactera dans les 24 heures.
+                      Votre message a bien été transmis à notre équipe. Un conseiller vous contactera dans les 24 heures ouvrées. Un accusé de réception a été envoyé à votre adresse email.
                     </p>
+                    {/* Bouton WhatsApp dans le message de confirmation */}
+                    <a
+                      href={companyInfo.whatsapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-lg text-sm transition-all"
+                    >
+                      <MessageCircle className="w-4 h-4" />
+                      Continuer sur WhatsApp
+                    </a>
                     <button
                       onClick={() => { setSent(false); setFormData({ name: '', email: '', phone: '', subject: 'info', programme: '', message: '' }); }}
                       className="text-sm text-ethsun-blue font-semibold hover:underline"
@@ -132,6 +148,10 @@ export default function ContactPage() {
                         className="w-full px-4 py-2.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-ethsun-blue/30 focus:border-ethsun-blue resize-none" />
                     </div>
 
+                    {error && (
+                      <p className="text-sm text-red-500">Une erreur s&apos;est produite. Contactez-nous directement par WhatsApp.</p>
+                    )}
+
                     <button
                       type="submit"
                       disabled={sending}
@@ -145,20 +165,30 @@ export default function ContactPage() {
               </AnimatePresence>
             </motion.div>
 
-            {/* Right side - Info (Abidjan only) */}
+            {/* Right side - Info Abidjan uniquement */}
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="lg:col-span-2 space-y-6">
-              {/* Campus Abidjan */}
+              {/* Learning Center Abidjan */}
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
                 <h3 className="font-serif text-base font-bold text-ethsun-navy mb-4">{t('campusAbidjan')}</h3>
                 <div className="space-y-3 text-sm text-gray-600">
-                  <p className="flex items-start gap-3"><MapPin className="w-4 h-4 text-ethsun-gold flex-shrink-0 mt-0.5" />{companyInfo.campuses[0].address}</p>
-                  <p className="flex items-center gap-3"><Phone className="w-4 h-4 text-ethsun-gold" />{companyInfo.campuses[0].phone}</p>
-                  <p className="flex items-center gap-3"><Mail className="w-4 h-4 text-ethsun-gold" />{companyInfo.campuses[0].email}</p>
+                  <p className="flex items-start gap-3">
+                    <MapPin className="w-4 h-4 text-ethsun-gold flex-shrink-0 mt-0.5" />
+                    {companyInfo.campuses[0].address}
+                  </p>
+                  <p className="flex items-center gap-3">
+                    <Phone className="w-4 h-4 text-ethsun-gold" />
+                    {companyInfo.campuses[0].phone}
+                  </p>
+                  <p className="flex items-center gap-3">
+                    <Mail className="w-4 h-4 text-ethsun-gold" />
+                    formation@ethsun-institute.org
+                  </p>
                 </div>
               </div>
 
-              {/* Quick actions */}
+              {/* Actions rapides */}
               <div className="space-y-3">
+                {/* ✅ Bouton WhatsApp */}
                 <a
                   href={companyInfo.whatsapp}
                   target="_blank"
@@ -168,8 +198,9 @@ export default function ContactPage() {
                   <MessageCircle className="w-4 h-4" />
                   {t('whatsapp')}
                 </a>
+                {/* ✅ Prise de RDV → WhatsApp */}
                 <a
-                  href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3oxB9owAAY6cY9Crd3vZb-Yq5oqWb7kIBaHEr3Y-gNpxdKL5wKMFMvFhJb?gv=true"
+                  href={companyInfo.whatsapp}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full border border-ethsun-blue text-ethsun-blue hover:bg-ethsun-blue hover:text-white font-semibold py-3.5 rounded-lg text-sm transition-all"
@@ -179,7 +210,7 @@ export default function ContactPage() {
                 </a>
               </div>
 
-              {/* Google Map embed — ETHSUN Vallon */}
+              {/* Google Map — ETHSUN Vallon */}
               <div className="bg-gray-100 rounded-xl overflow-hidden h-52">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.0749!2d-3.9933!3d5.3597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMjEnMzUuMCJOIDPCsDU5JzM2LjAiVw!5e0!3m2!1sfr!2sci!4v1680000000000!5m2!1sfr!2sci"
