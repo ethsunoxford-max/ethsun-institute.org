@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     for (const prog of allProgrammes) {
+      if (!prog?.slug) continue;
       entries.push({
         url: `${BASE_URL}/${locale}/programmes/${prog.slug}`,
         lastModified: new Date(),
