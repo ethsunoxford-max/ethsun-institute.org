@@ -590,21 +590,22 @@ export const allProgrammes: Programme[] = [
       "Atelier présentiel avec professionnels du tourisme"
     ]
   },,
-  { id: 'ie1', title: 'Exploration et Exploitation Minière', slug: 'exploration-et-exploitation-miniere', description: 'Maîtrisez les techniques de prospection géologique, d\'évaluation des réserves et d\'extraction minière. Ce certificat prépare les ingénieurs et techniciens à opérer sur des sites miniers en adoptant des pratiques modernes, durables et innovantes.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-700 to-slate-900', image: '/images/event-training-1.jpg',
+  { id: 'ie1', title: 'Exploration et Exploitation Minière', slug: 'exploration-et-exploitation-miniere', description: "Le Centre de Perfectionnement aux Métiers des Industries Extractives vise à former et renforcer les compétences des professionnels opérant dans le secteur des industries extractives, en mettant l'accent sur la durabilité, la sécurité, l'efficacité, et l'innovation technologique. Ce certificat prépare des professionnels capables de participer activement à toutes les étapes de l'exploitation minière, en adoptant des pratiques modernes, innovantes, et durables, tout en respectant les normes internationales de sécurité et d'environnement.", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-700 to-slate-900', image: '/images/event-training-1.jpg',
     objectives: [
-      "Acquérir des compétences en prospection et cartographie géologique",
-      "Analyser et évaluer les réserves minières en termes de qualité et viabilité économique",
-      "Maîtriser les méthodes modernes d'extraction sûres et respectueuses de l'environnement",
-      "Gérer les opérations de mines à ciel ouvert et souterraines",
-      "Intégrer les technologies innovantes : drones, IA, capteurs dans l'exploration minière"
+      "Former aux techniques modernes de prospection géologique permettant une identification précise et rapide des gisements minéraux",
+      "Développer la capacité à analyser et évaluer les ressources minérales en termes de qualité, quantité, et viabilité économique",
+      "Enseigner des techniques d'extraction efficaces, sûres, et respectueuses de l'environnement",
+      "Former à la planification et à la gestion des projets miniers à ciel ouvert et souterrains",
+      "Introduire les technologies de pointe (drones, IA, capteurs) pour améliorer les processus d'exploration"
     ],
     modules: [
-      { title: "Module 1 — Prospection géologique et évaluation des réserves", description: "Techniques modernes de prospection géologique, cartographie et levés géophysiques, méthodes d'analyse des carottes et échantillons, évaluation des réserves (JORC, NI 43-101), viabilité économique des gisements." },
-      { title: "Module 2 — Méthodes d'extraction minière", description: "Exploitation à ciel ouvert (open pit), mines souterraines et galeries, sélection de la méthode selon le gisement, abattage, chargement, transport et traitement du minerai." },
-      { title: "Module 3 — Innovations et technologies minières", description: "Drones et imagerie satellite, IA et big data dans la gestion minière, automatisation des équipements, SIG et géo-informatique, simulation de gisements." },
-      { title: "Module 4 — Sécurité, environnement et durabilité", description: "Normes ISO 45001 et HSE dans les mines, gestion des déchets miniers et des eaux, réhabilitation des sites, conformité EITI et audits environnementaux." }
+      { title: "Module 1 : Techniques de prospection géologique", description: "Cartographie géologique, méthodes de prospection, analyse géochimique et géophysique, identification des gisements." },
+      { title: "Module 2 : Analyse et évaluation des réserves minières", description: "Catégories de ressources, méthodes d'estimation géostatistique, évaluation de la viabilité économique." },
+      { title: "Module 3 : Méthodes modernes d'extraction minière", description: "Techniques d'extraction efficaces et sûres, abattage, transport, traitement du minerai." },
+      { title: "Module 4 : Gestion des mines à ciel ouvert et souterraines", description: "Planification minière, gestion des opérations, sécurité spécifique selon le type de mine." },
+      { title: "Module 5 : Innovations dans l'exploration minière", description: "Utilisation des drones, intelligence artificielle, capteurs IoT et technologies émergentes pour l'exploration et le suivi." }
     ],
-    targetAudience: "Ingénieurs miniers et géologues, techniciens des sites d'exploitation, responsables des opérations minières, étudiants en géologie et ingénierie minière.",
+    targetAudience: "Ingénieurs et techniciens dans les secteurs miniers, géologues et experts en prospection, managers et responsables des opérations des sites miniers, consultants en exploitation minière, étudiants ou jeunes diplômés en géologie ou ingénierie minière.",
     prerequisites: "Diplôme d'ingénieur, de géologie ou de sciences de la terre. Niveau Bac+3 minimum.",
     methods: [
       "Cours techniques par des ingénieurs praticiens du secteur minier",
@@ -614,21 +615,20 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie2', title: 'Sécurité et Santé au Travail dans les Industries Extractives', slug: 'securite-et-sante-au-travail-dans-les-industries-extractives', description: 'Maîtrisez les normes internationales de sécurité minière (ISO 45001, OHSAS), les techniques de prévention des accidents et la gestion des substances dangereuses pour garantir la sécurité des travailleurs sur les sites extractifs.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/expertise-group-full.jpeg',
+  { id: 'ie2', title: 'Sécurité et Santé au Travail dans les Industries Extractives', slug: 'securite-et-sante-au-travail-dans-les-industries-extractives', description: "Former des professionnels compétents capables d'assurer la sécurité et la santé des travailleurs dans les industries extractives, en maîtrisant les normes internationales, les techniques de prévention des risques, et les bonnes pratiques en gestion des substances dangereuses, tout en garantissant un environnement de travail sûr et conforme aux standards internationaux.", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/expertise-group-full.jpeg',
     objectives: [
-      "Maîtriser les standards ISO 45001 et OHSAS appliqués aux industries extractives",
-      "Anticiper et prévenir les accidents sur les sites miniers et pétroliers",
-      "Appliquer les protocoles de secourisme industriel",
-      "Gérer les substances dangereuses et risques chimiques",
-      "Concevoir et déployer une politique HSE intégrée"
+      "Comprendre et appliquer les normes internationales de sécurité (ISO 45001, OHSAS) pour concevoir et mettre en œuvre des politiques de sécurité adaptées",
+      "Apprendre à anticiper et minimiser les risques liés aux opérations minières et pétrolières grâce à des outils d'analyse",
+      "Acquérir les connaissances pratiques pour intervenir efficacement en cas d'urgence sur les sites miniers",
+      "Apprendre les protocoles de manipulation, stockage et élimination sécurisée des substances chimiques ou explosives"
     ],
     modules: [
-      { title: "Module 1 — Normes HSE et management de la sécurité", description: "ISO 45001, OHSAS 18001, audit de conformité sécurité, systèmes de management HSE intégrés, cartographie des risques sur sites extractifs, responsabilités légales." },
-      { title: "Module 2 — Prévention des accidents et gestion des risques", description: "Analyse des risques (HAZOP, FMEA, arbre des causes), accidents typiques dans les mines et chantiers pétroliers, barrières de sécurité, procédures d'urgence et culture de la sécurité." },
-      { title: "Module 3 — Secourisme industriel et gestion des urgences", description: "Secourisme adapté aux sites miniers, plans d'évacuation et simulation, coordination avec services d'urgence, gestion des crises sur sites isolés." },
-      { title: "Module 4 — Gestion des substances dangereuses", description: "Classification GHS/CLP, stockage, manipulation et transport sécurisé, déversements accidentels et dépollution, documentation et traçabilité réglementaire." }
+      { title: "Module 1 : Normes internationales de sécurité dans les mines", description: "ISO 45001, OHSAS 18001, réglementations nationales minières, conception de politiques de sécurité." },
+      { title: "Module 2 : Prévention des accidents et gestion des risques", description: "Analyse des risques, HAZOP, plans de prévention, équipements de protection individuelle et collective." },
+      { title: "Module 3 : Formation en secourisme pour les sites miniers", description: "Premiers secours en milieu industriel, gestion des urgences médicales, évacuation d'urgence." },
+      { title: "Module 4 : Gestion des substances dangereuses", description: "Identification, manipulation, stockage et élimination sécurisée des produits chimiques et explosifs." }
     ],
-    targetAudience: "Responsables HSE, ingénieurs de sécurité, techniciens SST, managers des opérations dans les mines, le pétrole et le gaz.",
+    targetAudience: "Responsables SST dans les industries extractives, ingénieurs et techniciens des sites miniers et pétroliers, cadres en conformité aux normes de sécurité, professionnels en charge de la gestion des substances dangereuses, consultants et formateurs SSE.",
     prerequisites: "Expérience professionnelle dans les industries extractives ou l'industrie lourde. Diplôme Bac+2 minimum.",
     methods: [
       "Exercices pratiques de sécurité sur site simulé",
@@ -638,21 +638,20 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie3', title: 'Environnement et Développement Durable — Industries Extractives', slug: 'environnement-et-developpement-durable-industries-extractive', description: 'Intégrez les enjeux environnementaux dans l\'exploitation minière et pétrolière. Ce certificat couvre la réhabilitation des sites, la gestion des déchets, l\'EIES et la conformité ISO 14001 pour concilier performance industrielle et responsabilité environnementale.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-700 to-slate-900', image: '/images/event-team-1.jpg',
+  { id: 'ie3', title: 'Environnement et Développement Durable — Industries Extractives', slug: 'environnement-et-developpement-durable-industries-extractive', description: "Former des professionnels compétents capables de concevoir et de mettre en œuvre des stratégies durables pour minimiser l'impact environnemental des activités extractives, tout en favorisant la réhabilitation des sites et en intégrant les principes de responsabilité sociale des entreprises (RSE).", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-700 to-slate-900', image: '/images/event-team-1.jpg',
     objectives: [
-      "Comprendre les impacts environnementaux des activités extractives",
-      "Mettre en oeuvre un plan de réhabilitation des sites miniers",
-      "Gérer les déchets miniers et le traitement des eaux polluées",
-      "Assurer la conformité aux normes EITI et ISO 14001",
-      "Élaborer une étude d'impact environnemental et social (EIES)"
+      "Apprendre à restaurer les terrains exploités afin de les réintégrer dans leur écosystème naturel ou pour d'autres usages",
+      "Former aux techniques modernes de gestion des résidus miniers et au traitement des eaux pour éviter toute contamination",
+      "Développer des compétences pour identifier, évaluer et minimiser les impacts écologiques des activités extractives",
+      "Comprendre et intégrer les principes de la RSE pour améliorer les relations entre les entreprises, les communautés locales et les parties prenantes"
     ],
     modules: [
-      { title: "Module 1 — Impacts environnementaux et cadre réglementaire", description: "Types d'impacts (air, eau, sol, biodiversité), cadre réglementaire national et EITI, ISO 14001 et systèmes de management environnemental, Principes de l'Équateur." },
-      { title: "Module 2 — Gestion des déchets miniers et des eaux", description: "Caractérisation et stockage des résidus miniers, parcs à résidus et surveillance, traitement des eaux acides de mine, phytorestauration et techniques de dépollution." },
-      { title: "Module 3 — Réhabilitation et fermeture des sites", description: "Planification de la fermeture dès l'exploration, techniques de réhabilitation morphologique et végétale, monitoring post-fermeture, provisions financières." },
-      { title: "Module 4 — EIES et développement communautaire", description: "Méthodologie de l'Étude d'Impact Environnemental et Social, consultation des communautés, Plan de gestion environnementale et sociale (PGES), RSE et politique de développement communautaire." }
+      { title: "Module 1 : Réhabilitation des sites miniers", description: "Plans de fermeture de mine, revegetation, surveillance post-exploitation, restauration des écosystèmes." },
+      { title: "Module 2 : Gestion des déchets miniers et traitement des eaux", description: "Gestion des résidus, traitement des effluents, prévention de la contamination des nappes phréatiques." },
+      { title: "Module 3 : Réduction de l'impact environnemental des activités extractives", description: "Évaluation d'impact environnemental, mesures d'atténuation, audit environnemental." },
+      { title: "Module 4 : RSE dans les industries extractives", description: "Responsabilité sociale, relations communautaires, communication environnementale, normes EITI." }
     ],
-    targetAudience: "Responsables environnement, ingénieurs HSE, consultants en évaluation environnementale, agents des ministères des mines et de l'environnement.",
+    targetAudience: "Professionnels des industries extractives (ingénieurs, techniciens, responsables environnementaux), cadres d'organisations de régulation, consultants environnementaux, représentants des ONG et communautés locales.",
     prerequisites: "Formation en sciences de l'environnement, ingénierie ou géologie. Diplôme Bac+3.",
     methods: [
       "Études d'impact environnemental de sites africains",
@@ -1970,6 +1969,194 @@ export const allProgrammes: Programme[] = [
       "Projet de management stratégique encadré par un mentor",
       "Modules e-learning sur la plateforme Neuroklax",
     ],
+  },
+  {
+    id: 'ext-hydrocarbures',
+    title: 'Certificat en Gestion et Ingénierie des Hydrocarbures',
+    slug: 'certificat-gestion-ingenierie-hydrocarbures',
+    description: "Former des professionnels capables de maîtriser les aspects techniques, opérationnels et stratégiques de la gestion et de l'ingénierie dans le secteur pétrolier et gazier, en intégrant des outils modernes pour une exploitation efficace et durable des hydrocarbures.",
+    certificateLevel: 'Certificat Professionnel',
+    domain: 'Industries extractives',
+    duration: '8 semaines',
+    format: 'Blended',
+    price: { amount: 1200000, currency: 'XOF' },
+    nextSession: '2026-10-01',
+    enrollmentStatus: 'open',
+    badge: null,
+    imageGradient: 'from-orange-900 to-slate-900',
+    objectives: [
+      "Maîtriser les techniques et outils modernes d'exploration pétrolière et gazière",
+      "Gérer efficacement les gisements pétroliers et gaziers",
+      "Assurer le transport et le stockage sécurisé des hydrocarbures",
+      "Optimiser les processus de raffinage et de distribution"
+    ],
+    modules: [
+      { title: "Module 1 : Exploration pétrolière et gazière", description: "Techniques et outils modernes d'exploration, sismique, diagraphie, évaluation des gisements." },
+      { title: "Module 2 : Gestion des gisements pétroliers et gaziers", description: "Planification de la production, gestion de réservoir, optimisation de l'extraction." },
+      { title: "Module 3 : Transport et stockage des hydrocarbures", description: "Pipelines, tankers, terminaux, sécurité logistique, conformité réglementaire." },
+      { title: "Module 4 : Optimisation des processus en raffinage et distribution", description: "Procédés de raffinage, distribution, amélioration de la rentabilité et de l'efficience." }
+    ],
+    targetAudience: "Ingénieurs et techniciens des industries pétrolières et gazières, responsables opérationnels, professionnels des secteurs de l'énergie, consultants et entrepreneurs du secteur des hydrocarbures.",
+  },
+  {
+    id: 'ext-digitalisation',
+    title: 'Certificat en Digitalisation et Innovation dans les Industries Extractives',
+    slug: 'certificat-digitalisation-innovation-extractives',
+    description: "Préparer des professionnels capables d'intégrer les technologies innovantes et numériques dans les industries extractives pour améliorer la prospection, la gestion, et les opérations tout en augmentant l'efficacité et en réduisant les impacts environnementaux.",
+    certificateLevel: 'Certificat Professionnel',
+    domain: 'Industries extractives',
+    duration: '6 semaines',
+    format: 'Blended',
+    price: { amount: 950000, currency: 'XOF' },
+    nextSession: '2026-09-01',
+    enrollmentStatus: 'open',
+    badge: 'Nouveau',
+    imageGradient: 'from-cyan-900 to-slate-900',
+    objectives: [
+      "Exploiter l'intelligence artificielle dans l'analyse des données et l'optimisation des processus extractifs",
+      "Maîtriser le big data et la géo-informatique pour améliorer les techniques de prospection",
+      "Utiliser les drones et capteurs pour la surveillance, la cartographie et la collecte de données en temps réel"
+    ],
+    modules: [
+      { title: "Module 1 : Intelligence artificielle dans les industries extractives", description: "Applications de l'IA, machine learning, analyse prédictive, optimisation des processus miniers." },
+      { title: "Module 2 : Big data et géo-informatique", description: "Gestion des grandes bases de données, SIG, cartographie numérique, modélisation 3D des gisements." },
+      { title: "Module 3 : Drones et capteurs pour la surveillance", description: "Utilisation des drones de surveillance, capteurs IoT, collecte de données en temps réel, cartographie aérienne." }
+    ],
+    targetAudience: "Ingénieurs et techniciens spécialisés dans les technologies numériques, managers cherchant à intégrer des solutions technologiques, consultants en innovation industrielle, spécialistes SIG et géo-informatique.",
+  },
+  {
+    id: 'ext-reglementation-fiscalite',
+    title: 'Certificat en Réglementation et Fiscalité dans les Industries Extractives',
+    slug: 'certificat-reglementation-fiscalite-extractives',
+    description: "Former des professionnels capables de maîtriser les cadres réglementaires, les régimes fiscaux et les normes internationales applicables aux industries extractives, afin d'assurer la conformité et l'optimisation des pratiques opérationnelles et financières.",
+    certificateLevel: 'Certificat Professionnel',
+    domain: 'Industries extractives',
+    duration: '6 semaines',
+    format: 'En ligne',
+    price: { amount: 850000, currency: 'XOF' },
+    nextSession: '2026-08-01',
+    enrollmentStatus: 'open',
+    badge: null,
+    imageGradient: 'from-slate-800 to-blue-900',
+    objectives: [
+      "Comprendre les cadres réglementaires des industries extractives en Afrique",
+      "Maîtriser les régimes fiscaux et douaniers relatifs aux ressources naturelles",
+      "Assurer la conformité aux normes internationales EITI et ISO"
+    ],
+    modules: [
+      { title: "Module 1 : Cadres réglementaires des industries extractives en Afrique", description: "Codes miniers, législations pétrolières, politiques nationales, rôle des États." },
+      { title: "Module 2 : Régimes fiscaux et douaniers des ressources naturelles", description: "Impôts spécifiques, redevances, droits douaniers, optimisation fiscale légale." },
+      { title: "Module 3 : Conformité aux normes internationales", description: "EITI, ISO 14001, reporting de transparence, audit de conformité." }
+    ],
+    targetAudience: "Cadres et gestionnaires d'entreprises extractives, responsables juridiques et fiscaux, représentants des administrations publiques, consultants en conformité réglementaire.",
+  },
+  {
+    id: 'ext-maintenance',
+    title: 'Certificat en Maintenance des Équipements Miniers et Pétroliers',
+    slug: 'certificat-maintenance-equipements-miniers-petroliers',
+    description: "Former des professionnels capables d'assurer la maintenance, la gestion et l'optimisation des équipements utilisés dans les industries minières et pétrolières, en garantissant leur performance, leur sécurité et leur durabilité.",
+    certificateLevel: 'Certificat Professionnel',
+    domain: 'Industries extractives',
+    duration: '3 mois',
+    format: 'Présentiel',
+    price: { amount: 1500000, currency: 'XOF' },
+    nextSession: '2026-10-05',
+    enrollmentStatus: 'open',
+    badge: null,
+    imageGradient: 'from-yellow-900 to-slate-900',
+    objectives: [
+      "Acquérir des compétences en maintenance préventive et corrective sur équipements industriels",
+      "Intégrer les technologies modernes de maintenance (capteurs, GMAO, analyse prédictive)",
+      "Appliquer les normes de sécurité pour prévenir les accidents et optimiser les performances",
+      "Mettre en place des stratégies pour prolonger la durée de vie des équipements"
+    ],
+    modules: [
+      { title: "Module 1 : Introduction à la maintenance industrielle", description: "Concepts fondamentaux, types de maintenance, stratégies TPM." },
+      { title: "Module 2 : Maintenance des équipements miniers", description: "Engins de chantier, concasseurs, convoyeurs, foreuses — diagnostic et intervention." },
+      { title: "Module 3 : Maintenance des équipements pétroliers", description: "Pompes, compresseurs, séparateurs, équipements de forage — entretien spécialisé." },
+      { title: "Module 4 : Technologies modernes de maintenance", description: "Capteurs intelligents, GMAO, maintenance prédictive par IA, industrie 4.0." },
+      { title: "Module 5 : Planification et gestion de la maintenance", description: "Plans de maintenance, gestion des stocks de pièces, optimisation des temps d'arrêt." },
+      { title: "Module 6 : Projet de certification et examen final", description: "Mise en pratique intégrée, rapport de projet, évaluation finale." }
+    ],
+    targetAudience: "Techniciens et ingénieurs de maintenance, responsables opérationnels supervisant les équipements industriels, consultants en gestion des actifs, professionnels de la sécurité industrielle.",
+  },
+  {
+    id: 'ext-leadership',
+    title: 'Leadership et Management dans les Industries Extractives',
+    slug: 'leadership-management-industries-extractives',
+    description: "Former des leaders capables de diriger efficacement des équipes multiculturelles et pluridisciplinaires dans les industries extractives, tout en promouvant un management stratégique, éthique et orienté vers la résolution proactive des conflits.",
+    certificateLevel: 'Executive Certificate',
+    domain: 'Industries extractives',
+    duration: '6 semaines',
+    format: 'Blended',
+    price: { amount: 850000, currency: 'XOF' },
+    nextSession: '2026-09-15',
+    enrollmentStatus: 'open',
+    badge: null,
+    imageGradient: 'from-purple-900 to-slate-900',
+    objectives: [
+      "Développer des compétences en management multiculturel et pluridisciplinaire dans les environnements miniers",
+      "Maîtriser la gestion des conflits sur les sites miniers et maintenir un environnement de travail harmonieux",
+      "Renforcer le leadership éthique et stratégique aligné avec les objectifs organisationnels"
+    ],
+    modules: [
+      { title: "Module 1 : Management des équipes multiculturelles", description: "Diversité culturelle, cohésion d'équipe, communication interculturelle, motivation." },
+      { title: "Module 2 : Gestion des conflits sur les sites miniers", description: "Identification des causes, techniques de médiation, résolution amiable, gestion de crise." },
+      { title: "Module 3 : Leadership éthique et stratégique", description: "Intégrité, vision stratégique, alignement RSE, leadership en contexte industriel complexe." }
+    ],
+    targetAudience: "Managers et superviseurs des sites d'exploitation, chefs de projet, responsables RH dans les industries extractives, consultants en leadership industriel.",
+  },
+  {
+    id: 'ext-investissement',
+    title: "Stratégies d'Investissement et de Partenariat dans les Industries Extractives",
+    slug: 'strategies-investissement-partenariat-extractives',
+    description: "Former des professionnels capables de développer et de mettre en œuvre des stratégies efficaces d'investissement et de partenariat dans les industries extractives, en maîtrisant les techniques de négociation, l'évaluation des opportunités et la gestion des relations avec les parties prenantes.",
+    certificateLevel: 'Certificat Professionnel',
+    domain: 'Industries extractives',
+    duration: '6 semaines',
+    format: 'Blended',
+    price: { amount: 850000, currency: 'XOF' },
+    nextSession: '2026-11-03',
+    enrollmentStatus: 'open',
+    badge: null,
+    imageGradient: 'from-emerald-900 to-slate-900',
+    objectives: [
+      "Maîtriser les techniques de négociation des contrats miniers et pétroliers",
+      "Évaluer les opportunités d'investissement en termes de rentabilité, risques et durabilité",
+      "Gérer les relations entre entreprises et communautés locales de manière inclusive"
+    ],
+    modules: [
+      { title: "Module 1 : Négociation des contrats miniers et pétroliers", description: "Techniques de négociation, rédaction de contrats, conformité réglementaire, partage de la valeur." },
+      { title: "Module 2 : Évaluation des opportunités d'investissement", description: "Analyse de rentabilité, évaluation des risques, modèles financiers spécifiques au secteur extractif." },
+      { title: "Module 3 : Gestion des relations entreprises-communautés", description: "Engagement communautaire, CLPE, mécanismes de partage des bénéfices, gestion des conflits." }
+    ],
+    targetAudience: "Cadres et managers des entreprises minières et pétrolières, consultants en investissement stratégique, représentants institutionnels gouvernementaux, acteurs des ONG.",
+  },
+  {
+    id: 'ext-transition-energetique',
+    title: "Énergies Renouvelables et Transition Énergétique dans les Industries Extractives",
+    slug: 'energies-renouvelables-transition-extractives',
+    description: "Former des professionnels capables de comprendre le rôle des industries extractives dans la transition énergétique mondiale et de mettre en œuvre des pratiques durables, incluant l'exploitation des minerais stratégiques et l'intégration des énergies renouvelables dans les opérations minières.",
+    certificateLevel: 'Certificat Professionnel',
+    domain: 'Industries extractives',
+    duration: '6 semaines',
+    format: 'En ligne',
+    price: { amount: 750000, currency: 'XOF' },
+    nextSession: '2026-08-17',
+    enrollmentStatus: 'open',
+    badge: 'Nouveau',
+    imageGradient: 'from-green-900 to-slate-900',
+    objectives: [
+      "Analyser le rôle des industries extractives dans la transition énergétique mondiale",
+      "Maîtriser l'exploitation des minerais stratégiques pour les technologies vertes (cobalt, lithium)",
+      "Concevoir et mettre en œuvre des systèmes d'énergie renouvelable pour réduire l'empreinte carbone des mines"
+    ],
+    modules: [
+      { title: "Module 1 : Industries extractives et transition énergétique", description: "Enjeux de la transition, rôle des minerais critiques, opportunités et défis pour le secteur." },
+      { title: "Module 2 : Minerais stratégiques pour les technologies vertes", description: "Cobalt, lithium, terres rares, graphite — exploration, extraction, valorisation." },
+      { title: "Module 3 : Intégration des énergies renouvelables dans les mines", description: "Solaire, éolien, stockage d'énergie, hybridation des systèmes énergétiques miniers." }
+    ],
+    targetAudience: "Ingénieurs et techniciens des industries extractives, cadres développement durable, consultants en énergies renouvelables, responsables des politiques énergétiques gouvernementales.",
   },
 ];
 
