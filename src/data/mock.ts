@@ -36,6 +36,7 @@ export interface EventData {
   targetAudience?: string;
   price?: { amount: number; currency: string; note?: string };
   modules?: { title: string; description: string }[];
+  image?: string;
 }
 
 export interface Testimonial {
@@ -73,6 +74,7 @@ export const featuredProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Populaire',
     imageGradient: 'from-blue-900 to-slate-900',
+    image: '/images/event-main-1.jpg',
   },
   {
     id: 'univ-tourisme',
@@ -88,6 +90,7 @@ export const featuredProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Nouveau',
     imageGradient: 'from-amber-700 to-amber-900',
+    image: '/images/event-salle-2.jpg',
   },
   {
     id: 'cpfa',
@@ -2193,6 +2196,7 @@ export const events: EventData[] = [
       { time: '17h00', title: 'Remise des certificats de participation et distinctions honorifiques' },
       { time: '17h30', title: 'Cocktail de clôture et networking' },
     ],
+    image: '/images/event-salle-2.jpg',
     contact: ['(+225) 05 45 61 30 35'],
     partners: [
       'Ministère du Tourisme et des Loisirs — Côte d\'Ivoire',
@@ -2243,6 +2247,7 @@ export const events: EventData[] = [
       { time: '16h00', title: 'Clôture officielle de la 6ème Université de l\'Immobilier' },
       { time: '16h30', title: 'Cocktail de clôture et séance photos officielles' },
     ],
+    image: '/images/event-main-1.jpg',
     contact: ['(+225) 05 45 61 30 35'],
     partners: [
       'Ministère de la Construction, du Logement et de l\'Urbanisme — CI',
@@ -2285,6 +2290,7 @@ export const events: EventData[] = [
       { time: '17h30', title: 'Remise des certificats de participation' },
       { time: '18h00', title: 'Cocktail de clôture' },
     ],
+    image: '/images/event-conference.jpeg',
     contact: ['(+225) 05 45 61 30 35'],
     partners: [
       'Haute Autorité pour la Bonne Gouvernance (HABG)',
@@ -2333,6 +2339,7 @@ export const events: EventData[] = [
       { time: 'Semaines 7–8', title: 'Modules 8, 9 & 10 — PropTech, fiscalité, déontologie — Révisions et examens finaux' },
       { time: 'Graduation', title: 'Remise officielle des Certificats CAPIMMO lors de la 6ème Université de l\'Immobilier — 22 juin 2026' },
     ],
+    image: '/images/event-salle-1.jpeg',
     contact: ['(+225) 05 45 61 30 35'],
     partners: [
       'ETHSUN Executive Education Oxford',

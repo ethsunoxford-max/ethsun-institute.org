@@ -43,6 +43,19 @@ const heroImages = [
   '/images/ceremony-group.jpeg',
   '/images/selfie-graduates.jpeg',
   '/images/event-training-1.jpg',
+  '/images/hero-accueil-5.jpg',
+  '/images/hero-accueil-6.jpg',
+  '/images/hero-accueil-7.jpg',
+  '/images/hero-accueil-8.jpg',
+  '/images/hero-accueil-9.jpeg',
+  '/images/hero-accueil-10.jpeg',
+  '/images/hero-accueil-11.jpg',
+  '/images/hero-accueil-12.jpg',
+  '/images/hero-accueil-13.jpeg',
+  '/images/hero-accueil-14.jpg',
+  '/images/event-main-1.jpg',
+  '/images/event-main-2.jpg',
+  '/images/qvt-1.jpg',
 ];
 
 const FULL_PHOTO_INTERVAL = 4;
