@@ -1,15 +1,38 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import SectionHeader from '@/components/sections/SectionHeader';
 import CTABlock from '@/components/sections/CTABlock';
-import { Star, Lightbulb, TrendingUp, Globe, ExternalLink } from 'lucide-react';
+import { Star, Lightbulb, TrendingUp, Globe, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
+
+const galleryImages = [
+  '/images/extra-event-1.jpg',
+  '/images/extra-event-2.jpg',
+  '/images/extra-event-3.jpg',
+  '/images/event-salle-5.jpg',
+  '/images/event-salle-6.jpeg',
+  '/images/event-salle-7.jpeg',
+  '/images/event-salle-8.jpeg',
+  '/images/event-salle-9.jpg',
+  '/images/qvt-1.jpg',
+  '/images/event-main-1.jpg',
+];
 
 export default function AboutPage() {
   const t = useTranslations('about');
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => setCurrent(p => (p + 1) % galleryImages.length), 4000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const prev = () => setCurrent(p => (p - 1 + galleryImages.length) % galleryImages.length);
+  const next = () => setCurrent(p => (p + 1) % galleryImages.length);
 
   const values = [
     { icon: Star, title: 'Excellence', description: 'Chaque programme est conçu pour délivrer un impact mesurable sur la carrière de nos apprenants.' },
@@ -96,6 +119,37 @@ export default function AboutPage() {
               <p className="text-gray-600 text-sm leading-relaxed italic border-l-4 border-ethsun-gold/40 pl-4 mt-4">{t('founderAmbition')}</p>
             </div>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Galerie photos */}
+      <section className="py-10 lg:py-14 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-xs font-bold tracking-[0.2em] text-ethsun-gold text-center mb-8">NOS ÉVÉNEMENTS</p>
+          <div className="relative overflow-hidden rounded-2xl shadow-xl" style={{ aspectRatio: '16/7' }}>
+            {galleryImages.map((src, i) => (
+              <div
+                key={src}
+                className={`absolute inset-0 transition-opacity duration-700 ${i === current ? 'opacity-100' : 'opacity-0'}`}
+              >
+                <Image src={src} fill className="object-cover" alt={`ETHSUN événement ${i + 1}`} />
+              </div>
+            ))}
+            <div className="absolute inset-0 bg-gradient-to-t from-ethsun-navy-dark/40 to-transparent" />
+            <button onClick={prev} className="absolute left-3 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white rounded-full p-2 transition-all z-10">
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+            <button onClick={next} className="absolute right-3 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white rounded-full p-2 transition-all z-10">
+              <ChevronRight className="w-5 h-5" />
+            </button>
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
+              {galleryImages.map((_, i) => (
+                <button key={i} onClick={() => setCurrent(i)}
+                  className={`rounded-full transition-all ${i === current ? 'bg-ethsun-gold w-5 h-2' : 'bg-white/50 w-2 h-2'}`}
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 

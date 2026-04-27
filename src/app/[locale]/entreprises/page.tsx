@@ -2,6 +2,7 @@
 
 import { Link } from '@/i18n/routing';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import SectionHeader from '@/components/sections/SectionHeader';
 import PartnerBar from '@/components/sections/PartnerBar';
 import { b2bSectors, b2bSteps, companyInfo } from '@/data/mock';
@@ -25,6 +26,7 @@ export default function EntreprisesPage() {
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-ethsun-navy-dark via-ethsun-navy to-ethsun-blue pt-28 pb-16 lg:pt-36 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 kente-pattern" />
+        <Image src="/images/event-conference.jpeg" fill className="object-cover opacity-30" alt="Formations Entreprises ETHSUN" priority />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <p className="text-xs font-bold tracking-[0.25em] text-ethsun-gold mb-5">ENTREPRISES & INSTITUTIONS</p>

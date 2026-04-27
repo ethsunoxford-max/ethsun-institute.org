@@ -14,6 +14,7 @@ export default function InternationalPage() {
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-ethsun-navy-dark via-ethsun-navy to-blue-900 pt-28 pb-16 lg:pt-36 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 kente-pattern" />
+        <Image src="/images/extra-event-2.jpg" fill className="object-cover opacity-30" alt="ETHSUN International" priority />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-ethsun-navy-dark/40" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>

@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import SectionHeader from '@/components/sections/SectionHeader';
 import CTABlock from '@/components/sections/CTABlock';
 import { Video, CheckCircle, Bot, Award, Smartphone, BookOpen, ArrowRight, ExternalLink } from 'lucide-react';
@@ -34,6 +35,7 @@ export default function ELearningPage() {
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-ethsun-navy-dark via-ethsun-navy to-emerald-900 pt-28 pb-16 lg:pt-36 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 kente-pattern" />
+        <Image src="/images/formation-salle-2.jpg" fill className="object-cover opacity-30" alt="E-Learning ETHSUN" priority />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <SectionHeader
             eyebrow={t('eyebrow')}

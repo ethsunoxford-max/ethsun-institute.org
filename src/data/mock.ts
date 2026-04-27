@@ -106,6 +106,7 @@ export const featuredProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-emerald-800 to-slate-900',
+    image: '/images/formateur-1.jpeg',
   },
 ];
 
@@ -2000,6 +2001,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 4 : Optimisation des processus en raffinage et distribution", description: "Procédés de raffinage, distribution, amélioration de la rentabilité et de l'efficience." }
     ],
     targetAudience: "Ingénieurs et techniciens des industries pétrolières et gazières, responsables opérationnels, professionnels des secteurs de l'énergie, consultants et entrepreneurs du secteur des hydrocarbures.",
+    image: '/images/formation-terrain-1.jpg',
   },
   {
     id: 'ext-digitalisation',
@@ -2026,6 +2028,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Drones et capteurs pour la surveillance", description: "Utilisation des drones de surveillance, capteurs IoT, collecte de données en temps réel, cartographie aérienne." }
     ],
     targetAudience: "Ingénieurs et techniciens spécialisés dans les technologies numériques, managers cherchant à intégrer des solutions technologiques, consultants en innovation industrielle, spécialistes SIG et géo-informatique.",
+    image: '/images/formation-terrain-1.jpg',
   },
   {
     id: 'ext-reglementation-fiscalite',
@@ -2052,6 +2055,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Conformité aux normes internationales", description: "EITI, ISO 14001, reporting de transparence, audit de conformité." }
     ],
     targetAudience: "Cadres et gestionnaires d'entreprises extractives, responsables juridiques et fiscaux, représentants des administrations publiques, consultants en conformité réglementaire.",
+    image: '/images/formation-terrain-1.jpg',
   },
   {
     id: 'ext-maintenance',
@@ -2082,6 +2086,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 6 : Projet de certification et examen final", description: "Mise en pratique intégrée, rapport de projet, évaluation finale." }
     ],
     targetAudience: "Techniciens et ingénieurs de maintenance, responsables opérationnels supervisant les équipements industriels, consultants en gestion des actifs, professionnels de la sécurité industrielle.",
+    image: '/images/formation-terrain-1.jpg',
   },
   {
     id: 'ext-leadership',
@@ -2108,6 +2113,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Leadership éthique et stratégique", description: "Intégrité, vision stratégique, alignement RSE, leadership en contexte industriel complexe." }
     ],
     targetAudience: "Managers et superviseurs des sites d'exploitation, chefs de projet, responsables RH dans les industries extractives, consultants en leadership industriel.",
+    image: '/images/formation-terrain-1.jpg',
   },
   {
     id: 'ext-investissement',
@@ -2134,6 +2140,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Gestion des relations entreprises-communautés", description: "Engagement communautaire, CLPE, mécanismes de partage des bénéfices, gestion des conflits." }
     ],
     targetAudience: "Cadres et managers des entreprises minières et pétrolières, consultants en investissement stratégique, représentants institutionnels gouvernementaux, acteurs des ONG.",
+    image: '/images/formation-terrain-1.jpg',
   },
   {
     id: 'ext-transition-energetique',
@@ -2160,6 +2167,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Intégration des énergies renouvelables dans les mines", description: "Solaire, éolien, stockage d'énergie, hybridation des systèmes énergétiques miniers." }
     ],
     targetAudience: "Ingénieurs et techniciens des industries extractives, cadres développement durable, consultants en énergies renouvelables, responsables des politiques énergétiques gouvernementales.",
+    image: '/images/formation-terrain-1.jpg',
   },
 ];
 
