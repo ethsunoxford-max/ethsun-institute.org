@@ -593,7 +593,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax",
       "Atelier présentiel avec professionnels du tourisme"
     ]
-  },,
+  },
   { id: 'ie1', title: 'Exploration et Exploitation Minière', slug: 'exploration-et-exploitation-miniere', description: "Le Centre de Perfectionnement aux Métiers des Industries Extractives vise à former et renforcer les compétences des professionnels opérant dans le secteur des industries extractives, en mettant l'accent sur la durabilité, la sécurité, l'efficacité, et l'innovation technologique. Ce certificat prépare des professionnels capables de participer activement à toutes les étapes de l'exploitation minière, en adoptant des pratiques modernes, innovantes, et durables, tout en respectant les normes internationales de sécurité et d'environnement.", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-700 to-slate-900', image: '/images/mine-2.jpg',
     objectives: [
       "Former aux techniques modernes de prospection géologique permettant une identification précise et rapide des gisements minéraux",
