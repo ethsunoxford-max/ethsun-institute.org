@@ -340,7 +340,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p10', title: 'Supply Chain et Achats Publics', slug: 'supply-chain-achats', description: 'Structurez un processus achats performant et responsable, optimisez la chaîne logistique et maîtrisez la gestion des approvisionnements publics et privés. Ce programme forme les responsables achats et supply chain à réduire les coûts tout en garantissant qualité, conformité et durabilité.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-800 to-slate-900', image: '/images/event-training-1.jpg',
+  { id: 'p10', title: 'Supply Chain et Achats Publics', slug: 'supply-chain-achats', description: 'Structurez un processus achats performant et responsable, optimisez la chaîne logistique et maîtrisez la gestion des approvisionnements publics et privés. Ce programme forme les responsables achats et supply chain à réduire les coûts tout en garantissant qualité, conformité et durabilité.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-800 to-slate-900', image: '/images/mine-1.jpg',
     objectives: [
       "Structurer un processus achats performant et responsable",
       "Optimiser les flux logistiques et la gestion des stocks",
@@ -594,7 +594,7 @@ export const allProgrammes: Programme[] = [
       "Atelier présentiel avec professionnels du tourisme"
     ]
   },,
-  { id: 'ie1', title: 'Exploration et Exploitation Minière', slug: 'exploration-et-exploitation-miniere', description: "Le Centre de Perfectionnement aux Métiers des Industries Extractives vise à former et renforcer les compétences des professionnels opérant dans le secteur des industries extractives, en mettant l'accent sur la durabilité, la sécurité, l'efficacité, et l'innovation technologique. Ce certificat prépare des professionnels capables de participer activement à toutes les étapes de l'exploitation minière, en adoptant des pratiques modernes, innovantes, et durables, tout en respectant les normes internationales de sécurité et d'environnement.", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-700 to-slate-900', image: '/images/event-training-1.jpg',
+  { id: 'ie1', title: 'Exploration et Exploitation Minière', slug: 'exploration-et-exploitation-miniere', description: "Le Centre de Perfectionnement aux Métiers des Industries Extractives vise à former et renforcer les compétences des professionnels opérant dans le secteur des industries extractives, en mettant l'accent sur la durabilité, la sécurité, l'efficacité, et l'innovation technologique. Ce certificat prépare des professionnels capables de participer activement à toutes les étapes de l'exploitation minière, en adoptant des pratiques modernes, innovantes, et durables, tout en respectant les normes internationales de sécurité et d'environnement.", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-700 to-slate-900', image: '/images/mine-2.jpg',
     objectives: [
       "Former aux techniques modernes de prospection géologique permettant une identification précise et rapide des gisements minéraux",
       "Développer la capacité à analyser et évaluer les ressources minérales en termes de qualité, quantité, et viabilité économique",
@@ -619,7 +619,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie2', title: 'Sécurité et Santé au Travail dans les Industries Extractives', slug: 'securite-et-sante-au-travail-dans-les-industries-extractives', description: "Former des professionnels compétents capables d'assurer la sécurité et la santé des travailleurs dans les industries extractives, en maîtrisant les normes internationales, les techniques de prévention des risques, et les bonnes pratiques en gestion des substances dangereuses, tout en garantissant un environnement de travail sûr et conforme aux standards internationaux.", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/expertise-group-full.jpeg',
+  { id: 'ie2', title: 'Sécurité et Santé au Travail dans les Industries Extractives', slug: 'securite-et-sante-au-travail-dans-les-industries-extractives', description: "Former des professionnels compétents capables d'assurer la sécurité et la santé des travailleurs dans les industries extractives, en maîtrisant les normes internationales, les techniques de prévention des risques, et les bonnes pratiques en gestion des substances dangereuses, tout en garantissant un environnement de travail sûr et conforme aux standards internationaux.", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/mine-3.jpg',
     objectives: [
       "Comprendre et appliquer les normes internationales de sécurité (ISO 45001, OHSAS) pour concevoir et mettre en œuvre des politiques de sécurité adaptées",
       "Apprendre à anticiper et minimiser les risques liés aux opérations minières et pétrolières grâce à des outils d'analyse",
@@ -642,7 +642,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie3', title: 'Environnement et Développement Durable — Industries Extractives', slug: 'environnement-et-developpement-durable-industries-extractive', description: "Former des professionnels compétents capables de concevoir et de mettre en œuvre des stratégies durables pour minimiser l'impact environnemental des activités extractives, tout en favorisant la réhabilitation des sites et en intégrant les principes de responsabilité sociale des entreprises (RSE).", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-700 to-slate-900', image: '/images/event-team-1.jpg',
+  { id: 'ie3', title: 'Environnement et Développement Durable — Industries Extractives', slug: 'environnement-et-developpement-durable-industries-extractive', description: "Former des professionnels compétents capables de concevoir et de mettre en œuvre des stratégies durables pour minimiser l'impact environnemental des activités extractives, tout en favorisant la réhabilitation des sites et en intégrant les principes de responsabilité sociale des entreprises (RSE).", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-700 to-slate-900', image: '/images/mine-4.jpg',
     objectives: [
       "Apprendre à restaurer les terrains exploités afin de les réintégrer dans leur écosystème naturel ou pour d'autres usages",
       "Former aux techniques modernes de gestion des résidus miniers et au traitement des eaux pour éviter toute contamination",
@@ -664,7 +664,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie4', title: 'Gestion et Ingénierie des Hydrocarbures', slug: 'gestion-et-ingenierie-des-hydrocarbures', description: 'Maîtrisez les fondamentaux de l\'ingénierie pétrolière et gazière : géologie pétrolière, techniques de forage, gestion des réservoirs, sécurité des installations et contrats pétroliers. La formation de référence pour les professionnels du secteur.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-amber-800 to-slate-900', image: '/images/minister-speech.jpg',
+  { id: 'ie4', title: 'Gestion et Ingénierie des Hydrocarbures', slug: 'gestion-et-ingenierie-des-hydrocarbures', description: 'Maîtrisez les fondamentaux de l\'ingénierie pétrolière et gazière : géologie pétrolière, techniques de forage, gestion des réservoirs, sécurité des installations et contrats pétroliers. La formation de référence pour les professionnels du secteur.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-amber-800 to-slate-900', image: '/images/mine-5.jpg',
     objectives: [
       "Comprendre la géologie pétrolière et les mécanismes de formation des réservoirs",
       "Maîtriser les techniques de forage et de complétion des puits",
@@ -686,7 +686,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie5', title: 'Gestion des Projets dans les Industries Extractives', slug: 'gestion-des-projets-dans-les-industries-extractives', description: 'Planifiez, exécutez et contrôlez des projets miniers et pétroliers complexes selon les meilleures pratiques du management de projet. Ce certificat prépare les chefs de projet à délivrer des résultats dans des environnements industriels exigeants.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1300, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-700 to-slate-900', image: '/images/event-graduation-1.jpg',
+  { id: 'ie5', title: 'Gestion des Projets dans les Industries Extractives', slug: 'gestion-des-projets-dans-les-industries-extractives', description: 'Planifiez, exécutez et contrôlez des projets miniers et pétroliers complexes selon les meilleures pratiques du management de projet. Ce certificat prépare les chefs de projet à délivrer des résultats dans des environnements industriels exigeants.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1300, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-700 to-slate-900', image: '/images/mine-6.jpg',
     objectives: [
       "Planifier un projet industriel extractif de A à Z",
       "Maîtriser l'estimation des coûts et la gestion budgétaire CAPEX/OPEX",
@@ -708,7 +708,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie6', title: 'Réglementation et Contractualisation dans les Industries Extractives', slug: 'reglementation-et-contractualisation-dans-les-industries-ext', description: 'Maîtrisez le cadre juridique et contractuel régissant les industries minières et pétrolières en Afrique : codes miniers, contrats de partage de production, fiscalité extractive et conformité aux normes EITI.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-slate-600 to-indigo-900', image: '/images/jc-ministers.jpg',
+  { id: 'ie6', title: 'Réglementation et Contractualisation dans les Industries Extractives', slug: 'reglementation-et-contractualisation-dans-les-industries-ext', description: 'Maîtrisez le cadre juridique et contractuel régissant les industries minières et pétrolières en Afrique : codes miniers, contrats de partage de production, fiscalité extractive et conformité aux normes EITI.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-slate-600 to-indigo-900', image: '/images/mine-7.jpg',
     objectives: [
       "Analyser les codes miniers et pétroliers des pays africains",
       "Comprendre et négocier les contrats pétroliers (PSC, JOA)",
@@ -730,7 +730,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie7', title: 'Digitalisation et Innovation dans les Industries Extractives', slug: 'digitalisation-et-innovation-dans-les-industries-extractives', description: 'Intégrez les technologies numériques dans vos opérations extractives : IA, big data, drones, SIG et IoT industriel. Ce certificat prépare les professionnels à conduire la transformation digitale du secteur minier et pétrolier.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-teal-700 to-slate-900', image: '/images/jc-medal-man.jpeg',
+  { id: 'ie7', title: 'Digitalisation et Innovation dans les Industries Extractives', slug: 'digitalisation-et-innovation-dans-les-industries-extractives', description: 'Intégrez les technologies numériques dans vos opérations extractives : IA, big data, drones, SIG et IoT industriel. Ce certificat prépare les professionnels à conduire la transformation digitale du secteur minier et pétrolier.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-teal-700 to-slate-900', image: '/images/mine-8.jpg',
     objectives: [
       "Appliquer l'IA dans l'optimisation des opérations extractives",
       "Utiliser le big data et la géo-informatique pour la prospection",
@@ -752,7 +752,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie8', title: 'Réglementation et Fiscalité des Industries Extractives', slug: 'reglementation-et-fiscalite-des-industries-extractives', description: 'Comprenez et appliquez les cadres réglementaires et fiscaux spécifiques aux ressources naturelles en Afrique. Indispensable pour les professionnels en charge de la conformité, la négociation fiscale et la gouvernance des revenus extractifs.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-700 to-slate-900', image: '/images/minister-cert-remise.jpg',
+  { id: 'ie8', title: 'Réglementation et Fiscalité des Industries Extractives', slug: 'reglementation-et-fiscalite-des-industries-extractives', description: 'Comprenez et appliquez les cadres réglementaires et fiscaux spécifiques aux ressources naturelles en Afrique. Indispensable pour les professionnels en charge de la conformité, la négociation fiscale et la gouvernance des revenus extractifs.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-700 to-slate-900', image: '/images/mine-9.jpg',
     objectives: [
       "Naviguer dans les réglementations nationales des pays africains producteurs",
       "Analyser les régimes fiscaux et douaniers des ressources naturelles",
@@ -774,7 +774,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie9', title: 'Leadership et Management dans les Industries Extractives', slug: 'leadership-et-management-dans-les-industries-extractives', description: 'Développez votre capacité à diriger des équipes multiculturelles sur des sites miniers et pétroliers. Un programme Executive pour les managers de l\'industrie extractive souhaitant renforcer leur leadership stratégique et éthique.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '4 semaines', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/event-speaker-1.jpg',
+  { id: 'ie9', title: 'Leadership et Management dans les Industries Extractives', slug: 'leadership-et-management-dans-les-industries-extractives', description: 'Développez votre capacité à diriger des équipes multiculturelles sur des sites miniers et pétroliers. Un programme Executive pour les managers de l\'industrie extractive souhaitant renforcer leur leadership stratégique et éthique.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '4 semaines', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/mine-10.jpg',
     objectives: [
       "Développer un leadership adapté aux environnements industriels complexes et multiculturels",
       "Gérer des équipes pluridisciplinaires sur des sites d'extraction",
@@ -796,7 +796,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie10', title: 'Maintenance des Équipements Miniers et Pétroliers', slug: 'maintenance-des-equipements-miniers-et-petroliers', description: 'Maîtrisez la maintenance préventive, corrective et prédictive des équipements lourds utilisés dans les industries minières et pétrolières pour garantir performance, sécurité et durabilité des actifs industriels.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-neutral-700 to-slate-900', image: '/images/campus-jury.jpeg',
+  { id: 'ie10', title: 'Maintenance des Équipements Miniers et Pétroliers', slug: 'maintenance-des-equipements-miniers-et-petroliers', description: 'Maîtrisez la maintenance préventive, corrective et prédictive des équipements lourds utilisés dans les industries minières et pétrolières pour garantir performance, sécurité et durabilité des actifs industriels.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-neutral-700 to-slate-900', image: '/images/mine-11.jpg',
     objectives: [
       "Maîtriser la maintenance industrielle préventive et corrective",
       "Diagnostiquer et résoudre les pannes sur équipements miniers et pétroliers",
@@ -1755,7 +1755,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: 'Nouveau',
     imageGradient: 'from-violet-900 to-slate-900',
-    image: '/images/expertise-group-full.jpeg',
+    image: '/images/mine-12.jpg',
     objectives: [
       "Comprendre les fondamentaux de la robotique et de l'automatisation industrielle",
       "Maîtriser les systèmes robotiques pour l'exploration et l'exploitation minière",
@@ -1793,7 +1793,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: null,
     imageGradient: 'from-orange-900 to-slate-900',
-    image: '/images/event-graduation-1.jpg',
+    image: '/images/mine-13.jpg',
     objectives: [
       "Maîtriser les fondamentaux des techniques de forage avancées",
       "Utiliser les équipements et technologies de forage de pointe",
@@ -1830,7 +1830,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: null,
     imageGradient: 'from-emerald-900 to-slate-900',
-    image: '/images/jc-ministers.jpg',
+    image: '/images/mine-14.jpg',
     objectives: [
       "Maîtriser les techniques de négociation des contrats miniers et pétroliers",
       "Évaluer les opportunités d'investissement dans le secteur extractif",
@@ -1864,7 +1864,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: 'Nouveau',
     imageGradient: 'from-lime-900 to-slate-900',
-    image: '/images/event-team-1.jpg',
+    image: '/images/mine-15.jpg',
     objectives: [
       "Analyser le rôle des industries extractives dans la transition énergétique mondiale",
       "Exploiter les minerais stratégiques pour les technologies vertes (cobalt, lithium, graphite)",
@@ -2001,7 +2001,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 4 : Optimisation des processus en raffinage et distribution", description: "Procédés de raffinage, distribution, amélioration de la rentabilité et de l'efficience." }
     ],
     targetAudience: "Ingénieurs et techniciens des industries pétrolières et gazières, responsables opérationnels, professionnels des secteurs de l'énergie, consultants et entrepreneurs du secteur des hydrocarbures.",
-    image: '/images/formation-terrain-1.jpg',
+    image: '/images/mine-16.jpg',
   },
   {
     id: 'ext-digitalisation',
@@ -2028,7 +2028,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Drones et capteurs pour la surveillance", description: "Utilisation des drones de surveillance, capteurs IoT, collecte de données en temps réel, cartographie aérienne." }
     ],
     targetAudience: "Ingénieurs et techniciens spécialisés dans les technologies numériques, managers cherchant à intégrer des solutions technologiques, consultants en innovation industrielle, spécialistes SIG et géo-informatique.",
-    image: '/images/formation-terrain-1.jpg',
+    image: '/images/mine-17.jpg',
   },
   {
     id: 'ext-reglementation-fiscalite',
@@ -2055,7 +2055,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Conformité aux normes internationales", description: "EITI, ISO 14001, reporting de transparence, audit de conformité." }
     ],
     targetAudience: "Cadres et gestionnaires d'entreprises extractives, responsables juridiques et fiscaux, représentants des administrations publiques, consultants en conformité réglementaire.",
-    image: '/images/formation-terrain-1.jpg',
+    image: '/images/mine-18.jpg',
   },
   {
     id: 'ext-maintenance',
@@ -2086,7 +2086,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 6 : Projet de certification et examen final", description: "Mise en pratique intégrée, rapport de projet, évaluation finale." }
     ],
     targetAudience: "Techniciens et ingénieurs de maintenance, responsables opérationnels supervisant les équipements industriels, consultants en gestion des actifs, professionnels de la sécurité industrielle.",
-    image: '/images/formation-terrain-1.jpg',
+    image: '/images/mine-19.jpg',
   },
   {
     id: 'ext-leadership',
@@ -2113,7 +2113,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Leadership éthique et stratégique", description: "Intégrité, vision stratégique, alignement RSE, leadership en contexte industriel complexe." }
     ],
     targetAudience: "Managers et superviseurs des sites d'exploitation, chefs de projet, responsables RH dans les industries extractives, consultants en leadership industriel.",
-    image: '/images/formation-terrain-1.jpg',
+    image: '/images/mine-20.jpg',
   },
   {
     id: 'ext-investissement',
@@ -2140,7 +2140,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Gestion des relations entreprises-communautés", description: "Engagement communautaire, CLPE, mécanismes de partage des bénéfices, gestion des conflits." }
     ],
     targetAudience: "Cadres et managers des entreprises minières et pétrolières, consultants en investissement stratégique, représentants institutionnels gouvernementaux, acteurs des ONG.",
-    image: '/images/formation-terrain-1.jpg',
+    image: '/images/mine-21.jpg',
   },
   {
     id: 'ext-transition-energetique',
@@ -2167,7 +2167,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Intégration des énergies renouvelables dans les mines", description: "Solaire, éolien, stockage d'énergie, hybridation des systèmes énergétiques miniers." }
     ],
     targetAudience: "Ingénieurs et techniciens des industries extractives, cadres développement durable, consultants en énergies renouvelables, responsables des politiques énergétiques gouvernementales.",
-    image: '/images/formation-terrain-1.jpg',
+    image: '/images/mine-22.jpg',
   },
 ];
 
