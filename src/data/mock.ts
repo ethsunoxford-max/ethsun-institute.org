@@ -2118,7 +2118,7 @@ export const allProgrammes: Programme[] = [
   {
     id: 'ext-investissement',
     title: "Stratégies d'Investissement et de Partenariat dans les Industries Extractives",
-    slug: 'strategies-investissement-partenariat-extractives',
+    slug: 'certificat-strategies-investissement-industries-extractives',
     description: "Former des professionnels capables de développer et de mettre en œuvre des stratégies efficaces d'investissement et de partenariat dans les industries extractives, en maîtrisant les techniques de négociation, l'évaluation des opportunités et la gestion des relations avec les parties prenantes.",
     certificateLevel: 'Certificat Professionnel',
     domain: 'Industries extractives',
@@ -2145,7 +2145,7 @@ export const allProgrammes: Programme[] = [
   {
     id: 'ext-transition-energetique',
     title: "Énergies Renouvelables et Transition Énergétique dans les Industries Extractives",
-    slug: 'energies-renouvelables-transition-extractives',
+    slug: 'certificat-transition-energetique-industries-extractives',
     description: "Former des professionnels capables de comprendre le rôle des industries extractives dans la transition énergétique mondiale et de mettre en œuvre des pratiques durables, incluant l'exploitation des minerais stratégiques et l'intégration des énergies renouvelables dans les opérations minières.",
     certificateLevel: 'Certificat Professionnel',
     domain: 'Industries extractives',
