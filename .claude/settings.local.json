@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls vercel.json netlify.toml .vercel/)",
+      "Bash(cat next.config.*)",
+      "Bash(ls -la .vercel/)",
+      "Bash(ls vercel.json)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}

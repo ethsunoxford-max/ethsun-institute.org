@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import {
-  BarChart3, TrendingUp, FileSearch, Globe, Lightbulb,
+  BarChart3, TrendingUp, FileSearch, Globe,
   ArrowRight, Mail, Phone, CheckCircle
 } from 'lucide-react';
 
@@ -22,19 +22,13 @@ const services = [
     domains: ['Veille stratégique', 'Analyse compétitive', 'Cartographie des risques', 'Due diligence'],
   },
   {
-    icon: FileSearch,
-    title: 'Appui à la gouvernance & réponse aux appels d\'offres',
-    desc: 'Accompagnement à la rédaction de dossiers de réponse aux appels d\'offres (DAO), élaboration de stratégies de gouvernance institutionnelle et renforcement des capacités organisationnelles.',
-    domains: ['Réponse aux DAO', 'Stratégie institutionnelle', 'Gouvernance publique', 'Conformité réglementaire'],
-  },
-  {
-    icon: Lightbulb,
-    title: 'IA & Automatisation de la production intellectuelle',
-    desc: 'Utilisation des outils d\'intelligence artificielle pour optimiser la production de rapports, analyses et documents stratégiques à haute valeur ajoutée.',
-    domains: ['Prompt engineering', 'LLM & GPT', 'Automatisation', 'Rapports IA-assistés'],
-  },
-  {
     icon: Globe,
+    title: 'Collectivités Territoriales',
+    desc: 'Appui aux collectivités décentralisées dans leur gouvernance locale, leur développement territorial et le renforcement de leurs capacités institutionnelles.',
+    domains: ['Gouvernance locale', 'Développement territorial', 'Coopération décentralisée', 'Renforcement institutionnel'],
+  },
+  {
+    icon: FileSearch,
     title: 'Conseil stratégique & développement institutionnel',
     desc: 'Accompagnement des institutions publiques, ONG et entreprises dans leur positionnement stratégique, leur transformation organisationnelle et leur développement international.',
     domains: ['Stratégie institutionnelle', 'Développement international', 'Transformation organisationnelle', 'Partenariats PPP'],
@@ -181,7 +175,7 @@ export default function AnalyticsPage() {
                   Identification des besoins en formation des Très Petites Entreprises (TPE) par branche professionnelle
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed mb-5">
-                  Mandaté par le <strong>Fonds de Développement de la Formation Professionnelle (FDFP)</strong>, ETHSUN Analytics a mené une étude nationale visant à identifier les besoins spécifiques en formation des TPE ivoiriennes, réparties en 13 branches professionnelles. L&apos;étude couvre l&apos;analyse de l&apos;adéquation offre/demande de formation, la cartographie des dispositifs existants, et la proposition d&apos;un plan d&apos;action opérationnel et budgétisé.
+                  Mandaté par le <strong>Fonds de Développement de la Formation Professionnelle (FDFP)</strong>, ETHSUN Institute à travers son département ETHSUN Analytics a mené une étude nationale visant à identifier les besoins spécifiques en formation des TPE ivoiriennes, réparties en 13 branches professionnelles. L&apos;étude couvre l&apos;analyse de l&apos;adéquation offre/demande de formation, la cartographie des dispositifs existants, et la proposition d&apos;un plan d&apos;action opérationnel et budgétisé.
                 </p>
                 <div className="grid sm:grid-cols-2 gap-3 mb-5">
                   {[

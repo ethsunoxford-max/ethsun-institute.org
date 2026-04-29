@@ -24,7 +24,6 @@ const heroImages = [
   '/images/event-certificate-2.jpg',
   '/images/graduation-real-1.jpg',
   '/images/cert-group-standing.jpeg',
-  '/images/event-certificate-3.jpg',
   '/images/graduation-real-2.jpg',
   '/images/graduates-kente.jpeg',
   '/images/event-certificate-4.jpg',
@@ -60,10 +59,16 @@ const heroImages = [
 
 const FULL_PHOTO_INTERVAL = 4;
 
+const heroTitles = [
+  'Propulsez votre carrière au sommet',
+  'CERTIFIEZ VOS COMPÉTENCES',
+];
+
 export default function HeroSection() {
   const t = useTranslations('hero');
   const [currentImage, setCurrentImage] = useState(0);
   const [showText, setShowText] = useState(true);
+  const [titleIndex, setTitleIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -82,6 +87,13 @@ export default function HeroSection() {
       }, 800);
     }, 5000);
     return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    const titleTimer = setInterval(() => {
+      setTitleIndex((prev) => (prev + 1) % heroTitles.length);
+    }, 5000);
+    return () => clearInterval(titleTimer);
   }, []);
 
   return (
@@ -166,12 +178,14 @@ export default function HeroSection() {
                 {t('eyebrow')}
               </motion.p>
               <motion.h1
+                key={titleIndex}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.7, delay: 0.25 }}
                 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-white leading-tight mb-6"
               >
-                {t('title')}
+                {heroTitles[titleIndex]}
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
