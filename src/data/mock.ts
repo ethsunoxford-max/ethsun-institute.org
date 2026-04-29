@@ -1,4 +1,4 @@
-export interface Programme {
+﻿export interface Programme {
   id: string;
   title: string;
   slug: string;
@@ -1211,7 +1211,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Nouveau',
     imageGradient: 'from-teal-800 to-slate-900',
-    image: '/images/minister-speech.jpg',
+    image: '/images/gouvernance-speaker.jpeg',
     objectives: [
       "Comprendre les enjeux et principes fondamentaux de la gouvernance territoriale en contexte décentralisé",
       "Identifier et maîtriser les mécanismes de participation citoyenne et de démocratie locale",
@@ -1279,7 +1279,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-indigo-800 to-slate-900',
-    image: '/images/event-training-1.jpg',
+    image: '/images/formation-salle-3.jpg',
     objectives: [
       "Élaborer un dispositif de suivi-évaluation des projets et politiques locales",
       "Définir des indicateurs SMART et construire des tableaux de bord de performance",
@@ -1314,7 +1314,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-cyan-800 to-slate-900',
-    image: '/images/event-speaker-1.jpg',
+    image: '/images/cert-remise-woman.jpeg',
     objectives: [
       "Diagnostiquer la performance et l'organisation des services publics locaux",
       "Mettre en œuvre des standards de qualité, d'accessibilité et de transparence",
@@ -1347,7 +1347,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: 'Nouveau',
     imageGradient: 'from-violet-800 to-slate-900',
-    image: '/images/jc-networking.jpeg',
+    image: '/images/event-salle-3.jpeg',
     objectives: [
       "Comprendre les principes de la gouvernance numérique et des villes intelligentes",
       "Identifier les solutions et technologies numériques applicables aux services publics locaux",
@@ -1484,7 +1484,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-yellow-800 to-slate-900',
-    image: '/images/trophee-remise.jpg',
+    image: '/images/graduates-crowd-blue.jpg',
     objectives: [
       "Comprendre les principes et mécanismes de la gestion budgétaire locale",
       "Maîtriser les outils de planification financière et de gestion comptable",
@@ -1523,7 +1523,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Nouveau',
     imageGradient: 'from-purple-800 to-slate-900',
-    image: '/images/cert-remise-officiels.jpg',
+    image: '/images/graduates-minister-selfie.jpg',
     objectives: [
       "Comprendre les fondements de l'éthique appliquée aux pratiques professionnelles",
       "Identifier les dilemmes éthiques et adopter une posture responsable",
@@ -1555,7 +1555,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Nouveau',
     imageGradient: 'from-fuchsia-800 to-slate-900',
-    image: '/images/event-certificate-4.jpg',
+    image: '/images/graduation-bnetd-1.jpg',
     objectives: [
       "Définir et reconnaître les différentes formes de conflits d'intérêts",
       "Mettre en place des mécanismes de prévention dans les organisations",
@@ -1587,7 +1587,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Populaire',
     imageGradient: 'from-blue-700 to-violet-900',
-    image: '/images/jc-networking.jpeg',
+    image: '/images/graduation-bnetd-2.jpg',
     objectives: [
       "Comprendre les enjeux éthiques liés à l'usage de l'IA dans les organisations",
       "Identifier les biais algorithmiques et les risques d'atteinte aux droits fondamentaux",
@@ -1620,7 +1620,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Nouveau',
     imageGradient: 'from-orange-800 to-slate-900',
-    image: '/images/event-team-1.jpg',
+    image: '/images/extra-event-1.jpg',
     objectives: [
       "Comprendre les principes fondamentaux de la médiation professionnelle",
       "Identifier les situations propices à la médiation en entreprise",
@@ -1653,7 +1653,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-red-800 to-slate-900',
-    image: '/images/event-training-1.jpg',
+    image: '/images/extra-event-2.jpg',
     objectives: [
       "Instaurer une politique de gestion préventive des conflits",
       "Mettre en œuvre une démarche de médiation interne structurée",
