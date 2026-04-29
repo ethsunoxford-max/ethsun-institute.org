@@ -1279,7 +1279,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-indigo-800 to-slate-900',
-    image: '/images/formation-salle-3.jpg',
+    image: '/images/bnetd-10.jpg',
     objectives: [
       "Élaborer un dispositif de suivi-évaluation des projets et politiques locales",
       "Définir des indicateurs SMART et construire des tableaux de bord de performance",
@@ -1314,7 +1314,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-cyan-800 to-slate-900',
-    image: '/images/cert-remise-woman.jpeg',
+    image: '/images/bnetd-11.jpg',
     objectives: [
       "Diagnostiquer la performance et l'organisation des services publics locaux",
       "Mettre en œuvre des standards de qualité, d'accessibilité et de transparence",
@@ -1347,7 +1347,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: 'Nouveau',
     imageGradient: 'from-violet-800 to-slate-900',
-    image: '/images/event-salle-3.jpeg',
+    image: '/images/bnetd-12.jpg',
     objectives: [
       "Comprendre les principes de la gouvernance numérique et des villes intelligentes",
       "Identifier les solutions et technologies numériques applicables aux services publics locaux",
@@ -1484,7 +1484,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-yellow-800 to-slate-900',
-    image: '/images/graduates-crowd-blue.jpg',
+    image: '/images/bnetd-13.jpg',
     objectives: [
       "Comprendre les principes et mécanismes de la gestion budgétaire locale",
       "Maîtriser les outils de planification financière et de gestion comptable",
@@ -1523,7 +1523,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Nouveau',
     imageGradient: 'from-purple-800 to-slate-900',
-    image: '/images/graduates-minister-selfie.jpg',
+    image: '/images/bnetd-14.jpg',
     objectives: [
       "Comprendre les fondements de l'éthique appliquée aux pratiques professionnelles",
       "Identifier les dilemmes éthiques et adopter une posture responsable",
@@ -1555,7 +1555,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Nouveau',
     imageGradient: 'from-fuchsia-800 to-slate-900',
-    image: '/images/graduation-bnetd-1.jpg',
+    image: '/images/bnetd-15.jpg',
     objectives: [
       "Définir et reconnaître les différentes formes de conflits d'intérêts",
       "Mettre en place des mécanismes de prévention dans les organisations",
@@ -1587,7 +1587,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Populaire',
     imageGradient: 'from-blue-700 to-violet-900',
-    image: '/images/graduation-bnetd-2.jpg',
+    image: '/images/bnetd-16.jpg',
     objectives: [
       "Comprendre les enjeux éthiques liés à l'usage de l'IA dans les organisations",
       "Identifier les biais algorithmiques et les risques d'atteinte aux droits fondamentaux",
@@ -1620,7 +1620,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Nouveau',
     imageGradient: 'from-orange-800 to-slate-900',
-    image: '/images/extra-event-1.jpg',
+    image: '/images/bnetd-17.jpg',
     objectives: [
       "Comprendre les principes fondamentaux de la médiation professionnelle",
       "Identifier les situations propices à la médiation en entreprise",
@@ -1653,7 +1653,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-red-800 to-slate-900',
-    image: '/images/extra-event-2.jpg',
+    image: '/images/bnetd-18.jpg',
     objectives: [
       "Instaurer une politique de gestion préventive des conflits",
       "Mettre en œuvre une démarche de médiation interne structurée",
@@ -1755,7 +1755,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: 'Nouveau',
     imageGradient: 'from-violet-900 to-slate-900',
-    image: '/images/mine-12.jpg',
+    image: '/images/mine-rh-12.jpg',
     objectives: [
       "Comprendre les fondamentaux de la robotique et de l'automatisation industrielle",
       "Maîtriser les systèmes robotiques pour l'exploration et l'exploitation minière",
@@ -1793,7 +1793,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: null,
     imageGradient: 'from-orange-900 to-slate-900',
-    image: '/images/mine-13.jpg',
+    image: '/images/mine-rh-13.jpg',
     objectives: [
       "Maîtriser les fondamentaux des techniques de forage avancées",
       "Utiliser les équipements et technologies de forage de pointe",
@@ -1830,7 +1830,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: null,
     imageGradient: 'from-emerald-900 to-slate-900',
-    image: '/images/mine-14.jpg',
+    image: '/images/mine-rh-14.jpg',
     objectives: [
       "Maîtriser les techniques de négociation des contrats miniers et pétroliers",
       "Évaluer les opportunités d'investissement dans le secteur extractif",
@@ -1864,7 +1864,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: 'Nouveau',
     imageGradient: 'from-lime-900 to-slate-900',
-    image: '/images/mine-15.jpg',
+    image: '/images/mine-rh-15.jpg',
     objectives: [
       "Analyser le rôle des industries extractives dans la transition énergétique mondiale",
       "Exploiter les minerais stratégiques pour les technologies vertes (cobalt, lithium, graphite)",
@@ -2001,7 +2001,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 4 : Optimisation des processus en raffinage et distribution", description: "Procédés de raffinage, distribution, amélioration de la rentabilité et de l'efficience." }
     ],
     targetAudience: "Ingénieurs et techniciens des industries pétrolières et gazières, responsables opérationnels, professionnels des secteurs de l'énergie, consultants et entrepreneurs du secteur des hydrocarbures.",
-    image: '/images/mine-16.jpg',
+    image: '/images/mine-rh-16.jpg',
   },
   {
     id: 'ext-digitalisation',
@@ -2028,7 +2028,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Drones et capteurs pour la surveillance", description: "Utilisation des drones de surveillance, capteurs IoT, collecte de données en temps réel, cartographie aérienne." }
     ],
     targetAudience: "Ingénieurs et techniciens spécialisés dans les technologies numériques, managers cherchant à intégrer des solutions technologiques, consultants en innovation industrielle, spécialistes SIG et géo-informatique.",
-    image: '/images/mine-17.jpg',
+    image: '/images/mine-rh-17.jpg',
   },
   {
     id: 'ext-reglementation-fiscalite',
@@ -2055,7 +2055,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Conformité aux normes internationales", description: "EITI, ISO 14001, reporting de transparence, audit de conformité." }
     ],
     targetAudience: "Cadres et gestionnaires d'entreprises extractives, responsables juridiques et fiscaux, représentants des administrations publiques, consultants en conformité réglementaire.",
-    image: '/images/mine-18.jpg',
+    image: '/images/mine-rh-18.jpg',
   },
   {
     id: 'ext-maintenance',
@@ -2086,7 +2086,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 6 : Projet de certification et examen final", description: "Mise en pratique intégrée, rapport de projet, évaluation finale." }
     ],
     targetAudience: "Techniciens et ingénieurs de maintenance, responsables opérationnels supervisant les équipements industriels, consultants en gestion des actifs, professionnels de la sécurité industrielle.",
-    image: '/images/mine-19.jpg',
+    image: '/images/mine-rh-19.jpg',
   },
   {
     id: 'ext-leadership',
@@ -2113,7 +2113,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Leadership éthique et stratégique", description: "Intégrité, vision stratégique, alignement RSE, leadership en contexte industriel complexe." }
     ],
     targetAudience: "Managers et superviseurs des sites d'exploitation, chefs de projet, responsables RH dans les industries extractives, consultants en leadership industriel.",
-    image: '/images/mine-20.jpg',
+    image: '/images/mine-rh-20.jpg',
   },
   {
     id: 'ext-investissement',
@@ -2140,7 +2140,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Gestion des relations entreprises-communautés", description: "Engagement communautaire, CLPE, mécanismes de partage des bénéfices, gestion des conflits." }
     ],
     targetAudience: "Cadres et managers des entreprises minières et pétrolières, consultants en investissement stratégique, représentants institutionnels gouvernementaux, acteurs des ONG.",
-    image: '/images/mine-21.jpg',
+    image: '/images/mine-rh-21.jpg',
   },
   {
     id: 'ext-transition-energetique',
@@ -2167,7 +2167,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Intégration des énergies renouvelables dans les mines", description: "Solaire, éolien, stockage d'énergie, hybridation des systèmes énergétiques miniers." }
     ],
     targetAudience: "Ingénieurs et techniciens des industries extractives, cadres développement durable, consultants en énergies renouvelables, responsables des politiques énergétiques gouvernementales.",
-    image: '/images/mine-22.jpg',
+    image: '/images/mine-rh-22.jpg',
   },
 ];
 
