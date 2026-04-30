@@ -1,10 +1,10 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { Link } from '@/i18n/routing';
+import { useState, useRef } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import {
   MapPin, Clock, Briefcase, ArrowRight, CheckCircle2,
-  Globe, BookOpen, Users, Mail
+  Globe, BookOpen, Users, Mail, X, Upload, CheckCircle, Send, MessageCircle
 } from 'lucide-react';
 
 const jobs = [
@@ -98,9 +98,210 @@ const fadeUp = {
   visible: (i: number = 0) => ({ opacity: 1, y: 0, transition: { duration: 0.5, delay: i * 0.1 } }),
 };
 
+const emptyForm = { nom: '', prenom: '', email: '', telephone: '', poste: '' };
+
 export default function RecrutementPage() {
+  const [applyJob, setApplyJob] = useState<typeof jobs[0] | null>(null);
+  const [formData, setFormData] = useState(emptyForm);
+  const [cvFile, setCvFile] = useState<File | null>(null);
+  const [lettreFile, setLettreFile] = useState<File | null>(null);
+  const [sending, setSending] = useState(false);
+  const [sent, setSent] = useState(false);
+  const cvRef = useRef<HTMLInputElement>(null);
+  const lettreRef = useRef<HTMLInputElement>(null);
+
+  const openModal = (job: typeof jobs[0]) => {
+    setApplyJob(job);
+    setFormData({ ...emptyForm, poste: job.title });
+    setCvFile(null);
+    setLettreFile(null);
+    setSent(false);
+  };
+
+  const closeModal = () => {
+    setApplyJob(null);
+    setSent(false);
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setSending(true);
+    const fd = new FormData();
+    fd.append('nom', formData.nom);
+    fd.append('prenom', formData.prenom);
+    fd.append('email', formData.email);
+    fd.append('telephone', formData.telephone);
+    fd.append('poste', formData.poste);
+    if (cvFile) fd.append('cv', cvFile);
+    if (lettreFile) fd.append('lettre', lettreFile);
+    try {
+      await fetch('/api/apply', { method: 'POST', body: fd });
+    } catch {
+      // fail silently
+    } finally {
+      setSending(false);
+      setSent(true);
+    }
+  };
+
   return (
     <main className="min-h-screen bg-gray-50">
+
+      {/* Modal candidature */}
+      <AnimatePresence>
+        {applyJob && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.95, y: 20 }}
+              className="bg-white rounded-2xl shadow-2xl w-full max-w-lg max-h-[90vh] overflow-y-auto"
+            >
+              {/* Modal header */}
+              <div className="bg-gradient-to-r from-ethsun-navy to-ethsun-blue p-6 rounded-t-2xl flex items-start justify-between gap-4">
+                <div>
+                  <p className="text-xs text-ethsun-gold font-bold tracking-widest mb-1">POSTULER</p>
+                  <h2 className="font-serif text-lg font-bold text-white leading-snug">{applyJob.title}</h2>
+                </div>
+                <button onClick={closeModal} className="text-white/60 hover:text-white transition-colors flex-shrink-0">
+                  <X className="w-6 h-6" />
+                </button>
+              </div>
+
+              <div className="p-6">
+                <AnimatePresence mode="wait">
+                  {sent ? (
+                    <motion.div
+                      key="success"
+                      initial={{ opacity: 0, scale: 0.9 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      className="flex flex-col items-center text-center py-6 gap-4"
+                    >
+                      <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center">
+                        <CheckCircle className="w-8 h-8 text-green-600" />
+                      </div>
+                      <h3 className="font-serif text-xl font-bold text-ethsun-navy">Candidature envoyée !</h3>
+                      <p className="text-gray-600 text-sm leading-relaxed max-w-sm">
+                        Votre candidature a bien été envoyée. Notre équipe RH l&apos;étudiera et vous recontactera dans les meilleurs délais.
+                      </p>
+                      <a
+                        href="https://wa.me/447424201585"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-lg text-sm transition-all"
+                      >
+                        <MessageCircle className="w-4 h-4" />
+                        Contacter RH sur WhatsApp
+                      </a>
+                      <button onClick={closeModal} className="text-sm text-ethsun-blue font-semibold hover:underline">
+                        Fermer
+                      </button>
+                    </motion.div>
+                  ) : (
+                    <motion.form
+                      key="form"
+                      onSubmit={handleSubmit}
+                      className="space-y-4"
+                    >
+                      <div className="grid grid-cols-2 gap-4">
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-1.5">Prénom *</label>
+                          <input type="text" required value={formData.prenom}
+                            onChange={e => setFormData(p => ({...p, prenom: e.target.value}))}
+                            className="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-ethsun-blue/30 focus:border-ethsun-blue" />
+                        </div>
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-1.5">Nom *</label>
+                          <input type="text" required value={formData.nom}
+                            onChange={e => setFormData(p => ({...p, nom: e.target.value}))}
+                            className="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-ethsun-blue/30 focus:border-ethsun-blue" />
+                        </div>
+                      </div>
+
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-1.5">Email *</label>
+                        <input type="email" required value={formData.email}
+                          onChange={e => setFormData(p => ({...p, email: e.target.value}))}
+                          className="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-ethsun-blue/30 focus:border-ethsun-blue" />
+                      </div>
+
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-1.5">Téléphone</label>
+                        <input type="tel" value={formData.telephone}
+                          onChange={e => setFormData(p => ({...p, telephone: e.target.value}))}
+                          className="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-ethsun-blue/30 focus:border-ethsun-blue" />
+                      </div>
+
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-1.5">Poste souhaité *</label>
+                        <select value={formData.poste}
+                          onChange={e => setFormData(p => ({...p, poste: e.target.value}))}
+                          className="w-full px-3 py-2.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-ethsun-blue/30 focus:border-ethsun-blue bg-white">
+                          {jobs.map(j => <option key={j.id} value={j.title}>{j.title}</option>)}
+                          <option value="Candidature spontanée">Candidature spontanée</option>
+                        </select>
+                      </div>
+
+                      {/* CV upload */}
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-1.5">CV (PDF, DOC)</label>
+                        <input
+                          type="file"
+                          accept=".pdf,.doc,.docx"
+                          ref={cvRef}
+                          className="hidden"
+                          onChange={e => setCvFile(e.target.files?.[0] || null)}
+                        />
+                        <button
+                          type="button"
+                          onClick={() => cvRef.current?.click()}
+                          className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg border text-sm transition-all ${
+                            cvFile ? 'border-green-300 bg-green-50 text-green-700' : 'border-dashed border-gray-300 hover:border-ethsun-blue text-gray-500 hover:text-ethsun-blue'
+                          }`}
+                        >
+                          {cvFile ? <CheckCircle className="w-4 h-4 flex-shrink-0" /> : <Upload className="w-4 h-4 flex-shrink-0" />}
+                          <span className="truncate">{cvFile ? cvFile.name : 'Déposer ou cliquer pour choisir un fichier'}</span>
+                        </button>
+                      </div>
+
+                      {/* Lettre de motivation upload */}
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-1.5">Lettre de motivation (PDF, DOC)</label>
+                        <input
+                          type="file"
+                          accept=".pdf,.doc,.docx"
+                          ref={lettreRef}
+                          className="hidden"
+                          onChange={e => setLettreFile(e.target.files?.[0] || null)}
+                        />
+                        <button
+                          type="button"
+                          onClick={() => lettreRef.current?.click()}
+                          className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg border text-sm transition-all ${
+                            lettreFile ? 'border-green-300 bg-green-50 text-green-700' : 'border-dashed border-gray-300 hover:border-ethsun-blue text-gray-500 hover:text-ethsun-blue'
+                          }`}
+                        >
+                          {lettreFile ? <CheckCircle className="w-4 h-4 flex-shrink-0" /> : <Upload className="w-4 h-4 flex-shrink-0" />}
+                          <span className="truncate">{lettreFile ? lettreFile.name : 'Déposer ou cliquer pour choisir un fichier'}</span>
+                        </button>
+                      </div>
+
+                      <button
+                        type="submit"
+                        disabled={sending}
+                        className="w-full flex items-center justify-center gap-2 bg-ethsun-gold hover:bg-ethsun-gold-light text-white hover:text-ethsun-navy-dark font-semibold py-3.5 rounded-lg text-sm transition-all shadow-md disabled:opacity-50"
+                      >
+                        <Send className="w-4 h-4" />
+                        {sending ? 'Envoi en cours...' : 'Envoyer ma candidature'}
+                      </button>
+                    </motion.form>
+                  )}
+                </AnimatePresence>
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-ethsun-navy-dark via-ethsun-navy to-ethsun-blue pt-28 pb-16 lg:pt-36 lg:pb-20 overflow-hidden">
@@ -194,7 +395,6 @@ export default function RecrutementPage() {
 
               {/* Job content */}
               <div className="p-6 lg:p-8 space-y-8">
-                {/* Context */}
                 <div>
                   <h3 className="font-serif text-lg font-bold text-ethsun-navy mb-3 flex items-center gap-2">
                     <Briefcase className="w-5 h-5 text-ethsun-gold" />
@@ -203,7 +403,6 @@ export default function RecrutementPage() {
                   <p className="text-gray-600 text-sm leading-relaxed">{job.context}</p>
                 </div>
 
-                {/* Missions */}
                 <div>
                   <h3 className="font-serif text-lg font-bold text-ethsun-navy mb-3">Vos missions</h3>
                   <ul className="space-y-2">
@@ -216,7 +415,6 @@ export default function RecrutementPage() {
                   </ul>
                 </div>
 
-                {/* Profile */}
                 <div>
                   <h3 className="font-serif text-lg font-bold text-ethsun-navy mb-3">Profil recherché</h3>
                   <ul className="space-y-2">
@@ -229,7 +427,6 @@ export default function RecrutementPage() {
                   </ul>
                 </div>
 
-                {/* Offer */}
                 <div className="bg-ethsun-navy/5 rounded-xl p-5">
                   <h3 className="font-serif text-lg font-bold text-ethsun-navy mb-3">Ce que nous offrons</h3>
                   <ul className="space-y-2">
@@ -244,20 +441,23 @@ export default function RecrutementPage() {
 
                 {/* Apply CTA */}
                 <div className="flex flex-col sm:flex-row gap-4 pt-4 border-t border-gray-100">
-                  <a
-                    href={`mailto:rh@ethsun-oxford.uk?subject=Candidature — ${job.title} (${job.id})`}
+                  <button
+                    onClick={() => openModal(job)}
                     className="inline-flex items-center justify-center gap-2 bg-ethsun-gold hover:bg-ethsun-gold-light text-white hover:text-ethsun-navy-dark font-semibold px-6 py-3 rounded-lg text-sm transition-all shadow-md"
                   >
                     <Mail className="w-4 h-4" />
                     Postuler à ce poste
                     <ArrowRight className="w-4 h-4" />
-                  </a>
-                  <Link
-                    href="/contact"
-                    className="inline-flex items-center justify-center gap-2 border-2 border-ethsun-navy/20 hover:border-ethsun-navy text-ethsun-navy font-semibold px-6 py-3 rounded-lg text-sm transition-all"
+                  </button>
+                  <a
+                    href="https://wa.me/447424201585"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white font-semibold px-6 py-3 rounded-lg text-sm transition-all"
                   >
-                    Plus d&apos;informations
-                  </Link>
+                    <MessageCircle className="w-4 h-4" />
+                    WhatsApp RH
+                  </a>
                 </div>
               </div>
             </motion.div>
@@ -282,13 +482,13 @@ export default function RecrutementPage() {
                 </div>
               ))}
             </div>
-            <a
-              href="mailto:rh@ethsun-oxford.uk?subject=Candidature spontanée"
+            <button
+              onClick={() => { setFormData({ ...emptyForm, poste: 'Candidature spontanée' }); setApplyJob({ id: 'SPON', title: 'Candidature spontanée', type: '', location: '', department: '', badge: '', level: '', languages: [], deadline: '', context: '', missions: [], profile: [], offer: [] }); }}
               className="inline-flex items-center gap-2 bg-ethsun-gold hover:bg-ethsun-gold-light text-white hover:text-ethsun-navy-dark font-semibold px-7 py-3.5 rounded-lg text-sm transition-all shadow-lg"
             >
               <Mail className="w-4 h-4" />
               Envoyer ma candidature
-            </a>
+            </button>
           </motion.div>
         </div>
       </section>

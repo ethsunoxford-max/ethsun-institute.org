@@ -6,7 +6,7 @@ export async function POST(req: NextRequest) {
 
   const BREVO_API_KEY = process.env.BREVO_API_KEY;
   const TO_EMAIL = 'formation@ethsun-institute.org';
-  const CC_EMAIL = 'ethsunoxford@gmail.com';
+  const CC_EMAIL = 'ethsuninstitute@gmail.com';
 
   const emailBody = `
 Nouveau message depuis le site ETHSUN Institute
