@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Programme, formatPrice, formatDate } from '@/data/mock';
 import Image from 'next/image';
@@ -28,6 +28,9 @@ interface Props {
 
 export default function ProgrammeDetailClient({ programme, similar }: Props) {
   const t = useTranslations('programme');
+  const locale = useLocale();
+  const displayTitle = locale === 'en' && programme.titleEn ? programme.titleEn : programme.title;
+  const displayDescription = locale === 'en' && programme.descriptionEn ? programme.descriptionEn : programme.description;
 
   const statusColors = {
     open: 'bg-green-100 text-green-700 border-green-200',
@@ -72,10 +75,10 @@ export default function ProgrammeDetailClient({ programme, similar }: Props) {
           </Badge>
 
           <h1 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-white leading-tight mb-3">
-            {programme.title}
+            {displayTitle}
           </h1>
           <p className="text-white/70 text-base lg:text-lg max-w-2xl">
-            {programme.description}
+            {displayDescription}
           </p>
         </div>
       </section>

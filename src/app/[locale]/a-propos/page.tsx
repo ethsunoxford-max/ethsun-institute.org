@@ -10,15 +10,15 @@ import CTABlock from '@/components/sections/CTABlock';
 import { Star, Lightbulb, TrendingUp, Globe, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const galleryImages = [
+  '/images/founder-portrait.jpg',
+  '/images/founder-speech.jpeg',
+  '/images/jc-ministers.jpg',
+  '/images/jc-networking.jpeg',
   '/images/extra-event-1.jpg',
   '/images/extra-event-2.jpg',
   '/images/extra-event-3.jpg',
   '/images/event-salle-5.jpg',
   '/images/event-salle-6.jpeg',
-  '/images/event-salle-7.jpeg',
-  '/images/event-salle-8.jpeg',
-  '/images/event-salle-9.jpg',
-  '/images/qvt-1.jpg',
   '/images/event-main-1.jpg',
 ];
 
@@ -106,9 +106,9 @@ export default function AboutPage() {
       <section className="py-10 lg:py-14 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-bold tracking-[0.2em] text-ethsun-gold text-center mb-8">{t('founderTitle')}</p>
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="bg-white rounded-xl p-8 lg:p-10 shadow-sm border border-gray-100 flex flex-col lg:flex-row gap-8 items-start">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="bg-white rounded-xl p-6 sm:p-8 lg:p-10 shadow-sm border border-gray-100 flex flex-col lg:flex-row gap-6 sm:gap-8 items-start">
             <div className="flex-shrink-0 mx-auto lg:mx-0">
-              <div className="w-52 h-72 lg:w-60 lg:h-80 rounded-xl overflow-hidden border-4 border-ethsun-gold/30 shadow-lg">
+              <div className="w-40 h-52 sm:w-52 sm:h-72 lg:w-60 lg:h-80 rounded-xl overflow-hidden border-4 border-ethsun-gold/30 shadow-lg">
                 <Image src="/images/founder-portrait.jpeg" alt="Jean-Calvin ETHIEN" width={300} height={380} className="w-full h-full object-cover object-top" />
               </div>
             </div>
@@ -126,7 +126,7 @@ export default function AboutPage() {
       <section className="py-10 lg:py-14 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-bold tracking-[0.2em] text-ethsun-gold text-center mb-8">NOS ÉVÉNEMENTS</p>
-          <div className="relative overflow-hidden rounded-2xl shadow-xl" style={{ aspectRatio: '16/7' }}>
+          <div className="relative overflow-hidden rounded-2xl shadow-xl" style={{ aspectRatio: '16/9' }}>
             {galleryImages.map((src, i) => (
               <div
                 key={src}

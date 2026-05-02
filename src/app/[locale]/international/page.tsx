@@ -86,7 +86,7 @@ export default function InternationalPage() {
             title="Notre présence internationale"
             subtitle="ETHSUN Institute déploie son expertise dans cinq villes stratégiques à travers le monde."
           />
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             {internationalPresence.map((item, i) => (
               <motion.div
                 key={i}
@@ -97,19 +97,23 @@ export default function InternationalPage() {
               >
                 {item.link?.startsWith('http') ? (
                   <a href={item.link} target="_blank" rel="noopener noreferrer"
-                    className="block bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all text-center">
-                    <div className="text-4xl mb-3">{item.flag}</div>
-                    <h3 className="font-semibold text-ethsun-navy text-sm mb-1">{item.country}</h3>
-                    <p className="text-xs text-ethsun-gold font-medium mb-2">{item.countryFull}</p>
-                    <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
+                    className="flex sm:block items-center sm:text-center gap-4 sm:gap-0 bg-white rounded-xl p-4 sm:p-5 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all">
+                    <div className="text-3xl sm:text-4xl sm:mb-3 flex-shrink-0">{item.flag}</div>
+                    <div>
+                      <h3 className="font-semibold text-ethsun-navy text-sm mb-0.5 sm:mb-1">{item.country}</h3>
+                      <p className="text-xs text-ethsun-gold font-medium mb-1 sm:mb-2">{item.countryFull}</p>
+                      <p className="text-xs text-gray-600 leading-relaxed hidden sm:block">{item.desc}</p>
+                    </div>
                   </a>
                 ) : (
                   <Link href={item.link!}
-                    className="block bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all text-center">
-                    <div className="text-4xl mb-3">{item.flag}</div>
-                    <h3 className="font-semibold text-ethsun-navy text-sm mb-1">{item.country}</h3>
-                    <p className="text-xs text-ethsun-gold font-medium mb-2">{item.countryFull}</p>
-                    <p className="text-xs text-gray-600 leading-relaxed">{item.desc}</p>
+                    className="flex sm:block items-center sm:text-center gap-4 sm:gap-0 bg-white rounded-xl p-4 sm:p-5 shadow-sm border border-gray-100 hover:shadow-md hover:border-ethsun-gold/30 transition-all">
+                    <div className="text-3xl sm:text-4xl sm:mb-3 flex-shrink-0">{item.flag}</div>
+                    <div>
+                      <h3 className="font-semibold text-ethsun-navy text-sm mb-0.5 sm:mb-1">{item.country}</h3>
+                      <p className="text-xs text-ethsun-gold font-medium mb-1 sm:mb-2">{item.countryFull}</p>
+                      <p className="text-xs text-gray-600 leading-relaxed hidden sm:block">{item.desc}</p>
+                    </div>
                   </Link>
                 )}
               </motion.div>

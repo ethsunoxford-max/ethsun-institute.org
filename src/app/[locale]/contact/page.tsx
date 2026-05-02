@@ -190,9 +190,9 @@ export default function ContactPage() {
                     <MapPin className="w-4 h-4 text-ethsun-gold flex-shrink-0 mt-0.5" />
                     {companyInfo.campuses[0].address}
                   </p>
-                  <p className="flex items-center gap-3">
-                    <Phone className="w-4 h-4 text-ethsun-gold" />
-                    {companyInfo.campuses[0].phone}
+                  <p className="flex items-start gap-3">
+                    <Phone className="w-4 h-4 text-ethsun-gold flex-shrink-0 mt-0.5" />
+                    <span className="break-all">{companyInfo.campuses[0].phone}</span>
                   </p>
                   <p className="flex items-center gap-3">
                     <Mail className="w-4 h-4 text-ethsun-gold" />

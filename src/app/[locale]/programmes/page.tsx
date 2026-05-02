@@ -135,14 +135,14 @@ export default function CataloguePage() {
           </div>
 
           {/* Format filter */}
-          <div className="flex items-center gap-3 mt-3">
-            <SlidersHorizontal className="w-4 h-4 text-gray-400" />
-            <div className="flex gap-2">
+          <div className="flex items-center gap-2 sm:gap-3 mt-3 overflow-x-auto pb-1 -mx-4 px-4 scrollbar-none">
+            <SlidersHorizontal className="w-4 h-4 text-gray-400 flex-shrink-0" />
+            <div className="flex gap-2 flex-shrink-0">
               {formats.map((f) => (
                 <button
                   key={f}
                   onClick={() => setSelectedFormat(selectedFormat === f ? null : f)}
-                  className={`px-3 py-1 rounded-md text-xs font-medium transition-colors ${
+                  className={`flex-shrink-0 px-3 py-1 rounded-md text-xs font-medium transition-colors ${
                     selectedFormat === f ? 'bg-ethsun-blue text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                   }`}
                 >
