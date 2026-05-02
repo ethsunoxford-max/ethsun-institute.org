@@ -78,7 +78,7 @@ export const featuredProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Populaire',
     imageGradient: 'from-blue-900 to-slate-900',
-    image: '/images/event-main-1.jpg',
+    image: '/images/immo-pro-01.jpg',
   },
   {
     id: 'univ-tourisme',
@@ -114,13 +114,13 @@ export const featuredProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-emerald-800 to-slate-900',
-    image: '/images/formateur-1.jpeg',
+    image: '/images/event-salle-5.jpg',
   },
 ];
 
 export const allProgrammes: Programme[] = [
   ...featuredProgrammes,
-  { id: 'p1', title: 'Ingénierie de la Commande Publique', titleEn: 'Public Procurement Engineering', slug: 'ingenierie-commande-publique', description: 'Maîtrisez le cycle complet des marchés publics', descriptionEn: 'Master the complete public procurement cycle', certificateLevel: 'Certificat Professionnel', domain: 'Gouvernance de service public', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-indigo-800 to-slate-900', image: '/images/minister-speech.jpg',
+  { id: 'p1', title: 'Ingénierie de la Commande Publique', titleEn: 'Public Procurement Engineering', slug: 'ingenierie-commande-publique', description: 'Maîtrisez le cycle complet des marchés publics', descriptionEn: 'Master the complete public procurement cycle', certificateLevel: 'Certificat Professionnel', domain: 'Gouvernance de service public', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-indigo-800 to-slate-900', image: '/images/graduates-crowd.jpeg',
     objectives: [
       'Comprendre le cadre juridique et réglementaire des marchés publics en zone UEMOA',
       'Maîtriser les techniques de rédaction des documents de consultation (DAO, DCE, CCTP)',
@@ -145,7 +145,7 @@ export const allProgrammes: Programme[] = [
       'Atelier présentiel de mise en pratique'
     ]
   },
-  { id: 'p2', title: 'Management d\'Institution de Formation', titleEn: 'Training Institution Management', slug: 'management-institution-formation', description: 'Pilotez efficacement votre institution de formation en maîtrisant la stratégie d\'établissement, l\'ingénierie de formation, la gestion financière et la démarche qualité. Ce programme forme les directeurs et managers d\'organismes de formation aux meilleures pratiques de gouvernance pédagogique et institutionnelle, conformes aux référentiels nationaux et internationaux.', certificateLevel: 'Certificat Professionnel', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-purple-800 to-slate-900', image: '/images/ethsun-doctors.jpg',
+  { id: 'p2', title: 'Management d\'Institution de Formation', titleEn: 'Training Institution Management', slug: 'management-institution-formation', description: 'Pilotez efficacement votre institution de formation en maîtrisant la stratégie d\'établissement, l\'ingénierie de formation, la gestion financière et la démarche qualité. Ce programme forme les directeurs et managers d\'organismes de formation aux meilleures pratiques de gouvernance pédagogique et institutionnelle, conformes aux référentiels nationaux et internationaux.', certificateLevel: 'Certificat Professionnel', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-purple-800 to-slate-900', image: '/images/bnetd-05.jpg',
     objectives: [
       "Élaborer une vision stratégique partagée pour une institution de formation",
       "Comprendre les rôles et responsabilités des organes de gouvernance éducative",
@@ -171,7 +171,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p3', title: 'Ingénierie du Développement des Collectivités Territoriales', titleEn: 'Local Government Development Engineering', slug: 'ingenierie-collectivites', description: 'Maîtrisez l\'ingénierie du développement territorial : gouvernance locale, gestion budgétaire, passation des marchés publics, smart cities et financement innovant des collectivités. Ce programme prépare les élus, secrétaires généraux et agents de développement à piloter un territoire performant et transparent.', certificateLevel: 'Certificat Professionnel', domain: 'Gouvernance de service public', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-teal-800 to-slate-900', image: '/images/jc-ministers.jpg',
+  { id: 'p3', title: 'Ingénierie du Développement des Collectivités Territoriales', titleEn: 'Local Government Development Engineering', slug: 'ingenierie-collectivites', description: 'Maîtrisez l\'ingénierie du développement territorial : gouvernance locale, gestion budgétaire, passation des marchés publics, smart cities et financement innovant des collectivités. Ce programme prépare les élus, secrétaires généraux et agents de développement à piloter un territoire performant et transparent.', certificateLevel: 'Certificat Professionnel', domain: 'Gouvernance de service public', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-teal-800 to-slate-900', image: '/images/graduation-real-1.jpg',
     objectives: [
       "Comprendre les enjeux de la gouvernance territoriale dans un contexte décentralisé",
       "Maîtriser la gestion budgétaire et comptable des collectivités locales",
@@ -197,7 +197,7 @@ export const allProgrammes: Programme[] = [
       "Atelier présentiel de mise en pratique"
     ]
   },
-  { id: 'p4', title: 'Innovation Managériale et Performance', titleEn: 'Managerial Innovation & Performance', slug: 'innovation-manageriale', description: 'Maîtrisez l\'innovation managériale contemporaine, l\'intégration de l\'intelligence artificielle dans le management et les leviers de performance organisationnelle. Ce programme Executive forme les cadres et dirigeants à transformer leur organisation grâce aux outils de la gestion du changement et du management agile.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-sky-800 to-slate-900', image: '/images/expertise-group-full.jpeg',
+  { id: 'p4', title: 'Innovation Managériale et Performance', titleEn: 'Managerial Innovation & Performance', slug: 'innovation-manageriale', description: 'Maîtrisez l\'innovation managériale contemporaine, l\'intégration de l\'intelligence artificielle dans le management et les leviers de performance organisationnelle. Ce programme Executive forme les cadres et dirigeants à transformer leur organisation grâce aux outils de la gestion du changement et du management agile.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-sky-800 to-slate-900', image: '/images/bnetd-06.jpg',
     objectives: [
       "Comprendre les leviers de l'innovation managériale contemporaine et leurs applications",
       "Intégrer l'intelligence artificielle comme outil de transformation et de pilotage managérial",
@@ -222,7 +222,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p5', title: 'Leadership et Science de la Décision', titleEn: 'Leadership & Decision Science', slug: 'leadership-decision', description: 'Développez votre leadership stratégique en comprenant les mécanismes cognitifs et émotionnels de la prise de décision. Ce programme Executive forme les dirigeants à exercer une autorité éclairée, à gérer l\'incertitude et à mobiliser leurs équipes autour d\'une vision claire et ambitieuse.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-rose-800 to-slate-900', image: '/images/utourisme-tribune.jpg',
+  { id: 'p5', title: 'Leadership et Science de la Décision', titleEn: 'Leadership & Decision Science', slug: 'leadership-decision', description: 'Développez votre leadership stratégique en comprenant les mécanismes cognitifs et émotionnels de la prise de décision. Ce programme Executive forme les dirigeants à exercer une autorité éclairée, à gérer l\'incertitude et à mobiliser leurs équipes autour d\'une vision claire et ambitieuse.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-rose-800 to-slate-900', image: '/images/bnetd-07.jpg',
     objectives: [
       "Comprendre les mécanismes cognitifs et émotionnels à l'œuvre dans la prise de décision",
       "Identifier les biais cognitifs et les facteurs d'influence sur les décisions stratégiques",
@@ -248,7 +248,7 @@ export const allProgrammes: Programme[] = [
       "Coaching individuel de développement du leadership"
     ]
   },
-  { id: 'p6', title: 'Juriste d\'Entreprise', titleEn: 'Corporate Lawyer', slug: 'juriste-entreprise', description: 'Devenez un expert juridique maîtrisant le droit des affaires OHADA, le droit du travail et la gestion des risques juridiques. Une formation complète pour les juristes d\'entreprise et les managers confrontés aux enjeux légaux et contractuels.', certificateLevel: 'Certificat de Qualification', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/graduates-seated.jpeg',
+  { id: 'p6', title: 'Juriste d\'Entreprise', titleEn: 'Corporate Lawyer', slug: 'juriste-entreprise', description: 'Devenez un expert juridique maîtrisant le droit des affaires OHADA, le droit du travail et la gestion des risques juridiques. Une formation complète pour les juristes d\'entreprise et les managers confrontés aux enjeux légaux et contractuels.', certificateLevel: 'Certificat de Qualification', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/bnetd-08.jpg',
     objectives: [
       "Maîtriser le cadre juridique des affaires OHADA et son application pratique en entreprise",
       "Appréhender les principes du droit du travail et gérer les relations sociales",
@@ -273,7 +273,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p7', title: 'Conformité Bancaire et IFRS 17', titleEn: 'Banking Compliance & IFRS 17', slug: 'conformite-bancaire-ifrs17', description: 'Maîtrisez les normes IFRS 17, les systèmes de conformité réglementaire et les dispositifs anti-blanchiment pour sécuriser votre institution financière. Ce programme intensif forme les responsables conformité, auditeurs et dirigeants bancaires aux exigences légales et éthiques du secteur financier en Afrique.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-800 to-slate-900', image: '/images/jc-networking.jpeg',
+  { id: 'p7', title: 'Conformité Bancaire et IFRS 17', titleEn: 'Banking Compliance & IFRS 17', slug: 'conformite-bancaire-ifrs17', description: 'Maîtrisez les normes IFRS 17, les systèmes de conformité réglementaire et les dispositifs anti-blanchiment pour sécuriser votre institution financière. Ce programme intensif forme les responsables conformité, auditeurs et dirigeants bancaires aux exigences légales et éthiques du secteur financier en Afrique.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-800 to-slate-900', image: '/images/bnetd-09.jpg',
     objectives: [
       "Maîtriser les normes IFRS 17 et leurs implications pour les institutions financières",
       "Identifier les enjeux de la conformité réglementaire dans le secteur bancaire et assurantiel",
@@ -298,7 +298,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p8', title: 'Audit Interne et Contrôle de Gestion', titleEn: 'Internal Audit & Management Control', slug: 'audit-interne', description: 'Renforcez vos compétences en audit interne, contrôle de gestion et pilotage de la performance organisationnelle. Idéal pour les auditeurs, contrôleurs et responsables financiers souhaitant structurer et professionnaliser leur pratique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-800 to-slate-900', image: '/images/campus-jury.jpeg',
+  { id: 'p8', title: 'Audit Interne et Contrôle de Gestion', titleEn: 'Internal Audit & Management Control', slug: 'audit-interne', description: 'Renforcez vos compétences en audit interne, contrôle de gestion et pilotage de la performance organisationnelle. Idéal pour les auditeurs, contrôleurs et responsables financiers souhaitant structurer et professionnaliser leur pratique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-800 to-slate-900', image: '/images/bnetd-10.jpg',
     objectives: [
       "Analyser les états financiers et modéliser la performance économique de l'entreprise",
       "Maîtriser les techniques d'audit interne et les normes IIA",
@@ -323,7 +323,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p9', title: 'Marketing Digital et Growth', titleEn: 'Digital Marketing & Growth', slug: 'marketing-digital', description: 'Accélérez votre croissance grâce aux outils du marketing digital — SEO, réseaux sociaux, publicité en ligne et growth hacking. Une formation pratique et immédiatement applicable pour entrepreneurs, PME et professionnels du marketing souhaitant booster leur visibilité.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-pink-800 to-slate-900', image: '/images/selfie-graduates.jpeg',
+  { id: 'p9', title: 'Marketing Digital et Growth', titleEn: 'Digital Marketing & Growth', slug: 'marketing-digital', description: 'Accélérez votre croissance grâce aux outils du marketing digital — SEO, réseaux sociaux, publicité en ligne et growth hacking. Une formation pratique et immédiatement applicable pour entrepreneurs, PME et professionnels du marketing souhaitant booster leur visibilité.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-pink-800 to-slate-900', image: '/images/bnetd-11.jpg',
     objectives: [
       "Élaborer une stratégie marketing digitale innovante et différenciante",
       "Maîtriser les outils du marketing digital : SEO, SEA, réseaux sociaux, email marketing",
@@ -348,7 +348,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p10', title: 'Supply Chain et Achats Publics', titleEn: 'Supply Chain & Public Procurement', slug: 'supply-chain-achats', description: 'Structurez un processus achats performant et responsable, optimisez la chaîne logistique et maîtrisez la gestion des approvisionnements publics et privés. Ce programme forme les responsables achats et supply chain à réduire les coûts tout en garantissant qualité, conformité et durabilité.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-800 to-slate-900', image: '/images/mine-new-01.jpg',
+  { id: 'p10', title: 'Supply Chain et Achats Publics', titleEn: 'Supply Chain & Public Procurement', slug: 'supply-chain-achats', description: 'Structurez un processus achats performant et responsable, optimisez la chaîne logistique et maîtrisez la gestion des approvisionnements publics et privés. Ce programme forme les responsables achats et supply chain à réduire les coûts tout en garantissant qualité, conformité et durabilité.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-800 to-slate-900', image: '/images/mine-pro-01.jpg',
     objectives: [
       "Structurer un processus achats performant et responsable",
       "Optimiser les flux logistiques et la gestion des stocks",
@@ -373,7 +373,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p11', title: 'Gestion des Ressources Humaines', titleEn: 'Human Resources Management', slug: 'gestion-rh', description: 'Développez une politique RH stratégique, maîtrisez la gestion des talents, le droit social ivoirien et les outils de performance des ressources humaines. Destiné aux DRH, responsables RH et managers en charge du développement des équipes.', certificateLevel: 'Certificat d\'Aptitude', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-fuchsia-800 to-slate-900', image: '/images/cert-remise-officiels.jpg',
+  { id: 'p11', title: 'Gestion des Ressources Humaines', titleEn: 'Human Resources Management', slug: 'gestion-rh', description: 'Développez une politique RH stratégique, maîtrisez la gestion des talents, le droit social ivoirien et les outils de performance des ressources humaines. Destiné aux DRH, responsables RH et managers en charge du développement des équipes.', certificateLevel: 'Certificat d\'Aptitude', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-fuchsia-800 to-slate-900', image: '/images/bnetd-12.jpg',
     objectives: [
       "Développer une politique RH stratégique alignée sur les objectifs de l'organisation",
       "Maîtriser les processus de recrutement, d'intégration et de fidélisation des talents",
@@ -423,7 +423,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p13', title: 'Comptabilité et Finance d\'Entreprise', slug: 'comptabilite-finance', description: 'Maîtrisez les fondamentaux de la comptabilité SYSCOHADA, de l\'analyse financière et du pilotage de la performance d\'entreprise. Une formation essentielle pour les responsables financiers, comptables et dirigeants de PME souhaitant lire et piloter leurs chiffres.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-800 to-slate-900', image: '/images/trophee-remise.jpg',
+  { id: 'p13', title: 'Comptabilité et Finance d\'Entreprise', slug: 'comptabilite-finance', description: 'Maîtrisez les fondamentaux de la comptabilité SYSCOHADA, de l\'analyse financière et du pilotage de la performance d\'entreprise. Une formation essentielle pour les responsables financiers, comptables et dirigeants de PME souhaitant lire et piloter leurs chiffres.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-800 to-slate-900', image: '/images/bnetd-13.jpg',
     objectives: [
       "Maîtriser les principes fondamentaux de la comptabilité SYSCOHADA",
       "Lire, comprendre et analyser les états financiers d'une entreprise",
@@ -448,7 +448,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p14', title: 'Médiation Professionnelle', slug: 'mediation-professionnelle', description: 'Maîtrisez les techniques de médiation professionnelle pour prévenir et résoudre les conflits en entreprise, en institution et dans les territoires. Ce Certificate of Advanced Studies prépare à l\'exercice certifié de la médiation : médiation interne, gestion des conflits d\'intérêts et qualité relationnelle dans les organisations.', certificateLevel: 'Certificate of Advanced Studies', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-zinc-700 to-slate-900', image: '/images/utourisme-audience.jpg',
+  { id: 'p14', title: 'Médiation Professionnelle', slug: 'mediation-professionnelle', description: 'Maîtrisez les techniques de médiation professionnelle pour prévenir et résoudre les conflits en entreprise, en institution et dans les territoires. Ce Certificate of Advanced Studies prépare à l\'exercice certifié de la médiation : médiation interne, gestion des conflits d\'intérêts et qualité relationnelle dans les organisations.', certificateLevel: 'Certificate of Advanced Studies', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-zinc-700 to-slate-900', image: '/images/bnetd-14.jpg',
     objectives: [
       "Maîtriser les fondements théoriques et pratiques de la médiation professionnelle",
       "Conduire un processus de médiation de A à Z en contexte professionnel",
@@ -474,7 +474,7 @@ export const allProgrammes: Programme[] = [
       "Préparation à la certification professionnelle"
     ]
   },
-  { id: 'p15', title: 'Entrepreneuriat et Création d\'Entreprise', slug: 'entrepreneuriat', description: 'Lancez et développez votre entreprise avec méthode : business plan, financement, marketing et gestion opérationnelle. Un programme complet pour les porteurs de projets, jeunes entrepreneurs et intrapreneurs africains souhaitant concrétiser leur vision.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 500, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/jc-cert-group-stage.jpeg',
+  { id: 'p15', title: 'Entrepreneuriat et Création d\'Entreprise', slug: 'entrepreneuriat', description: 'Lancez et développez votre entreprise avec méthode : business plan, financement, marketing et gestion opérationnelle. Un programme complet pour les porteurs de projets, jeunes entrepreneurs et intrapreneurs africains souhaitant concrétiser leur vision.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 500, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/bnetd-15.jpg',
     objectives: [
       "Structurer et valider une idée d'entreprise avec les outils du business model",
       "Élaborer un business plan complet et convaincant pour lever des financements",
@@ -500,7 +500,7 @@ export const allProgrammes: Programme[] = [
       "Mise en réseau avec l'écosystème entrepreneurial africain"
     ]
   },
-  { id: 'p16', title: 'Management de Projet ISO 21502', slug: 'management-projet-iso', description: 'Gérez vos projets selon les standards ISO 21502 et les meilleures pratiques du management de projet international. Pour les chefs de projet, coordinateurs et managers opérationnels souhaitant structurer leur approche et optimiser leurs livrables.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-800 to-slate-900', image: '/images/uimmo-group.jpeg',
+  { id: 'p16', title: 'Management de Projet ISO 21502', slug: 'management-projet-iso', description: 'Gérez vos projets selon les standards ISO 21502 et les meilleures pratiques du management de projet international. Pour les chefs de projet, coordinateurs et managers opérationnels souhaitant structurer leur approche et optimiser leurs livrables.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-800 to-slate-900', image: '/images/bnetd-16.jpg',
     objectives: [
       "Maîtriser les principes et processus du management de projet selon ISO 21502",
       "Structurer le démarrage, la planification et la clôture d'un projet",
@@ -525,7 +525,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p17', title: 'Gouvernance Publique et Anti-Corruption', titleEn: 'Public Governance & Anti-Corruption', slug: 'gouvernance-anti-corruption', description: 'Construisez une culture organisationnelle d\'intégrité, maîtrisez les systèmes de conformité éthique et mettez en œuvre des dispositifs anticorruption efficaces dans les institutions publiques et privées. Un Executive Certificate pour les dirigeants, élus et hauts fonctionnaires engagés dans la gouvernance éthique et la lutte contre la corruption.', certificateLevel: 'Executive Certificate', domain: 'Gouvernance de service public', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-emerald-700 to-slate-900', image: '/images/minister-cert-remise.jpg',
+  { id: 'p17', title: 'Gouvernance Publique et Anti-Corruption', titleEn: 'Public Governance & Anti-Corruption', slug: 'gouvernance-anti-corruption', description: 'Construisez une culture organisationnelle d\'intégrité, maîtrisez les systèmes de conformité éthique et mettez en œuvre des dispositifs anticorruption efficaces dans les institutions publiques et privées. Un Executive Certificate pour les dirigeants, élus et hauts fonctionnaires engagés dans la gouvernance éthique et la lutte contre la corruption.', certificateLevel: 'Executive Certificate', domain: 'Gouvernance de service public', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-emerald-700 to-slate-900', image: '/images/graduation-real-2.jpg',
     objectives: [
       "Comprendre les fondements de l'éthique appliquée aux pratiques professionnelles et publiques",
       "Définir, reconnaître et prévenir les différentes formes de conflits d'intérêts",
@@ -551,7 +551,7 @@ export const allProgrammes: Programme[] = [
       "Atelier présentiel intensif de mise en pratique"
     ]
   },
-  { id: 'p18', title: 'Sport Business et Management', slug: 'sport-business', description: 'Maîtrisez le management appliqué à l\'industrie sportive : droits médias, sponsoring, événementiel sportif et gestion de clubs ou fédérations. Une formation innovante pour les professionnels du sport business et du marketing sportif en Afrique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 800, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-800 to-slate-900', image: '/images/cert-group-standing.jpeg',
+  { id: 'p18', title: 'Sport Business et Management', slug: 'sport-business', description: 'Maîtrisez le management appliqué à l\'industrie sportive : droits médias, sponsoring, événementiel sportif et gestion de clubs ou fédérations. Une formation innovante pour les professionnels du sport business et du marketing sportif en Afrique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 800, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-800 to-slate-900', image: '/images/bnetd-17.jpg',
     objectives: [
       "Comprendre les fondamentaux de l'industrie sportive et ses modèles économiques",
       "Maîtriser le management et la gouvernance des clubs, fédérations et ligues sportives",
@@ -602,7 +602,7 @@ export const allProgrammes: Programme[] = [
       "Atelier présentiel avec professionnels du tourisme"
     ]
   },
-  { id: 'ie1', title: 'Exploration et Exploitation Minière', slug: 'exploration-et-exploitation-miniere', description: "Le Centre de Perfectionnement aux Métiers des Industries Extractives vise à former et renforcer les compétences des professionnels opérant dans le secteur des industries extractives, en mettant l'accent sur la durabilité, la sécurité, l'efficacité, et l'innovation technologique. Ce certificat prépare des professionnels capables de participer activement à toutes les étapes de l'exploitation minière, en adoptant des pratiques modernes, innovantes, et durables, tout en respectant les normes internationales de sécurité et d'environnement.", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-700 to-slate-900', image: '/images/mine-new-02.jpg',
+  { id: 'ie1', title: 'Exploration et Exploitation Minière', slug: 'exploration-et-exploitation-miniere', description: "Le Centre de Perfectionnement aux Métiers des Industries Extractives vise à former et renforcer les compétences des professionnels opérant dans le secteur des industries extractives, en mettant l'accent sur la durabilité, la sécurité, l'efficacité, et l'innovation technologique. Ce certificat prépare des professionnels capables de participer activement à toutes les étapes de l'exploitation minière, en adoptant des pratiques modernes, innovantes, et durables, tout en respectant les normes internationales de sécurité et d'environnement.", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-orange-700 to-slate-900', image: '/images/mine-pro-02.jpg',
     objectives: [
       "Former aux techniques modernes de prospection géologique permettant une identification précise et rapide des gisements minéraux",
       "Développer la capacité à analyser et évaluer les ressources minérales en termes de qualité, quantité, et viabilité économique",
@@ -627,7 +627,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie2', title: 'Sécurité et Santé au Travail dans les Industries Extractives', slug: 'securite-et-sante-au-travail-dans-les-industries-extractives', description: "Former des professionnels compétents capables d'assurer la sécurité et la santé des travailleurs dans les industries extractives, en maîtrisant les normes internationales, les techniques de prévention des risques, et les bonnes pratiques en gestion des substances dangereuses, tout en garantissant un environnement de travail sûr et conforme aux standards internationaux.", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/mine-new-03.jpg',
+  { id: 'ie2', title: 'Sécurité et Santé au Travail dans les Industries Extractives', slug: 'securite-et-sante-au-travail-dans-les-industries-extractives', description: "Former des professionnels compétents capables d'assurer la sécurité et la santé des travailleurs dans les industries extractives, en maîtrisant les normes internationales, les techniques de prévention des risques, et les bonnes pratiques en gestion des substances dangereuses, tout en garantissant un environnement de travail sûr et conforme aux standards internationaux.", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/mine-pro-03.jpg',
     objectives: [
       "Comprendre et appliquer les normes internationales de sécurité (ISO 45001, OHSAS) pour concevoir et mettre en œuvre des politiques de sécurité adaptées",
       "Apprendre à anticiper et minimiser les risques liés aux opérations minières et pétrolières grâce à des outils d'analyse",
@@ -650,7 +650,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie3', title: 'Environnement et Développement Durable — Industries Extractives', slug: 'environnement-et-developpement-durable-industries-extractive', description: "Former des professionnels compétents capables de concevoir et de mettre en œuvre des stratégies durables pour minimiser l'impact environnemental des activités extractives, tout en favorisant la réhabilitation des sites et en intégrant les principes de responsabilité sociale des entreprises (RSE).", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-700 to-slate-900', image: '/images/mine-new-04.jpg',
+  { id: 'ie3', title: 'Environnement et Développement Durable — Industries Extractives', slug: 'environnement-et-developpement-durable-industries-extractive', description: "Former des professionnels compétents capables de concevoir et de mettre en œuvre des stratégies durables pour minimiser l'impact environnemental des activités extractives, tout en favorisant la réhabilitation des sites et en intégrant les principes de responsabilité sociale des entreprises (RSE).", certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-700 to-slate-900', image: '/images/mine-pro-04.jpg',
     objectives: [
       "Apprendre à restaurer les terrains exploités afin de les réintégrer dans leur écosystème naturel ou pour d'autres usages",
       "Former aux techniques modernes de gestion des résidus miniers et au traitement des eaux pour éviter toute contamination",
@@ -672,7 +672,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie4', title: 'Gestion et Ingénierie des Hydrocarbures', slug: 'gestion-et-ingenierie-des-hydrocarbures', description: 'Maîtrisez les fondamentaux de l\'ingénierie pétrolière et gazière : géologie pétrolière, techniques de forage, gestion des réservoirs, sécurité des installations et contrats pétroliers. La formation de référence pour les professionnels du secteur.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-amber-800 to-slate-900', image: '/images/mine-new-05.jpg',
+  { id: 'ie4', title: 'Gestion et Ingénierie des Hydrocarbures', slug: 'gestion-et-ingenierie-des-hydrocarbures', description: 'Maîtrisez les fondamentaux de l\'ingénierie pétrolière et gazière : géologie pétrolière, techniques de forage, gestion des réservoirs, sécurité des installations et contrats pétroliers. La formation de référence pour les professionnels du secteur.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-amber-800 to-slate-900', image: '/images/mine-pro-05.jpg',
     objectives: [
       "Comprendre la géologie pétrolière et les mécanismes de formation des réservoirs",
       "Maîtriser les techniques de forage et de complétion des puits",
@@ -694,7 +694,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie5', title: 'Gestion des Projets dans les Industries Extractives', slug: 'gestion-des-projets-dans-les-industries-extractives', description: 'Planifiez, exécutez et contrôlez des projets miniers et pétroliers complexes selon les meilleures pratiques du management de projet. Ce certificat prépare les chefs de projet à délivrer des résultats dans des environnements industriels exigeants.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1300, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-700 to-slate-900', image: '/images/mine-new-06.jpg',
+  { id: 'ie5', title: 'Gestion des Projets dans les Industries Extractives', slug: 'gestion-des-projets-dans-les-industries-extractives', description: 'Planifiez, exécutez et contrôlez des projets miniers et pétroliers complexes selon les meilleures pratiques du management de projet. Ce certificat prépare les chefs de projet à délivrer des résultats dans des environnements industriels exigeants.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '8 semaines', format: 'Blended', price: { amount: 1300, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-700 to-slate-900', image: '/images/mine-pro-06.jpg',
     objectives: [
       "Planifier un projet industriel extractif de A à Z",
       "Maîtriser l'estimation des coûts et la gestion budgétaire CAPEX/OPEX",
@@ -716,7 +716,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie6', title: 'Réglementation et Contractualisation dans les Industries Extractives', slug: 'reglementation-et-contractualisation-dans-les-industries-ext', description: 'Maîtrisez le cadre juridique et contractuel régissant les industries minières et pétrolières en Afrique : codes miniers, contrats de partage de production, fiscalité extractive et conformité aux normes EITI.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-slate-600 to-indigo-900', image: '/images/mine-new-07.jpg',
+  { id: 'ie6', title: 'Réglementation et Contractualisation dans les Industries Extractives', slug: 'reglementation-et-contractualisation-dans-les-industries-ext', description: 'Maîtrisez le cadre juridique et contractuel régissant les industries minières et pétrolières en Afrique : codes miniers, contrats de partage de production, fiscalité extractive et conformité aux normes EITI.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'Blended', price: { amount: 1100, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-slate-600 to-indigo-900', image: '/images/mine-pro-07.jpg',
     objectives: [
       "Analyser les codes miniers et pétroliers des pays africains",
       "Comprendre et négocier les contrats pétroliers (PSC, JOA)",
@@ -738,7 +738,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie7', title: 'Digitalisation et Innovation dans les Industries Extractives', slug: 'digitalisation-et-innovation-dans-les-industries-extractives', description: 'Intégrez les technologies numériques dans vos opérations extractives : IA, big data, drones, SIG et IoT industriel. Ce certificat prépare les professionnels à conduire la transformation digitale du secteur minier et pétrolier.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-teal-700 to-slate-900', image: '/images/mine-new-08.jpg',
+  { id: 'ie7', title: 'Digitalisation et Innovation dans les Industries Extractives', slug: 'digitalisation-et-innovation-dans-les-industries-extractives', description: 'Intégrez les technologies numériques dans vos opérations extractives : IA, big data, drones, SIG et IoT industriel. Ce certificat prépare les professionnels à conduire la transformation digitale du secteur minier et pétrolier.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-teal-700 to-slate-900', image: '/images/mine-pro-08.jpg',
     objectives: [
       "Appliquer l'IA dans l'optimisation des opérations extractives",
       "Utiliser le big data et la géo-informatique pour la prospection",
@@ -760,7 +760,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie8', title: 'Réglementation et Fiscalité des Industries Extractives', slug: 'reglementation-et-fiscalite-des-industries-extractives', description: 'Comprenez et appliquez les cadres réglementaires et fiscaux spécifiques aux ressources naturelles en Afrique. Indispensable pour les professionnels en charge de la conformité, la négociation fiscale et la gouvernance des revenus extractifs.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-700 to-slate-900', image: '/images/mine-new-09.jpg',
+  { id: 'ie8', title: 'Réglementation et Fiscalité des Industries Extractives', slug: 'reglementation-et-fiscalite-des-industries-extractives', description: 'Comprenez et appliquez les cadres réglementaires et fiscaux spécifiques aux ressources naturelles en Afrique. Indispensable pour les professionnels en charge de la conformité, la négociation fiscale et la gouvernance des revenus extractifs.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '6 semaines', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-700 to-slate-900', image: '/images/mine-pro-09.jpg',
     objectives: [
       "Naviguer dans les réglementations nationales des pays africains producteurs",
       "Analyser les régimes fiscaux et douaniers des ressources naturelles",
@@ -782,7 +782,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie9', title: 'Leadership et Management dans les Industries Extractives', slug: 'leadership-et-management-dans-les-industries-extractives', description: 'Développez votre capacité à diriger des équipes multiculturelles sur des sites miniers et pétroliers. Un programme Executive pour les managers de l\'industrie extractive souhaitant renforcer leur leadership stratégique et éthique.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '4 semaines', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/mine-new-10.jpg',
+  { id: 'ie9', title: 'Leadership et Management dans les Industries Extractives', slug: 'leadership-et-management-dans-les-industries-extractives', description: 'Développez votre capacité à diriger des équipes multiculturelles sur des sites miniers et pétroliers. Un programme Executive pour les managers de l\'industrie extractive souhaitant renforcer leur leadership stratégique et éthique.', certificateLevel: 'Executive Certificate', domain: 'Industries extractives', duration: '4 semaines', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/mine-pro-10.jpg',
     objectives: [
       "Développer un leadership adapté aux environnements industriels complexes et multiculturels",
       "Gérer des équipes pluridisciplinaires sur des sites d'extraction",
@@ -804,7 +804,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ie10', title: 'Maintenance des Équipements Miniers et Pétroliers', slug: 'maintenance-des-equipements-miniers-et-petroliers', description: 'Maîtrisez la maintenance préventive, corrective et prédictive des équipements lourds utilisés dans les industries minières et pétrolières pour garantir performance, sécurité et durabilité des actifs industriels.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-neutral-700 to-slate-900', image: '/images/mine-new-11.jpg',
+  { id: 'ie10', title: 'Maintenance des Équipements Miniers et Pétroliers', slug: 'maintenance-des-equipements-miniers-et-petroliers', description: 'Maîtrisez la maintenance préventive, corrective et prédictive des équipements lourds utilisés dans les industries minières et pétrolières pour garantir performance, sécurité et durabilité des actifs industriels.', certificateLevel: 'Certificat Professionnel', domain: 'Industries extractives', duration: '3 mois', format: 'Blended', price: { amount: 1200, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-neutral-700 to-slate-900', image: '/images/mine-pro-11.jpg',
     objectives: [
       "Maîtriser la maintenance industrielle préventive et corrective",
       "Diagnostiquer et résoudre les pannes sur équipements miniers et pétroliers",
@@ -826,7 +826,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'im1', title: 'Gérance Locative — Maîtriser la Gestion Locative', slug: 'gerance-locative-maitriser-la-gestion-locative', description: 'Maîtrisez les techniques de gestion locative, les obligations légales du gestionnaire, la sélection des locataires et la prévention des litiges pour optimiser la rentabilité d\'un portefeuille immobilier locatif.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-emerald-700 to-slate-900', image: '/images/event-certificate-1.jpg',
+  { id: 'im1', title: 'Gérance Locative — Maîtriser la Gestion Locative', slug: 'gerance-locative-maitriser-la-gestion-locative', description: 'Maîtrisez les techniques de gestion locative, les obligations légales du gestionnaire, la sélection des locataires et la prévention des litiges pour optimiser la rentabilité d\'un portefeuille immobilier locatif.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-emerald-700 to-slate-900', image: '/images/immo-pro-02.jpg',
     objectives: [
       "Comprendre le rôle et les responsabilités du gestionnaire locatif",
       "Maîtriser la législation sur les loyers, baux et droits des locataires",
@@ -849,7 +849,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'im2', title: 'Techniques de Financement de Projet Immobilier', slug: 'techniques-de-financement-de-projet-immobilier', description: 'Maîtrisez les techniques de financement des projets immobiliers : montage financier, sources de financement (banques, investisseurs, crowdfunding), structuration des dossiers et gestion des risques pour maximiser la rentabilité.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-700 to-slate-900', image: '/images/event-certificate-2.jpg',
+  { id: 'im2', title: 'Techniques de Financement de Projet Immobilier', slug: 'techniques-de-financement-de-projet-immobilier', description: 'Maîtrisez les techniques de financement des projets immobiliers : montage financier, sources de financement (banques, investisseurs, crowdfunding), structuration des dossiers et gestion des risques pour maximiser la rentabilité.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-700 to-slate-900', image: '/images/immo-pro-03.jpg',
     objectives: [
       "Acquérir une vue d'ensemble des méthodes de financement immobilier",
       "Identifier les sources de financement adaptées à chaque projet",
@@ -871,7 +871,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'im3', title: 'Expertise Immobilière — Évaluation des Biens', slug: 'expertise-immobiliere-evaluation-des-biens', description: 'Devenez expert immobilier capable de réaliser des évaluations précises : approche comparative, méthode par le revenu, analyse des risques et rédaction de rapports d\'expertise conformes aux standards professionnels.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-700 to-slate-900', image: '/images/event-certificate-3.jpg',
+  { id: 'im3', title: 'Expertise Immobilière — Évaluation des Biens', slug: 'expertise-immobiliere-evaluation-des-biens', description: 'Devenez expert immobilier capable de réaliser des évaluations précises : approche comparative, méthode par le revenu, analyse des risques et rédaction de rapports d\'expertise conformes aux standards professionnels.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-700 to-slate-900', image: '/images/immo-pro-04.jpg',
     objectives: [
       "Comprendre les bases de l'expertise immobilière et ses applications",
       "Maîtriser les méthodes d'évaluation (comparative, par le revenu, par le coût)",
@@ -893,7 +893,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'im4', title: 'Agrément et Cadre Légal de l\'Activité Immobilière', slug: 'agrement-et-cadre-legal-de-lactivite-immobiliere', description: 'Comprenez le cadre juridique régissant l\'activité immobilière en Côte d\'Ivoire : conditions d\'agrément, obligations légales des professionnels, réglementation des transactions et pratiques commerciales conformes.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-fuchsia-700 to-slate-900', image: '/images/event-certificate-4.jpg',
+  { id: 'im4', title: 'Agrément et Cadre Légal de l\'Activité Immobilière', slug: 'agrement-et-cadre-legal-de-lactivite-immobiliere', description: 'Comprenez le cadre juridique régissant l\'activité immobilière en Côte d\'Ivoire : conditions d\'agrément, obligations légales des professionnels, réglementation des transactions et pratiques commerciales conformes.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Immobilier et BTP', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-fuchsia-700 to-slate-900', image: '/images/immo-pro-05.jpg',
     objectives: [
       "Comprendre le cadre juridique du secteur immobilier en Côte d'Ivoire",
       "Maîtriser les conditions d'obtention de l'agrément immobilier",
@@ -915,7 +915,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ec1', title: 'L\'Éthique en Entreprise : Fondements et Pratiques', slug: 'lethique-en-entreprise-fondements-et-pratiques', description: 'Comprenez et appliquez les principes éthiques fondamentaux dans la gestion d\'entreprise. Ce module forme à la transparence, l\'intégrité et la responsabilité pour construire une culture organisationnelle éthique durable.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-purple-700 to-slate-900', image: '/images/cert-remise-officiels.jpg',
+  { id: 'ec1', title: 'L\'Éthique en Entreprise : Fondements et Pratiques', slug: 'lethique-en-entreprise-fondements-et-pratiques', description: 'Comprenez et appliquez les principes éthiques fondamentaux dans la gestion d\'entreprise. Ce module forme à la transparence, l\'intégrité et la responsabilité pour construire une culture organisationnelle éthique durable.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-purple-700 to-slate-900', image: '/images/graduation-real-3.jpg',
     objectives: [
       "Appréhender les principes fondamentaux de l'éthique en gestion",
       "Identifier et analyser les dilemmes éthiques dans les décisions stratégiques",
@@ -937,7 +937,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ec2', title: 'Éthique et Gouvernance d\'Entreprise : Culture d\'Intégrité', slug: 'ethique-et-gouvernance-dentreprise-culture-dintegrite', description: 'Instaurer une gouvernance éthique au sein de l\'entreprise en structurant des pratiques transparentes, clarifiant les rôles des parties prenantes et évaluant l\'efficacité des dispositifs de gouvernance.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-indigo-700 to-slate-900', image: '/images/graduates-seated.jpeg',
+  { id: 'ec2', title: 'Éthique et Gouvernance d\'Entreprise : Culture d\'Intégrité', slug: 'ethique-et-gouvernance-dentreprise-culture-dintegrite', description: 'Instaurer une gouvernance éthique au sein de l\'entreprise en structurant des pratiques transparentes, clarifiant les rôles des parties prenantes et évaluant l\'efficacité des dispositifs de gouvernance.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-indigo-700 to-slate-900', image: '/images/graduation-bnetd-1.jpg',
     objectives: [
       "Maîtriser les principes fondamentaux de la gouvernance éthique",
       "Structurer des pratiques de gouvernance pour des décisions transparentes",
@@ -959,7 +959,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ec3', title: 'RSE : De l\'Éthique à l\'Action', slug: 'rse-de-lethique-a-laction', description: 'Intégrez les pratiques éthiques et responsables dans vos stratégies RSE. Apprenez à mesurer l\'impact de vos actions ESG et à communiquer efficacement sur vos engagements environnementaux, sociaux et de gouvernance.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-lime-700 to-slate-900', image: '/images/event-graduation-2.jpg',
+  { id: 'ec3', title: 'RSE : De l\'Éthique à l\'Action', slug: 'rse-de-lethique-a-laction', description: 'Intégrez les pratiques éthiques et responsables dans vos stratégies RSE. Apprenez à mesurer l\'impact de vos actions ESG et à communiquer efficacement sur vos engagements environnementaux, sociaux et de gouvernance.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-lime-700 to-slate-900', image: '/images/graduation-bnetd-2.jpg',
     objectives: [
       "Comprendre les concepts clés de la RSE et son intégration stratégique",
       "Développer des politiques RSE éthiques et responsables",
@@ -981,7 +981,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ec4', title: 'Éthique et Compliance : Assurer la Conformité Légale', slug: 'ethique-et-compliance-assurer-la-conformite-legale', description: 'Mettez en place des systèmes de conformité efficaces : obligations légales, gestion des risques de non-conformité, programme de compliance interne et audits de contrôle. La formation de référence pour les responsables conformité.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-rose-700 to-slate-900', image: '/images/cert-group-standing.jpeg',
+  { id: 'ec4', title: 'Éthique et Compliance : Assurer la Conformité Légale', slug: 'ethique-et-compliance-assurer-la-conformite-legale', description: 'Mettez en place des systèmes de conformité efficaces : obligations légales, gestion des risques de non-conformité, programme de compliance interne et audits de contrôle. La formation de référence pour les responsables conformité.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-rose-700 to-slate-900', image: '/images/graduation-bnetd-3.jpg',
     objectives: [
       "Maîtriser les obligations légales et réglementaires de conformité",
       "Identifier et minimiser les risques de non-conformité",
@@ -1003,7 +1003,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ec5', title: 'Gestion des Conflits d\'Intérêts : Prévention et Stratégies', slug: 'gestion-des-conflits-dinterets-prevention-et-strategies', description: 'Identifiez, prévenez et gérez les conflits d\'intérêts dans l\'entreprise. Ce module fournit des outils concrets pour instaurer la transparence et protéger l\'intégrité des prises de décision organisationnelles.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-sky-700 to-slate-900', image: '/images/event-certificate-4.jpg',
+  { id: 'ec5', title: 'Gestion des Conflits d\'Intérêts : Prévention et Stratégies', slug: 'gestion-des-conflits-dinterets-prevention-et-strategies', description: 'Identifiez, prévenez et gérez les conflits d\'intérêts dans l\'entreprise. Ce module fournit des outils concrets pour instaurer la transparence et protéger l\'intégrité des prises de décision organisationnelles.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-sky-700 to-slate-900', image: '/images/graduation-bnetd-4.jpg',
     objectives: [
       "Reconnaître les situations de conflits d'intérêts réels, potentiels et apparents",
       "Développer des politiques de prévention des conflits d'intérêts",
@@ -1025,7 +1025,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'ec6', title: 'Leadership Éthique : Diriger avec Intégrité', slug: 'leadership-ethique-diriger-avec-integrite', description: 'Adoptez un leadership éthique fondé sur l\'intégrité, la responsabilité et la confiance. Ce module prépare les dirigeants à exercer une autorité éclairée, à gérer les crises avec transparence et à inspirer une culture d\'excellence éthique.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-teal-600 to-slate-900', image: '/images/jc-networking.jpeg',
+  { id: 'ec6', title: 'Leadership Éthique : Diriger avec Intégrité', slug: 'leadership-ethique-diriger-avec-integrite', description: 'Adoptez un leadership éthique fondé sur l\'intégrité, la responsabilité et la confiance. Ce module prépare les dirigeants à exercer une autorité éclairée, à gérer les crises avec transparence et à inspirer une culture d\'excellence éthique.', certificateLevel: 'Module de Formation', domain: 'Gouvernance de service public', duration: '1 journée / 7h', format: 'Présentiel', price: { amount: 300, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-teal-600 to-slate-900', image: '/images/cert-group-kente.jpeg',
     objectives: [
       "Comprendre les valeurs du leadership éthique et leur impact organisationnel",
       "Prendre des décisions éthiques dans des situations complexes",
@@ -1047,7 +1047,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'g1', title: 'Économie Mondiale et Commerce International', slug: 'economie-mondiale-et-commerce-international', description: 'Comprenez les mécanismes de l\'économie globale, les dynamiques du commerce international et les stratégies d\'internationalisation. Indispensable pour les dirigeants souhaitant développer leurs activités à l\'échelle mondiale.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-600 to-slate-900', image: '/images/event-speaker-1.jpg',
+  { id: 'g1', title: 'Économie Mondiale et Commerce International', slug: 'economie-mondiale-et-commerce-international', description: 'Comprenez les mécanismes de l\'économie globale, les dynamiques du commerce international et les stratégies d\'internationalisation. Indispensable pour les dirigeants souhaitant développer leurs activités à l\'échelle mondiale.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-600 to-slate-900', image: '/images/bnetd-18.jpg',
     objectives: [
       "Analyser les grandes tendances de l'économie mondiale",
       "Maîtriser les théories du commerce international et leurs applications",
@@ -1069,7 +1069,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'g2', title: 'Innovation Marketing et Communication Corporate', slug: 'innovation-marketing-et-communication-corporate', description: 'Maîtrisez les stratégies marketing innovantes et la communication d\'entreprise pour différencier votre offre, renforcer votre image de marque et engager vos clients grâce aux outils digitaux et aux nouvelles approches créatives.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-pink-600 to-slate-900', image: '/images/selfie-graduates.jpeg',
+  { id: 'g2', title: 'Innovation Marketing et Communication Corporate', slug: 'innovation-marketing-et-communication-corporate', description: 'Maîtrisez les stratégies marketing innovantes et la communication d\'entreprise pour différencier votre offre, renforcer votre image de marque et engager vos clients grâce aux outils digitaux et aux nouvelles approches créatives.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-pink-600 to-slate-900', image: '/images/bnetd-19.jpg',
     objectives: [
       "Élaborer une stratégie marketing innovante et différenciante",
       "Piloter une communication d'entreprise cohérente et engageante",
@@ -1091,7 +1091,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'g3', title: 'Analyse et Pilotage de la Performance Financière', slug: 'analyse-et-pilotage-de-la-performance-financiere', description: 'Transformez vos données financières en leviers de décision stratégique. Ce module vous forme à l\'analyse des états financiers, à la modélisation de la performance et à la construction d\'outils de pilotage financier.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-emerald-600 to-slate-900', image: '/images/trophee-remise.jpg',
+  { id: 'g3', title: 'Analyse et Pilotage de la Performance Financière', slug: 'analyse-et-pilotage-de-la-performance-financiere', description: 'Transformez vos données financières en leviers de décision stratégique. Ce module vous forme à l\'analyse des états financiers, à la modélisation de la performance et à la construction d\'outils de pilotage financier.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-emerald-600 to-slate-900', image: '/images/bnetd-20.jpg',
     objectives: [
       "Lire et interpréter les états financiers d'une entreprise",
       "Modéliser la performance économique et identifier les leviers d'amélioration",
@@ -1113,7 +1113,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'g4', title: 'Éthique et Conformité en Entreprise — Module Court', slug: 'ethique-et-conformite-en-entreprise-module-court', description: 'Intégrez l\'éthique et la conformité dans la stratégie de votre entreprise. Ce module forme à comprendre les obligations légales, prévenir les risques éthiques et instaurer une culture d\'intégrité durable.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-600 to-slate-900', image: '/images/jc-cert-group-stage.jpeg',
+  { id: 'g4', title: 'Éthique et Conformité en Entreprise — Module Court', slug: 'ethique-et-conformite-en-entreprise-module-court', description: 'Intégrez l\'éthique et la conformité dans la stratégie de votre entreprise. Ce module forme à comprendre les obligations légales, prévenir les risques éthiques et instaurer une culture d\'intégrité durable.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-600 to-slate-900', image: '/images/bnetd-21.jpg',
     objectives: [
       "Comprendre les concepts d'éthique et de conformité en entreprise",
       "Maîtriser les cadres réglementaires et légaux",
@@ -1135,7 +1135,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'g5', title: 'Innovation Managériale et Performance Organisationnelle', slug: 'innovation-manageriale-et-performance-organisationnelle', description: 'Développez des pratiques managériales innovantes pour renforcer la performance organisationnelle. Ce module couvre le design thinking, les méthodes agiles et le management participatif pour améliorer l\'efficacité collective.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-600 to-slate-900', image: '/images/event-training-1.jpg',
+  { id: 'g5', title: 'Innovation Managériale et Performance Organisationnelle', slug: 'innovation-manageriale-et-performance-organisationnelle', description: 'Développez des pratiques managériales innovantes pour renforcer la performance organisationnelle. Ce module couvre le design thinking, les méthodes agiles et le management participatif pour améliorer l\'efficacité collective.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-600 to-slate-900', image: '/images/bnetd-22.jpg',
     objectives: [
       "Comprendre les principes de l'innovation managériale",
       "Utiliser les outils agiles et le design thinking pour stimuler l'innovation",
@@ -1157,7 +1157,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'g6', title: 'Leadership et Sciences de la Décision — Session Courte', slug: 'leadership-et-sciences-de-la-decision-session-courte', description: 'Optimisez votre prise de décision stratégique grâce aux sciences comportementales. Ce module forme les dirigeants à comprendre les biais cognitifs, décider en contexte incertain et exercer un leadership éclairé et responsable.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-rose-600 to-slate-900', image: '/images/utourisme-tribune.jpg',
+  { id: 'g6', title: 'Leadership et Sciences de la Décision — Session Courte', slug: 'leadership-et-sciences-de-la-decision-session-courte', description: 'Optimisez votre prise de décision stratégique grâce aux sciences comportementales. Ce module forme les dirigeants à comprendre les biais cognitifs, décider en contexte incertain et exercer un leadership éclairé et responsable.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-rose-600 to-slate-900', image: '/images/bnetd-23.jpg',
     objectives: [
       "Étudier les théories du leadership et de la prise de décision",
       "Identifier les biais cognitifs perturbant la décision",
@@ -1179,7 +1179,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'g7', title: 'Achats, Approvisionnement et Gestion de la Chaîne Logistique', slug: 'achats-approvisionnement-et-gestion-de-la-chaine-logistique', description: 'Maîtrisez les processus d\'achats, d\'approvisionnement et de gestion de la supply chain pour améliorer la performance globale de l\'entreprise en optimisant les coûts, les délais et la gestion des risques logistiques.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-amber-600 to-slate-900', image: '/images/event-team-1.jpg',
+  { id: 'g7', title: 'Achats, Approvisionnement et Gestion de la Chaîne Logistique', slug: 'achats-approvisionnement-et-gestion-de-la-chaine-logistique', description: 'Maîtrisez les processus d\'achats, d\'approvisionnement et de gestion de la supply chain pour améliorer la performance globale de l\'entreprise en optimisant les coûts, les délais et la gestion des risques logistiques.', certificateLevel: 'Module de Formation', domain: 'Banque/Finance/Admin entreprises', duration: '14h / 2 jours', format: 'Présentiel', price: { amount: 400, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-amber-600 to-slate-900', image: '/images/bnetd-24.jpg',
     objectives: [
       "Maîtriser les processus d'achats et d'approvisionnement",
       "Optimiser les flux logistiques et la gestion des stocks",
@@ -1219,7 +1219,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Nouveau',
     imageGradient: 'from-teal-800 to-slate-900',
-    image: '/images/gouvernance-speaker.jpeg',
+    image: '/images/cert-group-standing.jpeg',
     objectives: [
       "Comprendre les enjeux et principes fondamentaux de la gouvernance territoriale en contexte décentralisé",
       "Identifier et maîtriser les mécanismes de participation citoyenne et de démocratie locale",
@@ -1254,7 +1254,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Nouveau',
     imageGradient: 'from-rose-800 to-slate-900',
-    image: '/images/graduates-crowd.jpeg',
+    image: '/images/bnetd-group.jpeg',
     objectives: [
       "Identifier et analyser les principales sources de conflits dans les territoires",
       "Mettre en œuvre des dispositifs efficaces de médiation et de gestion des conflits",
@@ -1287,7 +1287,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-indigo-800 to-slate-900',
-    image: '/images/bnetd-10.jpg',
+    image: '/images/cert-remise-3.jpeg',
     objectives: [
       "Élaborer un dispositif de suivi-évaluation des projets et politiques locales",
       "Définir des indicateurs SMART et construire des tableaux de bord de performance",
@@ -1322,7 +1322,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-cyan-800 to-slate-900',
-    image: '/images/bnetd-11.jpg',
+    image: '/images/cert-remise-officiels.jpg',
     objectives: [
       "Diagnostiquer la performance et l'organisation des services publics locaux",
       "Mettre en œuvre des standards de qualité, d'accessibilité et de transparence",
@@ -1355,7 +1355,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: 'Nouveau',
     imageGradient: 'from-violet-800 to-slate-900',
-    image: '/images/bnetd-12.jpg',
+    image: '/images/cert-remise-woman.jpeg',
     objectives: [
       "Comprendre les principes de la gouvernance numérique et des villes intelligentes",
       "Identifier les solutions et technologies numériques applicables aux services publics locaux",
@@ -1389,7 +1389,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Populaire',
     imageGradient: 'from-amber-800 to-slate-900',
-    image: '/images/bnetd-group.jpeg',
+    image: '/images/bnetd-01.jpg',
     objectives: [
       "Maîtriser le cadre juridique national et communautaire des marchés publics locaux",
       "Planifier, concevoir et piloter les procédures de commande publique",
@@ -1424,7 +1424,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: 'Nouveau',
     imageGradient: 'from-sky-800 to-slate-900',
-    image: '/images/graduates-vip-selfie.jpg',
+    image: '/images/bnetd-02.jpg',
     objectives: [
       "Comprendre les enjeux et cadres réglementaires de la diplomatie territoriale",
       "Élaborer des projets de coopération décentralisée et de partenariat international",
@@ -1459,7 +1459,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-emerald-800 to-slate-900',
-    image: '/images/rector-micro.jpeg',
+    image: '/images/bnetd-03.jpg',
     objectives: [
       "Renforcer le leadership stratégique et opérationnel des élus locaux",
       "Intégrer les principes de gouvernance éthique dans l'action publique",
@@ -1492,7 +1492,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: null,
     imageGradient: 'from-yellow-800 to-slate-900',
-    image: '/images/bnetd-13.jpg',
+    image: '/images/bnetd-04.jpg',
     objectives: [
       "Comprendre les principes et mécanismes de la gestion budgétaire locale",
       "Maîtriser les outils de planification financière et de gestion comptable",
@@ -1763,7 +1763,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: 'Nouveau',
     imageGradient: 'from-violet-900 to-slate-900',
-    image: '/images/mine-rh-12.jpg',
+    image: '/images/mine-pro-12.jpg',
     objectives: [
       "Comprendre les fondamentaux de la robotique et de l'automatisation industrielle",
       "Maîtriser les systèmes robotiques pour l'exploration et l'exploitation minière",
@@ -1801,7 +1801,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: null,
     imageGradient: 'from-orange-900 to-slate-900',
-    image: '/images/mine-rh-13.jpg',
+    image: '/images/mine-pro-13.jpg',
     objectives: [
       "Maîtriser les fondamentaux des techniques de forage avancées",
       "Utiliser les équipements et technologies de forage de pointe",
@@ -1838,7 +1838,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: null,
     imageGradient: 'from-emerald-900 to-slate-900',
-    image: '/images/mine-rh-14.jpg',
+    image: '/images/mine-pro-14.jpg',
     objectives: [
       "Maîtriser les techniques de négociation des contrats miniers et pétroliers",
       "Évaluer les opportunités d'investissement dans le secteur extractif",
@@ -1872,7 +1872,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'coming_soon',
     badge: 'Nouveau',
     imageGradient: 'from-lime-900 to-slate-900',
-    image: '/images/mine-rh-15.jpg',
+    image: '/images/mine-pro-15.jpg',
     objectives: [
       "Analyser le rôle des industries extractives dans la transition énergétique mondiale",
       "Exploiter les minerais stratégiques pour les technologies vertes (cobalt, lithium, graphite)",
@@ -1910,7 +1910,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Populaire',
     imageGradient: 'from-blue-900 to-slate-900',
-    image: '/images/capimmo-promo.png',
+    image: '/images/immo-pro-06.jpg',
     objectives: [
       "Maîtriser le cadre juridique et réglementaire de l'activité immobilière en Côte d'Ivoire et en zone UEMOA",
       "Comprendre les mécanismes du marché immobilier africain et ses dynamiques sectorielles",
@@ -1955,7 +1955,7 @@ export const allProgrammes: Programme[] = [
     enrollmentStatus: 'open',
     badge: 'Populaire',
     imageGradient: 'from-slate-900 to-blue-900',
-    image: '/images/seal-oxford-hd.jpeg',
+    image: '/images/bnetd-25.jpg',
     objectives: [
       "Acquérir une compréhension approfondie des aspects essentiels de la gestion d'entreprise",
       "Renforcer la capacité à prendre des décisions stratégiques en environnement incertain",
@@ -2009,7 +2009,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 4 : Optimisation des processus en raffinage et distribution", description: "Procédés de raffinage, distribution, amélioration de la rentabilité et de l'efficience." }
     ],
     targetAudience: "Ingénieurs et techniciens des industries pétrolières et gazières, responsables opérationnels, professionnels des secteurs de l'énergie, consultants et entrepreneurs du secteur des hydrocarbures.",
-    image: '/images/mine-rh-16.jpg',
+    image: '/images/mine-pro-16.jpg',
   },
   {
     id: 'ext-digitalisation',
@@ -2036,7 +2036,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Drones et capteurs pour la surveillance", description: "Utilisation des drones de surveillance, capteurs IoT, collecte de données en temps réel, cartographie aérienne." }
     ],
     targetAudience: "Ingénieurs et techniciens spécialisés dans les technologies numériques, managers cherchant à intégrer des solutions technologiques, consultants en innovation industrielle, spécialistes SIG et géo-informatique.",
-    image: '/images/mine-rh-17.jpg',
+    image: '/images/mine-pro-17.jpg',
   },
   {
     id: 'ext-reglementation-fiscalite',
@@ -2063,7 +2063,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Conformité aux normes internationales", description: "EITI, ISO 14001, reporting de transparence, audit de conformité." }
     ],
     targetAudience: "Cadres et gestionnaires d'entreprises extractives, responsables juridiques et fiscaux, représentants des administrations publiques, consultants en conformité réglementaire.",
-    image: '/images/mine-rh-18.jpg',
+    image: '/images/mine-pro-18.jpg',
   },
   {
     id: 'ext-maintenance',
@@ -2094,7 +2094,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 6 : Projet de certification et examen final", description: "Mise en pratique intégrée, rapport de projet, évaluation finale." }
     ],
     targetAudience: "Techniciens et ingénieurs de maintenance, responsables opérationnels supervisant les équipements industriels, consultants en gestion des actifs, professionnels de la sécurité industrielle.",
-    image: '/images/mine-rh-19.jpg',
+    image: '/images/mine-pro-19.jpg',
   },
   {
     id: 'ext-leadership',
@@ -2121,7 +2121,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Leadership éthique et stratégique", description: "Intégrité, vision stratégique, alignement RSE, leadership en contexte industriel complexe." }
     ],
     targetAudience: "Managers et superviseurs des sites d'exploitation, chefs de projet, responsables RH dans les industries extractives, consultants en leadership industriel.",
-    image: '/images/mine-rh-20.jpg',
+    image: '/images/mine-pro-20.jpg',
   },
   {
     id: 'ext-investissement',
@@ -2148,7 +2148,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Gestion des relations entreprises-communautés", description: "Engagement communautaire, CLPE, mécanismes de partage des bénéfices, gestion des conflits." }
     ],
     targetAudience: "Cadres et managers des entreprises minières et pétrolières, consultants en investissement stratégique, représentants institutionnels gouvernementaux, acteurs des ONG.",
-    image: '/images/mine-rh-21.jpg',
+    image: '/images/mine-pro-21.jpg',
   },
   {
     id: 'ext-transition-energetique',
@@ -2175,7 +2175,7 @@ export const allProgrammes: Programme[] = [
       { title: "Module 3 : Intégration des énergies renouvelables dans les mines", description: "Solaire, éolien, stockage d'énergie, hybridation des systèmes énergétiques miniers." }
     ],
     targetAudience: "Ingénieurs et techniciens des industries extractives, cadres développement durable, consultants en énergies renouvelables, responsables des politiques énergétiques gouvernementales.",
-    image: '/images/mine-rh-22.jpg',
+    image: '/images/mine-pro-22.jpg',
   },
 ];
 
