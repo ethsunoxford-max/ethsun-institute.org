@@ -120,7 +120,7 @@ export const featuredProgrammes: Programme[] = [
 
 export const allProgrammes: Programme[] = [
   ...featuredProgrammes,
-  { id: 'p1', title: 'Ingénierie de la Commande Publique', titleEn: 'Public Procurement Engineering', slug: 'ingenierie-commande-publique', description: 'Maîtrisez le cycle complet des marchés publics', descriptionEn: 'Master the complete public procurement cycle', certificateLevel: 'Certificat Professionnel', domain: 'Gouvernance de service public', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-indigo-800 to-slate-900', image: '/images/graduates-crowd.jpeg',
+  { id: 'p1', title: 'Ingénierie de la Commande Publique', titleEn: 'Public Procurement Engineering', slug: 'ingenierie-commande-publique', description: 'Maîtrisez le cycle complet des marchés publics', descriptionEn: 'Master the complete public procurement cycle', certificateLevel: 'Certificat Professionnel', domain: 'Gouvernance de service public', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-indigo-800 to-slate-900', image: '/images/banque-01.jpg',
     objectives: [
       'Comprendre le cadre juridique et réglementaire des marchés publics en zone UEMOA',
       'Maîtriser les techniques de rédaction des documents de consultation (DAO, DCE, CCTP)',
@@ -145,7 +145,7 @@ export const allProgrammes: Programme[] = [
       'Atelier présentiel de mise en pratique'
     ]
   },
-  { id: 'p2', title: 'Management d\'Institution de Formation', titleEn: 'Training Institution Management', slug: 'management-institution-formation', description: 'Pilotez efficacement votre institution de formation en maîtrisant la stratégie d\'établissement, l\'ingénierie de formation, la gestion financière et la démarche qualité. Ce programme forme les directeurs et managers d\'organismes de formation aux meilleures pratiques de gouvernance pédagogique et institutionnelle, conformes aux référentiels nationaux et internationaux.', certificateLevel: 'Certificat Professionnel', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-purple-800 to-slate-900', image: '/images/bnetd-05.jpg',
+  { id: 'p2', title: 'Management d\'Institution de Formation', titleEn: 'Training Institution Management', slug: 'management-institution-formation', description: 'Pilotez efficacement votre institution de formation en maîtrisant la stratégie d\'établissement, l\'ingénierie de formation, la gestion financière et la démarche qualité. Ce programme forme les directeurs et managers d\'organismes de formation aux meilleures pratiques de gouvernance pédagogique et institutionnelle, conformes aux référentiels nationaux et internationaux.', certificateLevel: 'Certificat Professionnel', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-purple-800 to-slate-900', image: '/images/banque-02.jpg',
     objectives: [
       "Élaborer une vision stratégique partagée pour une institution de formation",
       "Comprendre les rôles et responsabilités des organes de gouvernance éducative",
@@ -171,7 +171,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p3', title: 'Ingénierie du Développement des Collectivités Territoriales', titleEn: 'Local Government Development Engineering', slug: 'ingenierie-collectivites', description: 'Maîtrisez l\'ingénierie du développement territorial : gouvernance locale, gestion budgétaire, passation des marchés publics, smart cities et financement innovant des collectivités. Ce programme prépare les élus, secrétaires généraux et agents de développement à piloter un territoire performant et transparent.', certificateLevel: 'Certificat Professionnel', domain: 'Gouvernance de service public', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-teal-800 to-slate-900', image: '/images/graduation-real-1.jpg',
+  { id: 'p3', title: 'Ingénierie du Développement des Collectivités Territoriales', titleEn: 'Local Government Development Engineering', slug: 'ingenierie-collectivites', description: 'Maîtrisez l\'ingénierie du développement territorial : gouvernance locale, gestion budgétaire, passation des marchés publics, smart cities et financement innovant des collectivités. Ce programme prépare les élus, secrétaires généraux et agents de développement à piloter un territoire performant et transparent.', certificateLevel: 'Certificat Professionnel', domain: 'Gouvernance de service public', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-teal-800 to-slate-900', image: '/images/banque-03.jpg',
     objectives: [
       "Comprendre les enjeux de la gouvernance territoriale dans un contexte décentralisé",
       "Maîtriser la gestion budgétaire et comptable des collectivités locales",
@@ -197,7 +197,7 @@ export const allProgrammes: Programme[] = [
       "Atelier présentiel de mise en pratique"
     ]
   },
-  { id: 'p4', title: 'Innovation Managériale et Performance', titleEn: 'Managerial Innovation & Performance', slug: 'innovation-manageriale', description: 'Maîtrisez l\'innovation managériale contemporaine, l\'intégration de l\'intelligence artificielle dans le management et les leviers de performance organisationnelle. Ce programme Executive forme les cadres et dirigeants à transformer leur organisation grâce aux outils de la gestion du changement et du management agile.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-sky-800 to-slate-900', image: '/images/bnetd-06.jpg',
+  { id: 'p4', title: 'Innovation Managériale et Performance', titleEn: 'Managerial Innovation & Performance', slug: 'innovation-manageriale', description: 'Maîtrisez l\'innovation managériale contemporaine, l\'intégration de l\'intelligence artificielle dans le management et les leviers de performance organisationnelle. Ce programme Executive forme les cadres et dirigeants à transformer leur organisation grâce aux outils de la gestion du changement et du management agile.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-sky-800 to-slate-900', image: '/images/banque-04.png',
     objectives: [
       "Comprendre les leviers de l'innovation managériale contemporaine et leurs applications",
       "Intégrer l'intelligence artificielle comme outil de transformation et de pilotage managérial",
@@ -222,7 +222,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p5', title: 'Leadership et Science de la Décision', titleEn: 'Leadership & Decision Science', slug: 'leadership-decision', description: 'Développez votre leadership stratégique en comprenant les mécanismes cognitifs et émotionnels de la prise de décision. Ce programme Executive forme les dirigeants à exercer une autorité éclairée, à gérer l\'incertitude et à mobiliser leurs équipes autour d\'une vision claire et ambitieuse.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-rose-800 to-slate-900', image: '/images/bnetd-07.jpg',
+  { id: 'p5', title: 'Leadership et Science de la Décision', titleEn: 'Leadership & Decision Science', slug: 'leadership-decision', description: 'Développez votre leadership stratégique en comprenant les mécanismes cognitifs et émotionnels de la prise de décision. Ce programme Executive forme les dirigeants à exercer une autorité éclairée, à gérer l\'incertitude et à mobiliser leurs équipes autour d\'une vision claire et ambitieuse.', certificateLevel: 'Executive Certificate', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-rose-800 to-slate-900', image: '/images/banque-05.jpg',
     objectives: [
       "Comprendre les mécanismes cognitifs et émotionnels à l'œuvre dans la prise de décision",
       "Identifier les biais cognitifs et les facteurs d'influence sur les décisions stratégiques",
@@ -248,7 +248,7 @@ export const allProgrammes: Programme[] = [
       "Coaching individuel de développement du leadership"
     ]
   },
-  { id: 'p6', title: 'Juriste d\'Entreprise', titleEn: 'Corporate Lawyer', slug: 'juriste-entreprise', description: 'Devenez un expert juridique maîtrisant le droit des affaires OHADA, le droit du travail et la gestion des risques juridiques. Une formation complète pour les juristes d\'entreprise et les managers confrontés aux enjeux légaux et contractuels.', certificateLevel: 'Certificat de Qualification', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/bnetd-08.jpg',
+  { id: 'p6', title: 'Juriste d\'Entreprise', titleEn: 'Corporate Lawyer', slug: 'juriste-entreprise', description: 'Devenez un expert juridique maîtrisant le droit des affaires OHADA, le droit du travail et la gestion des risques juridiques. Une formation complète pour les juristes d\'entreprise et les managers confrontés aux enjeux légaux et contractuels.', certificateLevel: 'Certificat de Qualification', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-stone-700 to-slate-900', image: '/images/banque-06.jpg',
     objectives: [
       "Maîtriser le cadre juridique des affaires OHADA et son application pratique en entreprise",
       "Appréhender les principes du droit du travail et gérer les relations sociales",
@@ -273,7 +273,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p7', title: 'Conformité Bancaire et IFRS 17', titleEn: 'Banking Compliance & IFRS 17', slug: 'conformite-bancaire-ifrs17', description: 'Maîtrisez les normes IFRS 17, les systèmes de conformité réglementaire et les dispositifs anti-blanchiment pour sécuriser votre institution financière. Ce programme intensif forme les responsables conformité, auditeurs et dirigeants bancaires aux exigences légales et éthiques du secteur financier en Afrique.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-800 to-slate-900', image: '/images/bnetd-09.jpg',
+  { id: 'p7', title: 'Conformité Bancaire et IFRS 17', titleEn: 'Banking Compliance & IFRS 17', slug: 'conformite-bancaire-ifrs17', description: 'Maîtrisez les normes IFRS 17, les systèmes de conformité réglementaire et les dispositifs anti-blanchiment pour sécuriser votre institution financière. Ce programme intensif forme les responsables conformité, auditeurs et dirigeants bancaires aux exigences légales et éthiques du secteur financier en Afrique.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'En ligne', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-cyan-800 to-slate-900', image: '/images/banque-07.jpg',
     objectives: [
       "Maîtriser les normes IFRS 17 et leurs implications pour les institutions financières",
       "Identifier les enjeux de la conformité réglementaire dans le secteur bancaire et assurantiel",
@@ -298,7 +298,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p8', title: 'Audit Interne et Contrôle de Gestion', titleEn: 'Internal Audit & Management Control', slug: 'audit-interne', description: 'Renforcez vos compétences en audit interne, contrôle de gestion et pilotage de la performance organisationnelle. Idéal pour les auditeurs, contrôleurs et responsables financiers souhaitant structurer et professionnaliser leur pratique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-800 to-slate-900', image: '/images/bnetd-10.jpg',
+  { id: 'p8', title: 'Audit Interne et Contrôle de Gestion', titleEn: 'Internal Audit & Management Control', slug: 'audit-interne', description: 'Renforcez vos compétences en audit interne, contrôle de gestion et pilotage de la performance organisationnelle. Idéal pour les auditeurs, contrôleurs et responsables financiers souhaitant structurer et professionnaliser leur pratique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-violet-800 to-slate-900', image: '/images/banque-08.jpeg',
     objectives: [
       "Analyser les états financiers et modéliser la performance économique de l'entreprise",
       "Maîtriser les techniques d'audit interne et les normes IIA",
@@ -323,7 +323,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p9', title: 'Marketing Digital et Growth', titleEn: 'Digital Marketing & Growth', slug: 'marketing-digital', description: 'Accélérez votre croissance grâce aux outils du marketing digital — SEO, réseaux sociaux, publicité en ligne et growth hacking. Une formation pratique et immédiatement applicable pour entrepreneurs, PME et professionnels du marketing souhaitant booster leur visibilité.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-pink-800 to-slate-900', image: '/images/bnetd-11.jpg',
+  { id: 'p9', title: 'Marketing Digital et Growth', titleEn: 'Digital Marketing & Growth', slug: 'marketing-digital', description: 'Accélérez votre croissance grâce aux outils du marketing digital — SEO, réseaux sociaux, publicité en ligne et growth hacking. Une formation pratique et immédiatement applicable pour entrepreneurs, PME et professionnels du marketing souhaitant booster leur visibilité.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 600, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: 'Nouveau', imageGradient: 'from-pink-800 to-slate-900', image: '/images/banque-09.jpg',
     objectives: [
       "Élaborer une stratégie marketing digitale innovante et différenciante",
       "Maîtriser les outils du marketing digital : SEO, SEA, réseaux sociaux, email marketing",
@@ -373,7 +373,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p11', title: 'Gestion des Ressources Humaines', titleEn: 'Human Resources Management', slug: 'gestion-rh', description: 'Développez une politique RH stratégique, maîtrisez la gestion des talents, le droit social ivoirien et les outils de performance des ressources humaines. Destiné aux DRH, responsables RH et managers en charge du développement des équipes.', certificateLevel: 'Certificat d\'Aptitude', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-fuchsia-800 to-slate-900', image: '/images/bnetd-12.jpg',
+  { id: 'p11', title: 'Gestion des Ressources Humaines', titleEn: 'Human Resources Management', slug: 'gestion-rh', description: 'Développez une politique RH stratégique, maîtrisez la gestion des talents, le droit social ivoirien et les outils de performance des ressources humaines. Destiné aux DRH, responsables RH et managers en charge du développement des équipes.', certificateLevel: 'Certificat d\'Aptitude', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-fuchsia-800 to-slate-900', image: '/images/banque-10.jpg',
     objectives: [
       "Développer une politique RH stratégique alignée sur les objectifs de l'organisation",
       "Maîtriser les processus de recrutement, d'intégration et de fidélisation des talents",
@@ -423,7 +423,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p13', title: 'Comptabilité et Finance d\'Entreprise', slug: 'comptabilite-finance', description: 'Maîtrisez les fondamentaux de la comptabilité SYSCOHADA, de l\'analyse financière et du pilotage de la performance d\'entreprise. Une formation essentielle pour les responsables financiers, comptables et dirigeants de PME souhaitant lire et piloter leurs chiffres.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-800 to-slate-900', image: '/images/bnetd-13.jpg',
+  { id: 'p13', title: 'Comptabilité et Finance d\'Entreprise', slug: 'comptabilite-finance', description: 'Maîtrisez les fondamentaux de la comptabilité SYSCOHADA, de l\'analyse financière et du pilotage de la performance d\'entreprise. Une formation essentielle pour les responsables financiers, comptables et dirigeants de PME souhaitant lire et piloter leurs chiffres.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '3 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-yellow-800 to-slate-900', image: '/images/banque-11.jpg',
     objectives: [
       "Maîtriser les principes fondamentaux de la comptabilité SYSCOHADA",
       "Lire, comprendre et analyser les états financiers d'une entreprise",
@@ -448,7 +448,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p14', title: 'Médiation Professionnelle', slug: 'mediation-professionnelle', description: 'Maîtrisez les techniques de médiation professionnelle pour prévenir et résoudre les conflits en entreprise, en institution et dans les territoires. Ce Certificate of Advanced Studies prépare à l\'exercice certifié de la médiation : médiation interne, gestion des conflits d\'intérêts et qualité relationnelle dans les organisations.', certificateLevel: 'Certificate of Advanced Studies', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-zinc-700 to-slate-900', image: '/images/bnetd-14.jpg',
+  { id: 'p14', title: 'Médiation Professionnelle', slug: 'mediation-professionnelle', description: 'Maîtrisez les techniques de médiation professionnelle pour prévenir et résoudre les conflits en entreprise, en institution et dans les territoires. Ce Certificate of Advanced Studies prépare à l\'exercice certifié de la médiation : médiation interne, gestion des conflits d\'intérêts et qualité relationnelle dans les organisations.', certificateLevel: 'Certificate of Advanced Studies', domain: 'Banque/Finance/Admin entreprises', duration: '4 mois', format: 'Blended', price: { amount: 1500, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-zinc-700 to-slate-900', image: '/images/banque-12.jpg',
     objectives: [
       "Maîtriser les fondements théoriques et pratiques de la médiation professionnelle",
       "Conduire un processus de médiation de A à Z en contexte professionnel",
@@ -474,7 +474,7 @@ export const allProgrammes: Programme[] = [
       "Préparation à la certification professionnelle"
     ]
   },
-  { id: 'p15', title: 'Entrepreneuriat et Création d\'Entreprise', slug: 'entrepreneuriat', description: 'Lancez et développez votre entreprise avec méthode : business plan, financement, marketing et gestion opérationnelle. Un programme complet pour les porteurs de projets, jeunes entrepreneurs et intrapreneurs africains souhaitant concrétiser leur vision.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 500, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/bnetd-15.jpg',
+  { id: 'p15', title: 'Entrepreneuriat et Création d\'Entreprise', slug: 'entrepreneuriat', description: 'Lancez et développez votre entreprise avec méthode : business plan, financement, marketing et gestion opérationnelle. Un programme complet pour les porteurs de projets, jeunes entrepreneurs et intrapreneurs africains souhaitant concrétiser leur vision.', certificateLevel: 'Certificat d\'Initiation', domain: 'Banque/Finance/Admin entreprises', duration: '6 semaines', format: 'En ligne', price: { amount: 500, currency: 'EUR' }, nextSession: '2026-08-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-red-800 to-slate-900', image: '/images/banque-13.jpg',
     objectives: [
       "Structurer et valider une idée d'entreprise avec les outils du business model",
       "Élaborer un business plan complet et convaincant pour lever des financements",
@@ -500,7 +500,7 @@ export const allProgrammes: Programme[] = [
       "Mise en réseau avec l'écosystème entrepreneurial africain"
     ]
   },
-  { id: 'p16', title: 'Management de Projet ISO 21502', slug: 'management-projet-iso', description: 'Gérez vos projets selon les standards ISO 21502 et les meilleures pratiques du management de projet international. Pour les chefs de projet, coordinateurs et managers opérationnels souhaitant structurer leur approche et optimiser leurs livrables.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-800 to-slate-900', image: '/images/bnetd-16.jpg',
+  { id: 'p16', title: 'Management de Projet ISO 21502', slug: 'management-projet-iso', description: 'Gérez vos projets selon les standards ISO 21502 et les meilleures pratiques du management de projet international. Pour les chefs de projet, coordinateurs et managers opérationnels souhaitant structurer leur approche et optimiser leurs livrables.', certificateLevel: 'Certificat d\'Expertise', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 900, currency: 'EUR' }, nextSession: '2026-10-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-blue-800 to-slate-900', image: '/images/banque-14.png',
     objectives: [
       "Maîtriser les principes et processus du management de projet selon ISO 21502",
       "Structurer le démarrage, la planification et la clôture d'un projet",
@@ -525,7 +525,7 @@ export const allProgrammes: Programme[] = [
       "Modules e-learning sur la plateforme Neuroklax"
     ]
   },
-  { id: 'p17', title: 'Gouvernance Publique et Anti-Corruption', titleEn: 'Public Governance & Anti-Corruption', slug: 'gouvernance-anti-corruption', description: 'Construisez une culture organisationnelle d\'intégrité, maîtrisez les systèmes de conformité éthique et mettez en œuvre des dispositifs anticorruption efficaces dans les institutions publiques et privées. Un Executive Certificate pour les dirigeants, élus et hauts fonctionnaires engagés dans la gouvernance éthique et la lutte contre la corruption.', certificateLevel: 'Executive Certificate', domain: 'Gouvernance de service public', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-emerald-700 to-slate-900', image: '/images/graduation-real-2.jpg',
+  { id: 'p17', title: 'Gouvernance Publique et Anti-Corruption', titleEn: 'Public Governance & Anti-Corruption', slug: 'gouvernance-anti-corruption', description: 'Construisez une culture organisationnelle d\'intégrité, maîtrisez les systèmes de conformité éthique et mettez en œuvre des dispositifs anticorruption efficaces dans les institutions publiques et privées. Un Executive Certificate pour les dirigeants, élus et hauts fonctionnaires engagés dans la gouvernance éthique et la lutte contre la corruption.', certificateLevel: 'Executive Certificate', domain: 'Gouvernance de service public', duration: '3 mois', format: 'Présentiel', price: { amount: 1000, currency: 'EUR' }, nextSession: '2026-11-01', enrollmentStatus: 'coming_soon', badge: null, imageGradient: 'from-emerald-700 to-slate-900', image: '/images/banque-15.png',
     objectives: [
       "Comprendre les fondements de l'éthique appliquée aux pratiques professionnelles et publiques",
       "Définir, reconnaître et prévenir les différentes formes de conflits d'intérêts",
@@ -551,7 +551,7 @@ export const allProgrammes: Programme[] = [
       "Atelier présentiel intensif de mise en pratique"
     ]
   },
-  { id: 'p18', title: 'Sport Business et Management', slug: 'sport-business', description: 'Maîtrisez le management appliqué à l\'industrie sportive : droits médias, sponsoring, événementiel sportif et gestion de clubs ou fédérations. Une formation innovante pour les professionnels du sport business et du marketing sportif en Afrique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 800, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-800 to-slate-900', image: '/images/bnetd-17.jpg',
+  { id: 'p18', title: 'Sport Business et Management', slug: 'sport-business', description: 'Maîtrisez le management appliqué à l\'industrie sportive : droits médias, sponsoring, événementiel sportif et gestion de clubs ou fédérations. Une formation innovante pour les professionnels du sport business et du marketing sportif en Afrique.', certificateLevel: 'Certificat de Perfectionnement', domain: 'Banque/Finance/Admin entreprises', duration: '2 mois', format: 'Blended', price: { amount: 800, currency: 'EUR' }, nextSession: '2026-09-01', enrollmentStatus: 'open', badge: null, imageGradient: 'from-green-800 to-slate-900', image: '/images/banque-16.jpg',
     objectives: [
       "Comprendre les fondamentaux de l'industrie sportive et ses modèles économiques",
       "Maîtriser le management et la gouvernance des clubs, fédérations et ligues sportives",

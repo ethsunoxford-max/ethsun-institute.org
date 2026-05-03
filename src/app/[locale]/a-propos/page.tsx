@@ -10,16 +10,16 @@ import CTABlock from '@/components/sections/CTABlock';
 import { Star, Lightbulb, TrendingUp, Globe, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const galleryImages = [
-  '/images/founder-portrait.jpg',
-  '/images/founder-speech.jpeg',
-  '/images/jc-ministers.jpg',
-  '/images/jc-networking.jpeg',
-  '/images/extra-event-1.jpg',
-  '/images/extra-event-2.jpg',
-  '/images/extra-event-3.jpg',
-  '/images/event-salle-5.jpg',
-  '/images/event-salle-6.jpeg',
-  '/images/event-main-1.jpg',
+  '/images/ev-ethsun-18.jpg',
+  '/images/ev-ethsun-19.jpg',
+  '/images/ev-ethsun-20.jpg',
+  '/images/ev-ethsun-21.jpg',
+  '/images/ev-ethsun-22.jpeg',
+  '/images/ev-ethsun-23.jpeg',
+  '/images/ev-ethsun-24.jpeg',
+  '/images/ev-ethsun-25.jpg',
+  '/images/ev-ethsun-14.jpeg',
+  '/images/ev-ethsun-15.jpeg',
 ];
 
 export default function AboutPage() {
